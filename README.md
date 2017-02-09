@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MtProteome
 
 Welcome to ProjectTemplate!
@@ -37,3 +38,6 @@ You'll have access to all of your data, already fully preprocessed, and
 all of the libraries you want to use.
 
 For more details about ProjectTemplate, see http://projecttemplate.net
+=======
+# mt-proteome
+>>>>>>> 712d2da8c498b7089512f3cd940376ac1e747d91
