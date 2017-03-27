@@ -1,0 +1,232 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# This is my attempt to deal with Ref Sequences
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file).
+
+## Downloading CDS files using `biomartr` package
+The `biomartr` package allows users to retrieve biological sequences in a very simple and intuitive way.
+Using biomartr, users can retrieve either genomes, proteomes, or CDS data using the specialized functions:
+`getGenome()`,`getProteome()`,`getCDS()`,`getGFF()`
+
+### Setting the project directory
+```{r}
+setwd("/Users/dlavrov/Documents/GitHub/MtProteome")
+```
+
+
+### Loading first
+```{r}
+install.packages("biomartr") ## did not work
+install.packages(file.choose(), repos=NULL) ## downloaded the file and used instead
+library(biomartr)
+library("Biostrings")
+```
+
+###Loading mitocarta files:
+```{r}
+Human.MitoCarta2.0 <- read.csv(file = "/Users/dlavrov/Documents/GitHub/MtProteome/Human.MitoCarta2.0.csv")
+all.human.genes <- read.csv(file = "/Users/dlavrov/Documents/GitHub/MtProteome/data/Human.MitoCarta2.0.csv")
+```
+
+
+### Downloading CDS
+The getCDS() function is an interface function to the NCBI RefSeq, NCBI Genbank, ENSEMBL and ENSEMBLGENOMES databases from which corresponding CDS files can be retrieved. It works analogous to getGenome() and getProteome().
+
+Options are:
+
+* db = "refseq" for retrieval from NCBI RefSeq
+* db = "genbank" for retrieval from NCBI Genbank
+* db = "ensembl" for retrieval from ENSEMBL
+* db = "ensemblgenomes" for retrieval from ENSEMBLGENOMES
+
+Furthermore, again users need to specify the scientific name of the organism of interest for which a proteomes shall be downloaded, e.g. organism = "Homo sapiens". Finally, the path argument specifies the folder path in which the corresponding CDS file shall be locally stored. 
+
+### Example RefSeq:
+- download the genome of Homo sapiens from refseq
+- and store the corresponding genome CDS file in '_ncbi_downloads/CDS'
+
+```{r}
+HS.cds.refseq <- getCDS( db       = "refseq", 
+                         organism = "Homo sapiens",
+                         path     = file.path("data","_ncbi_downloads","CDS"))
+```
+
+Looking at the Biostrings object (use `read_cds`). This creates a BStringSet.
+
+```{r}
+Human_CDS <- read_cds(file     = HS.cds.refseq, 
+                      obj.type = "Biostrings")
+str(Human_CDS)
+```
+
+### Handling Many Sequences with XStringSet
+
+The XStringSet class allows to represent many sequences in a single container. The subclasses for the different types of biosequences are: BStringSet, RNAStringSet, DNAStringSet and AAStringSet. 
+
+```{r}
+dset <- DNAStringSet(Human_CDS) ## This actually worked!  Looks much better now.
+dset_names <- names(dset)
+```
+
+### Comparing and Subsetting of XStringSet Objects
+
+Several useful utilities are available to access, subset and manipulate XStringSet objects. 
+
+```{r, eval=FALSE}
+dset[1:2] # Returns the first two sequence entries from dset.
+# append(dset, dset); c(dset, dset) # Appends/concatenates two XStringSet objects.
+# unlist(dset) # Collapses many sequences to a single one stored in a DNAString container.
+DNAStringSet(dset, start=c(1,2,3), end=c(4,8,5)) # Sequence subsetting by positions provided under start and end.
+d==dset[[1]] # The [[ subsetting operator returns a single entry as XString object.
+lapply(as.list(dset), toString) # Converts XStringSet to list. If the name field is populated then the list elements will be named accordingly.
+names(dset); width(dset) # Returns the name and length of each sequences, respectively.
+dsetv <- sapply(as.list(dset), toString); table(dsetv) # Returns the sequences in XStringSet as named vector and then counts the number of occurrences of each sequence.
+dset[duplicated(dset)] # Removes the duplicated sequence in dset.
+```
+
+### Sequence Import and Export
+
+The set of read.XStringSet import functions allow to import one or many FASTA-formatted biosequences from an external file directly into XStingSet objects.
+
+```{r, eval=FALSE}
+################################################
+## Import and Export for XStringSet Container ##
+################################################
+myseq1 <- read.DNAStringSet("ftp://ftp.ncbi.nih.gov/genbank/genomes/Bacteria/Halobacterium_sp_uid217/AE004437.ffn","fasta") # Imports all open reading frames of the Halobacterium genome from NCBI into DNAStringSet object. If this returns an error message then first download the sequences to your desktop and import them from there. 
+myseq1[grep("phosphoesterase", names(myseq1))] # Retrieves all sequences containing the term "phosphodiesterase" in their name field.
+myseq2 <- myseq1[grep("^ATGCTT", sapply(as.list(myseq1), toString))] # Retrieves all sequences starting with "ATGCTT".
+write.XStringSet(myseq2, file="myseq2.txt", format="fasta", width=80) # Writes sequences to file in FASTA format.
+write.XStringSet(myqual, file="myqual.txt", format="fasta", width=80) # Writes quality scores from above example to file.
+```
+
+Pooling out every sequence that has "mitochondrial" in its name:
+
+```{r}
+mset <- dset[grep("mitochondrial", names(dset))] ## Returned a DNAStringSet instance of length 2906 (but only 622 genes)
+head(names(mset))
+```
+
+Pooling out sequences corresponding to geneIDs in Mitocarta. Checking for obsolete sequences in mitocarta **Found 13**
+
+```{r}
+dset_names <- names(dset)
+dset_gID <- sub(".*GeneID:", "", dset_names)
+dset_gID <- sub("].*", "", dset_gID)
+head(dset_gID)
+## pooling out all dset CDS sequences that have corresponding GeneID in mitocarta
+mt_ref_set <- dset[dset_gID %in% Human.MitoCarta2.0$HumanGeneID]
+## pooling out all MitoCarta2.0 sequences without corresponding Human refseq
+check_mitocarta <- Human.MitoCarta2.0[!Human.MitoCarta2.0$HumanGeneID %in% dset_gID,]
+sort(check_mitocarta$HumanGeneID)
+# 13 mitocarta genes are not in Human refseq anymore: 4508 4509 4512 4513 4514 4519 4535 4536 4537 4538 4539 4540 4541
+```
+
+Any duplicated sequences in my mt_ref_set?
+
+```{r}
+length(width(mt_ref_set[duplicated(mt_ref_set)]))
+### Actually quite a lot!!! 1765
+mt_ref_set <- mt_ref_set[!duplicated(mt_ref_set)]
+length(width(mt_ref_set)) ## 4069 left from the original 5834
+```
+
+Any refSeq sequences with "mitochondrial" in the name are not in mitocarta? **YES!**
+
+```{r}
+mset_names <- names(mset)
+mset_gID <- sub(".*GeneID:", "", mset_names)
+mset_gID <- sub("].*", "", mset_gID)
+length(unique(sort(mset_gID)))
+# 622 unique genes with "mitochondrial" in their name
+mset_extra <- mset[!mset_gID %in% Human.MitoCarta2.0$HumanGeneID]
+unique(sort(mset_gID[!mset_gID %in% Human.MitoCarta2.0$HumanGeneID]))
+# 36 genes with "mitochondrial" in their name are not part of MitoCarta
+new_hs_genes <- mset[!mset_gID %in% all.human.genes$HumanGeneID]
+unique(sort(mset_gID[!mset_gID %in% all.human.genes$HumanGeneID]))
+writeXStringSet(mset, file="refseq_mito.txt", format="fasta", width=80) # Writes sequences to file in FASTA format.
+# 8 new genes with "mitochondrial" in their name not present in all.human.genes.
+```
+
+Here was a long struggle with parsing names.  Not sure how useful it was ;(
+
+```{r}
+mt_ref_names <- names(mt_ref_set)
+mt_ref_names <- as.matrix(mt_ref_names, ncol=1)
+head(mt_ref_names)
+names_parsed <- sub(".*(NC_[^ ]+) .*gene=(\\w+).*GeneID:(\\w+).*protein=([^\\]]+).*protein_id=([^\\]]+).*location=([^\\]]+).*", "\\1,,\\2,,\\3,,\\4,,\\5,,\\6", mt_ref_names, perl=TRUE) ## had to add to ,, to avoid splitting location
+head(names_parsed)
+names_parsed <- strsplit(names_parsed,",,")
+names_parsed <- t(as.data.frame(names_parsed))
+mt_ref_df <- as.data.frame(names_parsed,stringsAsFactors=FALSE)
+names(mt_ref_df) <- c("ID","Gene","GeneID","ProteinName","ProteinID","Location")
+str(mt_ref_df)
+head(mt_ref_df,2)
+### So here a way to extract all the sequences, if I ever want them!
+### Actually, what I may want is a way to store the all the genes as a list and for each element to have a list of possible CDSs.  Hmmm. Getting ambitious!
+mt_ref_seq[5834] <- 0
+length(mt_ref_seq)
+for (i in 1:length(mt_ref_set)) 
+  {mt_ref_seq[i] <- toString(mt_ref_set[i])}
+mt_ref_seq[1]
+###
+
+```
+
+
+
+
+## Basic Sequence Manipulation Utilities
+
+The Biostrings package contains a wide spectrum of functions for performing many of the basic sequence transformation and manipulation routines, such as computing frequency tables, reverse & complements, translating DNA into protein sequences, etc. The following examples introduce a subset of these basic sequence analysis functions.
+
+```{r}
+#####################
+## Getting Started ##
+#####################
+library(help=Biostrings) # Lists all functions provided by Biostrings.
+myseq1 <- read.DNAStringSet("ftp://ftp.ncbi.nih.gov/genbank/genomes/Bacteria/Halobacterium_sp_uid217/AE004437.ffn", "fasta") # Imports a sample sequence data set: all open reading frames of the Halobacterium genome from NCBI. If this returns an error message then first download the sequences to your desktop and import them from there. 
+
+######################
+## Useful Data Sets ##
+######################
+GENETIC_CODE # Prints genetic code information.
+IUPAC_CODE_MAP # Returns IUPAC nucleotide ambiguity codes.
+data(BLOSUM80) # Loads BLOSUM80 substitution matrix. More on this: ?substitution.matrices
+?substitution.matrices # Detailed information on provided substitution matrices.
+
+#####################################################
+## Sequence Variants (SNPs) and Consensus Analysis ## 
+#####################################################
+data(phiX174Phage) # Imports six versions of the complete genome for bacteriophage phi X174 as DNAStringSet object.
+mymm <- which(rowSums(t(consensusMatrix(phiX174Phage))[,1:4] == 6)!=1) # Creates a consensus matrix and returns the mismatch (SNP) positions. 
+DNAStringSet(phiX174Phage, start=mymm[1], end=mymm[1]+10) # Prints the sequence sections for the first SNP region in the phiX174Phage sequences.
+consensusString(DNAStringSet(phiX174Phage, start=mymm[1], end=mymm[1]+10)) # Prints the consensus sequence for the corresponding SNP region. 
+mysnp <- t(consensusMatrix(phiX174Phage))[mymm,1:4]; rownames(mysnp) <- paste("SNP", mymm, sep="_"); mysnp # Returns the consensus matrix data only for the SNP positions. 
+mysnp2 <- lapply(seq(along=mymm), function(x) sapply(as.list(DNAStringSet(phiX174Phage, start=mymm[x], end=mymm[x])), toString))
+mysnp2 <- as.data.frame(mysnp2)
+colnames(mysnp2) <- paste("SNP", mymm, sep="_"); mysnp2 # Returns all SNPs in a data frame and names them according to their positions.
+
+#############################################
+## Reverse and Complement of DNA Sequences ##
+#############################################
+reverseComplement(myseq1) # Returns reverse and complement for may BioC object types including XString, XStringView and XStringSet. 
+reverseComplement(dsub) # Does the same for XStringView objects. Adjust all start and end coordinates accordingly.
+
+#########################################
+## Residue Frequency (e.g. GC Content) ##
+#########################################
+alphabetFrequency(myseq1)[1:4,] # Computes the residue frequency for all sequences in myseq1.
+data.frame(ID=names(myseq1), GC=rowSums(alphabetFrequency(myseq1)[,c(2,3)]/width(myseq1))*100)[1:4,] # Returns GC content as data frame.
+trinucleotideFrequency(myseq1[1:4,]) # Returns triplet frequency.
+
+##########################################
+## Translate DNA into Protein Sequences ##
+##########################################
+translate(myseq1[1]) # Translates a single ORF and returns result as AAStringSet object.
+translate(myseq1) # Translates all ORFs in myseq1. 
+```
+
+

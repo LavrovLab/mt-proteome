@@ -1,0 +1,34 @@
+###Documentation from the PT [website](http://projecttemplate.net):
+
+####Each of these directories and files serves a specific purpose, which we describe below:
+
+* __cache: Here you’ll store any data sets that (a) are generated during a preprocessing step and (b) don’t need to be regenerated every single time you analyze your data. You can use the cache() function to store data to this directory automatically. Any data set found in both the cache and data directories will be drawn from cache instead of data based on ProjectTemplate’s priority rules.
+config: Here you’ll store any configurations settings for your project. Use the DCF format that the read.dcf() function parses.
+data: Here you’ll store your raw data files. If they are encoded in a supported file format, they’ll automatically be loaded when you call load.project().
+diagnostics: Here you can store any scripts you use to diagnose your data sets for corruption or problematic data points.
+doc: Here you can store any documentation that you’ve written about your analysis.
+graphs: Here you can store any graphs that you produce.
+lib: Here you’ll store any files that provide useful functionality for your work, but do not constitute a statistical analysis per se. Specifically, you should use the lib/helpers.R script to organize any functions you use in your project that aren’t quite general enough to belong in a package.
+logs: Here you can store a log file of any work you’ve done on this project. If you’ll be logging your work, we recommend using the log4r package, which ProjectTemplate will automatically load for you if you turn the logging configuration setting on.
+munge: Here you can store any preprocessing or data munging code for your project. For example, if you need to add columns at runtime, merge normalized data sets or globally censor any data points, that code should be stored in the munge directory. The preprocessing scripts stored in munge will be executed sequentially when you call load.project(), so you should append numbers to the filenames to indicate their sequential order.
+profiling: Here you can store any scripts you use to benchmark and time your code.
+reports: Here you can store any output reports, such as HTML or LaTeX versions of tables, that you produce. Sweave or brew documents should also go in the reports directory.
+src: Here you’ll store your final statistical analysis scripts. You should add the following piece of code to the start of each analysis script: library('ProjectTemplate); load.project(). You should also do your best to ensure that any code that’s shared between the analyses in src is moved into the munge directory; if you do that, you can execute all of the analyses in the src directory in parallel. A future release of ProjectTemplate will provide tools to automatically execute every individual analysis from src in parallel.
+tests: Here you can store any test cases for the functions you’ve written. Your test files should use testthat style tests so that you can call the test.project() function to automatically execute all of your test code.
+README: In this file, you should write some notes to help orient any newcomers to your project.
+TODO: In this file, you should write a list of future improvements and bug fixes that you plan to make to your analyses.
+
+####The current configuration settings exist in the config/global.dcf file:
+
+* __data_loading:__ This can be set to ‘on’ or ‘off’. If data_loading is on, the system will load data from both the cache and data directories with cache taking precedence in the case of name conflict. By default, data_loading is on.
+* __munging:__ This can be set to ‘on’ or ‘off’. If munging is on, the system will execute the files in the munge directory sequentially using the order implied by the sort() function. If munging is off, none of the files in the munge directory will be executed. By default, munging is on.
+* __logging:__ This can be set to ‘on’ or ‘off’. If logging is on, a logger object using the log4r package is automatically created when you run load.project(). This logger will write to the logs directory. By default, logging is off.
+* __load_libraries:__ This can be set to ‘on’ or ‘off’. If load_libraries is on, the system will load all of the R packages listed in the libraries field described below. By default, load_libraries is off.
+* __libraries:__ This is a comma separated list of all the R packages that the user wants to automatically load when load.project() is called. These packages must already be installed before calling load.project(). By default, the reshape, plyr, ggplot2, stringr and lubridate packages are included in this list.
+* __as_factors:__ This can be set to ‘on’ or ‘off’. If as_factors is on, the system will convert every character vector into a factor when creating data frames; most importantly, this automatic conversion occurs when reading in data automatically. If ‘off’, character vectors will remain character vectors. By default, as_factors is on.
+* __data_tables:__ This can be set to ‘on’ or ‘off’. If data_tables is on, the system will convert every data set loaded from the data directory into a data.table. By default, data_tables is off.
+
+####The following configuration settings still require documentation: 
+* __cache_loading__ 
+* __recursive_loading__ 
+* __attach_internal_libraries__.
