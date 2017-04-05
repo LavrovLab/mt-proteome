@@ -10,6 +10,8 @@ output: html_notebook
 (We can check which annotation packages are available on the [Bioconductor annotation package page](http://www.bioconductor.org/packages/release/data/annotation/)):
 
 ```{r, eval=FALSE}
+source("https://bioconductor.org/biocLite.R")
+biocLite()
 biocLite("EnsDb.Hsapiens.v86") #Load the latest version of human genome
 biocLite("SNPlocs.Hsapiens.dbSNP144.GRCh38") #Load the lastest version of human SNPs
 biocLite("BSgenome.Hsapiens.UCSC.hg38") #human genome
@@ -93,7 +95,9 @@ hs_mtDNA_gn <- as.character(allMTGenesOrgDb$ENTREZID[allMTGenesOrgDb$CHR %in% "M
 
 ```{r}
 hs_mitocarta_df <- read.csv(file = "Human.MitoCarta2.0.csv") 
-hs_mitocarta_no_mtDNA_df <- hs_mitocarta_df[!Human.MitoCarta2.0$HumanGeneID %in% hs_mtDNA_gn,]
+hs_mitocarta_no_mtDNA_df <- hs_mitocarta_df[!hs_mitocarta_df$HumanGeneID %in% hs_mtDNA_gn,]
+hs_mitocarta_gn <- hs_mitocarta_no_mtDNA_df$HumanGeneID[hs_mitocarta_no_mtDNA_df$HumanGeneID %in% hs_all_gn_gr$gene_id]
+length(hs_mitocarta_gn)
 ## Mitocarta genes not in txdb
 absent <- hs_mitocarta_no_mtDNA_df[!hs_mitocarta_no_mtDNA_df$HumanGeneID %in% hs_all_gn_gr$gene_id, ]
 absent[c(2,4, 6)]
@@ -102,7 +106,8 @@ absent[c(2,4, 6)]
 **Mitoproteome2** [http://www.mitoproteome.org/](http://www.mitoproteome.org/) 1705 records
 
 ```{r}
-hs_mtproteome_df <- read.delim(file = "mitoproteome.txt", header = TRUE, sep = "\t")
+#hs_mtproteome_df <- read.delim(file = "mitoproteome.txt", header = TRUE, sep = "\t")
+hs_mtproteome_df <- read.csv(file = "hs_mitoproteome.csv", header = TRUE)
 nrow(hs_mtproteome_df)
 tail(hs_mtproteome_df, 300)
 absent <- hs_mtproteome_df[!hs_mtproteome_df$Entrez_Gene_ID %in% hs_mitocarta_df$HumanGeneID, ]
@@ -130,6 +135,8 @@ Similarly, can use "00020" to get the genes in Citrate cycle (TCA cycle)
 > Tried KEGGgraph but got some strange results
 > ##############
 
+> ############ NOTE, WE NEED INTERNET FOR THESE; SHOULD STORE THESE LISTS SOMEWHERE #######
+
 Defining two functions to use **KEGGREST** package
 
 ```{r}
@@ -150,7 +157,7 @@ gn_df_from_Kegg <- function(x, warn=TRUE) {
 }
 ```
 
-**Ox-phos genes**
+**Ox-phos genes** 
 
 ```{r}
 hs_00190_gn <- gn_names_from_Kegg("hsa00190")
@@ -169,15 +176,24 @@ hs_00020_gn <- gn_names_from_Kegg("hsa00020") # needed the T/F index to get read
 hs_00020_df <- gn_df_from_Kegg("hsa00020")
 length(hs_00020_gn) ## 30 genes
 hs_00020_df
-hs_00020_df[!hs_00020_df$gene_id %in% Human.MitoCarta2.0$HumanGeneID,] # 1 (5105) not in MitoCarta
+hs_00020_df[!hs_00020_df$gene_id %in% hs_mitocarta_df$HumanGeneID,] # 1 (5105) not in MitoCarta
 ```
 
 **Apoptosis (hsa04210) genes in mitocarta**
 
 ```{r}
 hs_04210_df <- gn_df_from_Kegg("hsa04210")
-hs_04210_mc_df <- hs_04210_df[hs_04210_df$gene_id %in% hs_mitocarta_gn$HumanGeneID, ]
+hs_04210_mc_df <- hs_04210_df[hs_04210_df$gene_id %in% hs_mitocarta_df$HumanGeneID, ]
 hs_04210_mc_df
+```
+
+OK, saving these lists to an object so we don't depend on internet
+
+```{r}
+kegg_mt_df <- list(hs_00020_df, hs_00190_df, hs_04210_df)
+names(kegg_mt_df) <- c("TCA", "OxPhos", "Apoptosis")
+save(kegg_mt_ls, file="kegg_df.rda")
+load(file = "kegg_df.rda") #if we want to reload them
 ```
 
 ### 2. Identify genomic coordinates
@@ -185,9 +201,10 @@ hs_04210_mc_df
 The list of gene ids is used to extract genomic positions of the regions of interest. 
 
 ```{r}
-#txdb <- TxDb.Hsapiens.UCSC.hg38.knownGene  #done before
-#hs_all_gn_gr <- genes(txdb) #shows gene id as metadata #done before
+txdb <- TxDb.Hsapiens.UCSC.hg38.knownGene  #done before
+hs_all_gn_gr <- genes(txdb) #shows gene id as metadata #25017 genes
 ```
+
 
 #### Obtaining GRanges for some of our lists
 
@@ -226,10 +243,12 @@ Transcripts corresponding to each gene are identified with `transcriptsBy`:
 
 ```{r}
 ### MITOCARTA ### so we can easily create a database
-# Not all mitocarta genes are present in txdb, hence the hussle
-hc_mc_tx_by_gene <- transcriptsBy(txdb, "gene")[as.character(hs_mitocarta_df$HumanGeneID[hs_mitocarta_df$HumanGeneID %in% hs_all_gn_gr$gene_id])]
+# Not all mitocarta genes are present in txdb, hence the hassle with %in%
+hc_mc_tx_by_gene <- transcriptsBy(txdb, "gene")[as.character(hs_mitocarta_gn[hs_mitocarta_gn %in% hs_all_gn_gr$gene_id])] ## all mitocarta genes that are present in TxDb.Hsapiens.UCSC.hg38.knownGenex
 map <- relist(unlist(hc_mc_tx_by_gene, use.names=FALSE)$tx_id, hc_mc_tx_by_gene)
-map
+#Converts a GrangesList object with ranges, chr, strands, tx_name into a list of tx_ids for each gene
+map #map for mitocarta
+#relist(flesh, skeleton), where flesh is a vector-like object and skeleton is a list-like object. Only the "shape" (i.e. the lengths of the individual list elements) of skeleton matters. Its exact content is ignored.
 ```
 
 #### Extract the UTR and coding regions for all(!) genes.
@@ -240,12 +259,14 @@ threeUTR <- threeUTRsByTranscript(txdb)
 fiveUTR <- fiveUTRsByTranscript(txdb)
 ```
 
-Coding and UTR regions may not be present for all transcripts specified in map. Consequently, the subset results will not
-be the same length. This length discrepancy must be taken into account when re-listing the final results by gene.
+#### Get the UTR and coding regions for selected genes (listed in map).
+
+Note that coding and UTR regions may not be present for all transcripts specified in map. Consequently, the subset results will not be the same length. This length discrepancy must be taken into account when re-listing the final results by gene.
 
 ```{r}
+#Note that we rewrite the variables we created above with subsets based on txid in map
 txid <- unlist(map, use.names=FALSE)
-cds <- cds[names(cds) %in% txid]
+cds <- cds[names(cds) %in% txid] #take only cds whose names are in txid
 threeUTR <- threeUTR[names(threeUTR) %in% txid]
 fiveUTR <- fiveUTR[names(fiveUTR) %in% txid]
 ```
@@ -253,25 +274,88 @@ fiveUTR <- fiveUTR[names(fiveUTR) %in% txid]
 Note the different lengths of the subset regions.
 
 ```{r}
-length(txid) ## all possible transcripts
+#These objects are GRangesLists with the transcript id as the outer list element.
+length(txid) ## all possible transcripts corresponding to map
 length(cds)
 length(threeUTR)
 length(fiveUTR)
-```
-
-These objects are GRangesLists with the transcript id as the outer list element.
-
-```{r}
 cds
 ```
 
-### 3. Finding chromosomal affiliation
+
+### 3. Extract sequences from BSgenome
+
+The BSgenome packages contain complete genome sequences for a given organism.
+Load the BSgenome package for _Homo sapiens_.
+
+#### Loading the library
+
+```{r}
+library("BSgenome.Hsapiens.UCSC.hg38")
+hs_gm <- BSgenome.Hsapiens.UCSC.hg38 ## done previously
+```
+
+#### Using `extractTranscriptSeqs` to extract the UTR and coding regions from the BSgenome. 
+
+Not sure what the difference between extractTranscriptSeqs and getSeqs
+
+This function retrieves the sequences for an any GRanges or GRangesList (i.e., not just 
+transcripts like the name implies).
+
+```{r}
+threeUTR_seqs <- extractTranscriptSeqs(hs_gm, threeUTR)
+fiveUTR_seqs <- extractTranscriptSeqs(hs_gm, fiveUTR)
+cds_seqs <- extractTranscriptSeqs(hs_gm, cds) # returns a DNAStringSet instance of length 5999
+# Not sure what's the advantage of using this vs. 
+test_seq <- getSeq(hs_gm, cds) #returns DNAStringSetList of length 5999
+test_seq
+test_seq[[1]] ##hmmmm, this gives me a bunch of short sequences
+#The return values are DNAStringSet objects.
+```
+
+#### Collecting the coding and UTR regions into groups by gene id. 
+
+We use the relist function to group the sequences of a DNAStringSet object into a DNAStringSetList object, based on the specified skeleton argument. A simple form of skeleton is to use a partitioning object that we make by specifying the size of each partition. The partitioning objects are different for each type of region because not all transcripts had a coding or 3’ or 5’ UTR region defined.
+
+```{r}
+lst3 <- relist(threeUTR_seqs, PartitioningByWidth(sum(map %in% names(threeUTR))))
+# sum(map %in% names(threeUTR)) how many sequences in this category
+lst5 <- relist(fiveUTR_seqs, PartitioningByWidth(sum(map %in% names(fiveUTR))))
+lstc <- relist(cds_seqs, PartitioningByWidth(sum(map %in% names(cds))))
+tryme <- unlist(lstc, use.names=TRUE)
+writeXStringSet(tryme, file="mitocarda_cds.seq", format="fasta")
+```
+
+The table of element lengths shows how many genes have each number of transcripts.
+
+```{r}
+length(map)
+table((elementNROWS(map)))
+```
+
+
+The lists of DNA sequences all have the same length as map but one or more of the 
+element lengths may be zero. This would indicate that data were not available for 
+that gene. The tables below show that there was at least 1 coding region available 
+for all genes (i.e., none of the element lengths are 0). However, both the 3’ and 5’ 
+UTR results have element lengths of 0 which indicates no UTR data were available for 
+that gene.
+
+```{r}
+table(elementNROWS(lstc))
+table(elementNROWS(lst3))
+names(lst3)[elementNROWS(lst3) == 0L] ## genes with no 3✬ UTR data
+table(elementNROWS(lst5))
+names(lst5)[elementNROWS(lst5) == 0L] ## genes with no 5✬ UTR data
+```
+
+### 4. Finding chromosomal affiliation
 
 Using GenomicFeatures for extracting subsets of features that overlap a specific 
 chromosome or range.
 
 ```{r}
-seqlevels(txdb)
+#seqlevels(txdb)
 standard_chromosomes <- paste("chr",1:22,sep = "")
 standard_chromosomes <- append(standard_chromosomes, c("chrX", "chrY"))
 seqlevels(txdb, force=TRUE) <- standard_chromosomes
@@ -301,7 +385,7 @@ genesPerChromosome <- function (x, warn=TRUE) {
   plot(df)
 }
 genesPerChromosome(hs_op_gr)
-genesPerChromosome(hs_mt_genes)
+genesPerChromosome(hs_mitocarta_gr)
 ```
 
 #######
@@ -309,7 +393,7 @@ Should we be surprised that all chromosomes have genes involved in OX_Phos?
 #######
 
 
-### 4. Plotting chromosomal locations using chromPlot package
+### 5. Plotting chromosomal locations using chromPlot package
 
 ```{r}
 biocLite("chromPlot")
@@ -317,70 +401,9 @@ library("chromPlot")
 data(hg_gap)
 head(hg_gap)
 chromPlot(gaps=hg_gap, annot1=hs_op_gr)
-chromPlot(gaps=hg_gap, bands=hg_cytoBandIdeo, annot1=hs_mt_genes, figCols=6)
+chromPlot(gaps=hg_gap, bands=hg_cytoBandIdeo, annot1=hs_mitocarta_gr, figCols=6)
 ```
 
-
-
-### 3. Extract sequences from BSgenome
-
-The BSgenome packages contain complete genome sequences for a given organism.
-Load the BSgenome package for _Homo sapiens_.
-
-```{r}
-hs_gm <- BSgenome.Hsapiens.UCSC.hg38 ## done previously
-```
-Use extractTranscriptSeqs to extract the UTR and coding regions from the BSgenome. This function 
-retrieves the sequences for an any GRanges or GRangesList (i.e., not just transcripts like the name implies).
-
-```{r}
-threeUTR_seqs <- extractTranscriptSeqs(hs_gm, threeUTR)
-fiveUTR_seqs <- extractTranscriptSeqs(hs_gm, fiveUTR)
-cds_seqs <- extractTranscriptSeqs(hs_gm, cds)
-```
-
-The return values are DNAStringSet objects.
-
-```{r}
-cds_seqs
-```
-
-
-Our final step is to collect the coding and UTR regions (currently organzied by transcript) into groups by gene id. The
-relist function groups the sequences of a DNAStringSet object into a DNAStringSetList object, based on the specified
-skeleton argument. The skeleton must be a list-like object and only its shape (i.e. its element lengths) matters (its
-exact content is ignored). A simple form of skeleton is to use a partitioning object that we make by specifying the size
-of each partition. The partitioning objects are different for each type of region because not all transcripts had a coding
-or 3’ or 5’ UTR region defined.
-
-```{r}
-lst3 <- relist(threeUTR_seqs, PartitioningByWidth(sum(map %in% names(threeUTR))))
-lst5 <- relist(fiveUTR_seqs, PartitioningByWidth(sum(map %in% names(fiveUTR))))
-lstc <- relist(cds_seqs, PartitioningByWidth(sum(map %in% names(cds))))
-lstc
-```
-
-There are 40 genes in map each of which have 1 or more transcripts. The table of element lengths shows how many
-genes have each number of transcripts. For example, 47 genes have 1 transcript, 48 genes have 2 etc.
-
-```{r}
-length(map)
-table((elementNROWS(map)))
-```
-
-
-The lists of DNA sequences all have the same length as map but one or more of the element lengths may be zero. This
-would indicate that data were not available for that gene. The tables below show that there was at least 1 coding region
-available for all genes (i.e., none of the element lengths are 0). However, both the 3’ and 5’ UTR results have element
-lengths of 0 which indicates no UTR data were available for that gene.
-
-```{r}
-table(elementNROWS(lstc))
-table(elementNROWS(lst3))
-names(lst3)[elementNROWS(lst3) == 0L] ## genes with no 3✬ UTR data
-table(elementNROWS(lst5))
-names(lst5)[elementNROWS(lst5) == 0L] ## genes with no 5✬ UTR data
-```
 
 
 #### Retrieving genomic regions for mitochondiral genes from human genome
@@ -410,7 +433,7 @@ seqinfo(hs_gm)
 ### Retrieving the regions
 
 ```{r}
-mcarta_seq <- getSeq(hs_gm, hs_mt_cds)
+mcarta_seq <- getSeq(hs_gm, cds)
 mcarta_seq
 ```
 
