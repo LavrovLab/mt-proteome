@@ -1,0 +1,1409 @@
+Gene.primaryIdentifier	Gene.name	Gene.symbol	Gene.description	Gene.chr	Gene.mitoEvidenceMitoCarta	Gene.mitoEvidenceIMPI	Gene.mitoEvidenceGO	Gene.mitoEvidenceHumanProteinAtlas	Gene.MTSipsort	Gene.MTSmitofates	Gene.MTSmitoprot	Gene.MTStargetP
+ENSG00000109576	51166	AADAT	aminoadipate aminotransferase	4	true	true	true	false	1.0	0.882	0.99	0.802
+ENSG00000090861	16	AARS	alanyl-tRNA synthetase	16	false	true	true	false	0.0	0.024	0.1751	0.244
+ENSG00000124608	57505	AARS2	alanyl-tRNA synthetase 2, mitochondrial	6	true	true	true	true	1.0	1.0	0.998	0.947
+ENSG00000008311	10157	AASS	aminoadipate-semialdehyde synthase	7	true	true	true	true	0.0	0.938	0.7829	0.792
+ENSG00000183044	18	ABAT	4-aminobutyrate aminotransferase	16	true	true	true	false	1.0	0.996	0.9803	0.888
+ENSG00000179869	154664	ABCA13	ATP-binding cassette, sub-family A (ABC1), member 13	7	true	true	false	false	1.0	0.142	0.4207	0.065
+ENSG00000141338	10351	ABCA8	ATP-binding cassette, sub-family A (ABC1), member 8	17	false	true	true	false	0.0	0.117	0.984	0.325
+ENSG00000154258	10350	ABCA9	ATP-binding cassette, sub-family A (ABC1), member 9	17	true	true	true	false	1.0	0.096	0.9448	0.534
+ENSG00000135776	23456	ABCB10	ATP-binding cassette, sub-family B (MDR/TAP), member 10	1	true	true	true	false	0.0	0.019	0.032	0.116
+ENSG00000115657	10058	ABCB6	ATP-binding cassette, sub-family B (MDR/TAP), member 6 (Langereis blood group)	2	true	true	true	false	0.0	0.003	0.0015	0.021
+ENSG00000131269	22	ABCB7	ATP-binding cassette, sub-family B (MDR/TAP), member 7	X	true	true	true	true	1.0	0.996	0.685	0.867
+ENSG00000197150	11194	ABCB8	ATP-binding cassette, sub-family B (MDR/TAP), member 8	7	true	true	true	true	1.0	0.958	0.63	0.923
+ENSG00000101986	215	ABCD1	ATP-binding cassette, sub-family D (ALD), member 1	X	true	true	true	false	1.0	0.716	0.9393	0.557
+ENSG00000117528	5825	ABCD3	ATP-binding cassette, sub-family D (ALD), member 3	1	true	true	true	false	0.0	0.85	0.878	0.857
+ENSG00000164163	6059	ABCE1	ATP-binding cassette, sub-family E (OABP), member 1	4	false	true	true	false	1.0	0.004	0.3906	0.109
+ENSG00000144827	55347	ABHD10	abhydrolase domain containing 10	3	true	true	true	false	1.0	0.39	0.9996	0.597
+ENSG00000106077	83451	ABHD11	abhydrolase domain containing 11	7	true	true	true	true	1.0	0.478	0.9898	0.905
+ENSG00000267740	""	AC024592.12	Uncharacterized protein 	19	false	true	false	false	0.0	0.042	0.2758	0.116
+ENSG00000268187	""	AC118758.1	Uncharacterized protein 	7	false	true	false	false	1.0	0.171	0.9836	0.769
+ENSG00000060971	30	ACAA1	acetyl-CoA acyltransferase 1	3	true	true	false	false	0.0	0.121	0.3548	0.425
+ENSG00000167315	10449	ACAA2	acetyl-CoA acyltransferase 2	18	true	true	true	true	0.0	0.996	0.475	0.644
+ENSG00000076555	32	ACACB	acetyl-CoA carboxylase beta	12	true	true	true	false	0.0	0.012	0.2588	0.021
+ENSG00000111271	80724	ACAD10	acyl-CoA dehydrogenase family, member 10	12	true	true	true	false	1.0	0.743	0.971	0.896
+ENSG00000240303	84129	ACAD11	acyl-CoA dehydrogenase family, member 11	3	true	true	true	false	0.0	0.0	0.056	0.057
+ENSG00000151498	27034	ACAD8	acyl-CoA dehydrogenase family, member 8	11	true	true	true	false	0.0	0.939	0.9365	0.903
+ENSG00000177646	28976	ACAD9	acyl-CoA dehydrogenase family, member 9	3	true	true	true	true	1.0	0.991	0.9965	0.961
+ENSG00000115361	33	ACADL	acyl-CoA dehydrogenase, long chain	2	true	true	true	false	1.0	0.999	0.9312	0.961
+ENSG00000117054	34	ACADM	acyl-CoA dehydrogenase, C-4 to C-12 straight chain	1	true	true	true	true	1.0	0.996	0.9948	0.901
+ENSG00000122971	35	ACADS	acyl-CoA dehydrogenase, C-2 to C-3 short chain	12	true	true	true	false	1.0	0.996	0.9948	0.909
+ENSG00000196177	36	ACADSB	acyl-CoA dehydrogenase, short/branched chain	10	true	true	true	true	1.0	0.996	0.6489	0.895
+ENSG00000072778	37	ACADVL	acyl-CoA dehydrogenase, very long chain	17	true	true	true	true	1.0	0.999	0.9806	0.933
+ENSG00000075239	38	ACAT1	acetyl-CoA acetyltransferase 1	11	true	true	true	true	1.0	0.996	0.9962	0.962
+ENSG00000131473	47	ACLY	ATP citrate lyase	17	true	true	true	false	0.0	0.047	0.172	0.115
+ENSG00000122729	48	ACO1	aconitase 1, soluble	9	true	true	true	true	0.0	0.0	0.0536	0.088
+ENSG00000100412	50	ACO2	aconitase 2, mitochondrial	22	true	true	true	true	1.0	0.995	0.9158	0.831
+ENSG00000112304	55856	ACOT13	acyl-CoA thioesterase 13	6	true	true	true	false	0.0	0.027	0.6324	0.525
+ENSG00000119673	10965	ACOT2	acyl-CoA thioesterase 2	14	true	true	true	true	0.0	0.099	0.9014	0.684
+ENSG00000097021	11332	ACOT7	acyl-CoA thioesterase 7	1	true	true	true	false	1.0	0.981	0.9116	0.946
+ENSG00000101473	10005	ACOT8	acyl-CoA thioesterase 8	20	false	true	true	true	0.0	0.0	0.0124	0.084
+ENSG00000123130	23597	ACOT9	acyl-CoA thioesterase 9	X	true	true	true	false	1.0	0.816	0.9379	0.807
+ENSG00000134575	53	ACP2	acid phosphatase 2, lysosomal	11	false	true	false	false	0.0	0.012	0.6416	0.607
+ENSG00000162836	51205	ACP6	acid phosphatase 6, lysophosphatidic	1	true	true	true	false	1.0	0.051	0.8644	0.317
+ENSG00000167107	80221	ACSF2	acyl-CoA synthetase family member 2	17	true	true	true	false	1.0	0.967	0.795	0.932
+ENSG00000176715	197322	ACSF3	acyl-CoA synthetase family member 3	16	true	true	true	false	1.0	0.908	0.9602	0.925
+ENSG00000151726	2180	ACSL1	acyl-CoA synthetase long-chain family member 1	4	true	true	true	true	0.0	0.193	0.0644	0.289
+ENSG00000068366	2182	ACSL4	acyl-CoA synthetase long-chain family member 4	X	true	true	true	true	0.0	0.006	0.7318	0.008
+ENSG00000197142	51703	ACSL5	acyl-CoA synthetase long-chain family member 5	10	false	true	true	true	0.0	0.004	0.28	0.008
+ENSG00000281938	""	ACSL6	acyl-CoA synthetase long-chain family member 6	5	false	true	true	false	0.0	0.435	0.0293	0.13
+ENSG00000166743	116285	ACSM1	acyl-CoA synthetase medium-chain family member 1	16	true	true	true	false	1.0	0.523	0.726	0.875
+ENSG00000183747	123876	ACSM2A	acyl-CoA synthetase medium-chain family member 2A	16	true	true	true	false	1.0	0.302	0.78	0.781
+ENSG00000066813	348158	ACSM2B	acyl-CoA synthetase medium-chain family member 2B	16	false	true	true	false	1.0	0.305	0.7845	0.782
+ENSG00000005187	6296	ACSM3	acyl-CoA synthetase medium-chain family member 3	16	true	true	true	false	1.0	0.984	0.9984	0.934
+ENSG00000215009	341392	ACSM4	acyl-CoA synthetase medium-chain family member 4	12	false	true	true	false	1.0	0.139	0.9037	0.778
+ENSG00000183549	54988	ACSM5	acyl-CoA synthetase medium-chain family member 5	16	true	true	true	false	1.0	0.691	0.9567	0.911
+ENSG00000173124	142827	ACSM6	acyl-CoA synthetase medium-chain family member 6	10	false	true	true	false	1.0	0.181	0.5897	0.774
+ENSG00000154930	84532	ACSS1	acyl-CoA synthetase short-chain family member 1	20	true	true	true	false	1.0	0.999	0.9966	0.901
+ENSG00000111058	79611	ACSS3	acyl-CoA synthetase short-chain family member 3	12	true	true	true	true	0.0	0.436	0.9458	0.636
+ENSG00000143632	58	ACTA1	actin, alpha 1, skeletal muscle	1	false	true	false	false	0.0	0.0	0.0164	0.06
+ENSG00000075624	""	ACTB	actin, beta	7	false	true	false	false	0.0	0.0	0.0597	0.089
+ENSG00000184009	""	ACTG1	actin gamma 1	17	false	true	false	false	0.0	0.0	0.0276	0.082
+ENSG00000170634	98	ACYP2	acylphosphatase 2, muscle type	2	true	true	true	false	0.0	0.0	0.1605	0.2
+ENSG00000163050	56997	ADCK3	aarF domain containing kinase 3	1	true	true	true	true	0.0	0.003	0.1605	0.077
+ENSG00000123815	79934	ADCK4	aarF domain containing kinase 4	19	true	true	true	true	0.0	0.232	0.4671	0.425
+ENSG00000173137	203054	ADCK5	aarF domain containing kinase 5	8	true	true	true	false	1.0	0.669	0.9947	0.82
+ENSG00000147576	137872	ADHFE1	alcohol dehydrogenase, iron containing, 1	8	true	true	true	false	1.0	0.714	0.9923	0.952
+ENSG00000101544	22850	ADNP2	ADNP homeobox 2	18	false	true	false	true	0.0	0.004	0.1256	0.094
+ENSG00000141385	10939	AFG3L2	AFG3-like AAA ATPase 2	18	true	true	true	true	0.0	0.988	0.649	0.714
+ENSG00000006530	""	AGK	acylglycerol kinase	7	true	true	true	true	0.0	0.392	0.7888	0.24
+ENSG00000116771	79814	AGMAT	agmatine ureohydrolase (agmatinase)	1	true	true	true	false	1.0	0.871	0.4594	0.795
+ENSG00000155189	55326	AGPAT5	1-acylglycerol-3-phosphate O-acyltransferase 5	8	true	true	true	false	0.0	0.048	0.9506	0.234
+ENSG00000172482	189	AGXT	alanine-glyoxylate aminotransferase	2	true	true	true	false	0.0	0.011	0.7862	0.139
+ENSG00000113492	64902	AGXT2	alanine--glyoxylate aminotransferase 2	5	true	true	true	false	0.0	0.658	0.9906	0.607
+ENSG00000156709	9131	AIFM1	apoptosis-inducing factor, mitochondrion-associated, 1	X	true	true	true	false	0.0	0.862	0.7513	0.782
+ENSG00000042286	84883	AIFM2	apoptosis-inducing factor, mitochondrion-associated, 2	10	true	true	true	false	0.0	0.0	0.0398	0.143
+ENSG00000183773	150209	AIFM3	apoptosis-inducing factor, mitochondrion-associated, 3	22	true	true	true	false	0.0	0.0	0.005	0.065
+ENSG00000106992	203	AK1	adenylate kinase 1	9	false	true	false	false	0.0	0.0	0.0063	0.045
+ENSG00000004455	204	AK2	adenylate kinase 2	1	true	true	true	false	0.0	0.0	0.0118	0.118
+ENSG00000147853	50808	AK3	adenylate kinase 3	9	true	true	true	false	1.0	0.242	0.8661	0.816
+ENSG00000162433	205	AK4	adenylate kinase 4	1	true	true	true	true	1.0	0.5	0.6171	0.594
+ENSG00000121057	8165	AKAP1	A kinase (PRKA) anchor protein 1	17	true	true	true	true	0.0	0.019	0.6402	0.219
+ENSG00000108599	11216	AKAP10	A kinase (PRKA) anchor protein 10	17	true	true	true	false	1.0	0.0	0.705	0.498
+ENSG00000227471	441282	AKR1B15	aldo-keto reductase family 1, member B15	7	false	true	true	false	1.0	0.016	0.155	0.133
+ENSG00000053371	8574	AKR7A2	aldo-keto reductase family 7, member A2	1	true	true	true	false	1.0	0.999	0.9845	0.872
+ENSG00000023330	211	ALAS1	5'-aminolevulinate synthase 1	3	true	true	true	true	1.0	0.984	0.97	0.723
+ENSG00000158578	212	ALAS2	5'-aminolevulinate synthase 2	X	true	true	true	false	0.0	0.99	0.8363	0.353
+ENSG00000059573	5832	ALDH18A1	aldehyde dehydrogenase 18 family, member A1	10	true	true	true	true	0.0	0.854	0.9731	0.522
+ENSG00000165092	216	ALDH1A1	aldehyde dehydrogenase 1 family, member A1	9	false	true	false	false	0.0	0.0	0.0492	0.036
+ENSG00000137124	219	ALDH1B1	aldehyde dehydrogenase 1 family, member B1	9	true	true	true	true	1.0	0.997	0.9959	0.873
+ENSG00000144908	10840	ALDH1L1	aldehyde dehydrogenase 1 family, member L1	3	true	true	true	false	0.0	0.003	0.2356	0.107
+ENSG00000136010	160428	ALDH1L2	aldehyde dehydrogenase 1 family, member L2	12	true	true	true	true	1.0	0.998	0.9978	0.812
+ENSG00000111275	217	ALDH2	aldehyde dehydrogenase 2 family (mitochondrial)	12	true	true	true	false	1.0	1.0	0.9994	0.902
+ENSG00000072210	224	ALDH3A2	aldehyde dehydrogenase 3 family, member A2	17	true	true	true	false	1.0	0.223	0.087	0.963
+ENSG00000159423	8659	ALDH4A1	aldehyde dehydrogenase 4 family, member A1	1	true	true	true	false	1.0	0.996	0.9764	0.925
+ENSG00000112294	7915	ALDH5A1	aldehyde dehydrogenase 5 family, member A1	6	true	true	true	true	1.0	0.974	0.9866	0.842
+ENSG00000119711	4329	ALDH6A1	aldehyde dehydrogenase 6 family, member A1	14	true	true	true	true	1.0	0.671	0.8822	0.885
+ENSG00000164904	501	ALDH7A1	aldehyde dehydrogenase 7 family, member A1	5	true	true	true	true	1.0	0.82	0.8767	0.786
+ENSG00000143149	223	ALDH9A1	aldehyde dehydrogenase 9 family, member A1	1	true	true	true	false	0.0	0.0	0.6797	0.341
+ENSG00000136872	229	ALDOB	aldolase B, fructose-bisphosphate	9	false	true	false	false	0.0	0.003	0.2885	0.101
+ENSG00000109107	230	ALDOC	aldolase C, fructose-bisphosphate	17	false	true	true	false	0.0	0.004	0.0209	0.083
+ENSG00000100601	8846	ALKBH1	alkB homolog 1, histone H2A dioxygenase	14	true	true	true	false	0.0	0.02	0.0679	0.316
+ENSG00000125652	84266	ALKBH7	alkB homolog 7	19	true	true	true	false	1.0	0.669	0.8605	0.727
+ENSG00000242110	23600	AMACR	alpha-methylacyl-CoA racemase	5	true	true	true	false	0.0	0.0	0.0071	0.072
+ENSG00000145020	275	AMT	aminomethyltransferase	3	true	true	true	false	1.0	0.996	0.9729	0.885
+ENSG00000174606	90806	ANGEL2	angel homolog 2 (Drosophila)	1	true	true	false	true	0.0	0.349	0.6143	0.531
+ENSG00000135046	301	ANXA1	annexin A1	9	false	true	true	false	0.0	0.007	0.065	0.059
+ENSG00000109511	11199	ANXA10	annexin A10	4	false	true	true	false	0.0	0.007	0.0108	0.055
+ENSG00000182718	302	ANXA2	annexin A2	15	false	true	false	false	0.0	0.0	0.0344	0.063
+ENSG00000196975	307	ANXA4	annexin A4	2	false	true	false	false	0.0	0.033	0.0356	0.138
+ENSG00000197043	309	ANXA6	annexin A6	5	false	true	true	false	0.0	0.0	0.1224	0.188
+ENSG00000256100	""	AP000721.4	Uncharacterized protein 	11	false	true	true	false	1.0	0.997	0.951	0.847
+ENSG00000255292	""	AP002884.2	Uncharacterized protein 	11	false	true	true	false	0.0	0.996	0.8929	0.818
+ENSG00000161203	1173	AP2M1	adaptor-related protein complex 2, mu 1 subunit	3	false	true	true	false	0.0	0.017	0.0651	0.239
+ENSG00000100823	328	APEX1	APEX nuclease (multifunctional DNA repair enzyme) 1	14	false	true	true	false	0.0	0.0	0.0298	0.074
+ENSG00000169188	27301	APEX2	APEX nuclease (apurinic/apyrimidinic endonuclease) 2	X	true	true	true	false	0.0	0.082	0.7318	0.75
+ENSG00000163382	128240	APOA1BP	apolipoprotein A-I binding protein	1	true	true	true	false	0.0	0.464	0.9598	0.829
+ENSG00000091583	350	APOH	apolipoprotein H (beta-2-glycoprotein I)	17	false	true	false	false	0.0	0.0	0.3796	0.039
+ENSG00000184831	79135	APOO	apolipoprotein O	X	true	true	true	true	1.0	0.02	0.8876	0.487
+ENSG00000155008	139322	APOOL	apolipoprotein O-like	X	true	true	true	true	0.0	0.019	0.2574	0.418
+ENSG00000256053	84334	APOPT1	apoptogenic 1, mitochondrial	14	true	true	true	false	0.0	0.557	0.9085	0.865
+ENSG00000004059	381	ARF5	ADP-ribosylation factor 5	7	true	true	false	false	1.0	0.129	0.9201	0.634
+ENSG00000081181	384	ARG2	arginase 2	14	true	true	true	true	1.0	0.996	0.9937	0.926
+ENSG00000213465	402	ARL2	ADP-ribosylation factor-like 2	11	true	true	true	false	0.0	0.059	0.1407	0.28
+ENSG00000102931	23568	ARL2BP	ADP-ribosylation factor-like 2 binding protein	16	false	true	true	false	0.0	0.0	0.1649	0.065
+ENSG00000170632	83787	ARMC10	armadillo repeat containing 10	7	true	true	true	true	0.0	0.023	0.8588	0.297
+ENSG00000254636	387715	ARMS2	age-related maculopathy susceptibility 2	10	true	true	true	false	0.0	0.0	0.0185	0.092
+ENSG00000104763	427	ASAH1	N-acylsphingosine amidohydrolase (acid ceramidase) 1	8	false	true	false	false	0.0	0.025	0.0758	0.069
+ENSG00000188611	56624	ASAH2	N-acylsphingosine amidohydrolase (non-lysosomal ceramidase) 2	10	true	true	true	false	0.0	0.009	0.0451	0.007
+ENSG00000072182	55515	ASIC4	acid sensing (proton gated) ion channel family member 4	2	false	true	false	false	1.0	0.938	0.8931	0.886
+ENSG00000138138	84896	ATAD1	ATPase family, AAA domain containing 1	10	true	true	true	true	0.0	0.03	0.2293	0.221
+ENSG00000197785	55210	ATAD3A	ATPase family, AAA domain containing 3A	1	true	true	true	false	0.0	0.0	0.0027	0.081
+ENSG00000160072	83858	ATAD3B	ATPase family, AAA domain containing 3B	1	true	true	true	false	0.0	0.0	0.001	0.08
+ENSG00000075673	479	ATP12A	ATPase, H+/K+ transporting, nongastric, alpha polypeptide	13	false	true	false	false	0.0	0.0	0.0145	0.064
+ENSG00000152234	498	ATP5A1	ATP synthase, H+ transporting, mitochondrial F1 complex, alpha subunit 1, cardiac muscle	18	true	true	true	true	1.0	1.0	0.9983	0.979
+ENSG00000110955	506	ATP5B	ATP synthase, H+ transporting, mitochondrial F1 complex, beta polypeptide	12	true	true	true	true	1.0	0.996	0.951	0.928
+ENSG00000165629	509	ATP5C1	ATP synthase, H+ transporting, mitochondrial F1 complex, gamma polypeptide 1	10	true	true	true	false	0.0	0.996	0.9185	0.481
+ENSG00000099624	513	ATP5D	ATP synthase, H+ transporting, mitochondrial F1 complex, delta subunit	19	true	true	true	false	1.0	0.996	0.9471	0.884
+ENSG00000124172	514	ATP5E	ATP synthase, H+ transporting, mitochondrial F1 complex, epsilon subunit	20	true	true	true	false	1.0	0.078	0.4196	0.612
+ENSG00000180389	""	ATP5EP2	ATP synthase, H+ transporting, mitochondrial F1 complex, epsilon subunit pseudogene 2	13	false	true	true	false	1.0	0.145	0.3558	0.579
+ENSG00000116459	515	ATP5F1	ATP synthase, H+ transporting, mitochondrial Fo complex, subunit B1	1	true	true	true	true	0.0	0.996	0.8712	0.602
+ENSG00000159199	516	ATP5G1	ATP synthase, H+ transporting, mitochondrial Fo complex, subunit C1 (subunit 9)	17	true	true	true	false	0.0	0.996	0.9741	0.562
+ENSG00000135390	517	ATP5G2	ATP synthase, H+ transporting, mitochondrial Fo complex, subunit C2 (subunit 9)	12	true	true	true	false	1.0	0.86	0.9195	0.653
+ENSG00000154518	518	ATP5G3	ATP synthase, H+ transporting, mitochondrial Fo complex, subunit C3 (subunit 9)	2	true	true	true	false	1.0	0.996	0.978	0.844
+ENSG00000167863	10476	ATP5H	ATP synthase, H+ transporting, mitochondrial Fo complex, subunit d	17	true	true	true	true	0.0	0.076	0.5386	0.076
+ENSG00000169020	521	ATP5I	ATP synthase, H+ transporting, mitochondrial Fo complex, subunit E	4	true	true	true	true	0.0	0.039	0.2014	0.353
+ENSG00000154723	522	ATP5J	ATP synthase, H+ transporting, mitochondrial Fo complex, subunit F6	21	true	true	true	true	1.0	0.996	0.9873	0.938
+ENSG00000241468	9551	ATP5J2	ATP synthase, H+ transporting, mitochondrial Fo complex, subunit F2	7	true	true	true	true	0.0	0.0	0.0051	0.071
+ENSG00000248919	100526740	ATP5J2-PTCD1	ATP5J2-PTCD1 readthrough	7	false	true	false	false	0.0	0.0	0.0523	0.055
+ENSG00000167283	10632	ATP5L	ATP synthase, H+ transporting, mitochondrial Fo complex, subunit G	11	true	true	true	true	0.0	0.395	0.8652	0.22
+ENSG00000249222	267020	ATP5L2	ATP synthase, H+ transporting, mitochondrial Fo complex, subunit G2	22	false	true	true	true	0.0	0.286	0.8426	0.153
+ENSG00000241837	539	ATP5O	ATP synthase, H+ transporting, mitochondrial F1 complex, O subunit	21	true	true	true	true	1.0	0.996	0.9926	0.894
+ENSG00000125375	27109	ATP5S	ATP synthase, H+ transporting, mitochondrial Fo complex, subunit s (factor B)	14	true	true	true	true	0.0	0.0	0.0602	0.111
+ENSG00000105341	55101	ATP5SL	ATP5S-like	19	true	true	true	false	1.0	0.931	0.9017	0.664
+ENSG00000185883	527	ATP6V0C	ATPase, H+ transporting, lysosomal 16kDa, V0 subunit c	16	false	true	false	false	0.0	0.0	0.0106	0.037
+ENSG00000131100	529	ATP6V1E1	ATPase, H+ transporting, lysosomal 31kDa, V1 subunit E1	22	false	true	true	false	0.0	0.0	0.1017	0.074
+ENSG00000123472	64756	ATPAF1	ATP synthase mitochondrial F1 complex assembly factor 1	1	true	true	true	true	0.0	0.047	0.8201	0.569
+ENSG00000171953	91647	ATPAF2	ATP synthase mitochondrial F1 complex assembly factor 2	17	true	true	true	false	1.0	0.999	0.9262	0.827
+ENSG00000130770	93974	ATPIF1	ATPase inhibitory factor 1	1	true	true	true	true	0.0	0.996	0.6279	0.637
+ENSG00000088812	8455	ATRN	attractin	20	false	true	false	false	1.0	0.884	0.2644	0.659
+ENSG00000148090	549	AUH	AU RNA binding protein/enoyl-CoA hydratase	9	true	true	true	false	0.0	0.976	0.9446	0.513
+ENSG00000175756	54998	AURKAIP1	aurora kinase A interacting protein 1	1	true	true	true	true	1.0	0.903	0.9771	0.815
+ENSG00000142920	113451	AZIN2	antizyme inhibitor 2	1	false	true	true	false	0.0	0.0	0.0455	0.044
+ENSG00000002330	572	BAD	BCL2-associated agonist of cell death	11	true	true	true	true	0.0	0.0	0.0088	0.064
+ENSG00000030110	578	BAK1	BCL2-antagonist/killer 1	6	true	true	true	false	0.0	0.0	0.0018	0.106
+ENSG00000087088	581	BAX	BCL2-associated X protein	19	true	true	true	false	0.0	0.0	0.0172	0.046
+ENSG00000105327	27113	BBC3	BCL2 binding component 3	19	false	true	true	false	0.0	0.034	0.995	0.327
+ENSG00000129151	8424	BBOX1	butyrobetaine (gamma), 2-oxoglutarate dioxygenase (gamma-butyrobetaine hydroxylase) 1	11	false	true	true	false	0.0	0.0	0.0353	0.054
+ENSG00000105552	587	BCAT2	branched chain amino-acid transaminase 2, mitochondrial	19	true	true	true	false	1.0	0.966	0.9722	0.684
+ENSG00000248098	593	BCKDHA	branched chain keto acid dehydrogenase E1, alpha polypeptide	19	true	true	true	false	1.0	0.993	0.997	0.939
+ENSG00000083123	594	BCKDHB	branched chain keto acid dehydrogenase E1, beta polypeptide	6	true	true	true	false	1.0	0.996	0.816	0.767
+ENSG00000103507	10295	BCKDK	branched chain ketoacid dehydrogenase kinase	16	true	true	true	true	1.0	0.993	0.8491	0.898
+ENSG00000171791	596	BCL2	B-cell CLL/lymphoma 2	18	true	true	true	false	0.0	0.033	0.0383	0.11
+ENSG00000171552	598	BCL2L1	BCL2-like 1	20	true	true	true	true	0.0	0.0	0.2664	0.115
+ENSG00000137875	10017	BCL2L10	BCL2-like 10 (apoptosis facilitator)	15	false	true	true	false	0.0	0.0	0.0212	0.05
+ENSG00000153094	10018	BCL2L11	BCL2-like 11 (apoptosis facilitator)	2	false	true	true	false	0.0	0.0	0.0242	0.102
+ENSG00000099968	23786	BCL2L13	BCL2-like 13 (apoptosis facilitator)	22	true	true	true	true	0.0	0.0	0.0031	0.081
+ENSG00000197580	83875	BCO2	beta-carotene oxygenase 2	11	false	true	true	false	0.0	0.746	0.9901	0.77
+ENSG00000074582	617	BCS1L	BC1 (ubiquinol-cytochrome c reductase) synthesis-like	2	true	true	true	false	0.0	0.003	0.0232	0.084
+ENSG00000161267	""	BDH1	3-hydroxybutyrate dehydrogenase, type 1	3	true	true	true	true	1.0	0.991	0.9748	0.942
+ENSG00000015475	637	BID	BH3 interacting domain death agonist	22	true	true	true	false	0.0	0.0	0.0263	0.046
+ENSG00000259571	414899	BLID	BH3-like motif containing, cell death inducer	11	false	true	true	false	0.0	0.0	0.0222	0.052
+ENSG00000259040	""	BLOC1S5-TXNDC5	BLOC1S5-TXNDC5 readthrough (NMD candidate)	6	false	true	false	false	0.0	0.0	0.3731	0.14
+ENSG00000104081	90427	BMF	Bcl2 modifying factor	15	false	true	true	false	0.0	0.0	0.0283	0.082
+ENSG00000176171	664	BNIP3	BCL2/adenovirus E1B 19kDa interacting protein 3	10	true	true	true	false	0.0	0.0	0.0088	0.091
+ENSG00000104765	665	BNIP3L	BCL2/adenovirus E1B 19kDa interacting protein 3-like	8	true	true	true	true	0.0	0.0	0.0093	0.101
+ENSG00000178096	51027	BOLA1	bolA family member 1	1	true	true	true	false	0.0	0.131	0.4613	0.567
+ENSG00000163170	388962	BOLA3	bolA family member 3	2	true	true	false	false	0.0	0.57	0.9537	0.785
+ENSG00000137274	670	BPHL	biphenyl hydrolase-like (serine hydrolase)	6	true	true	true	true	1.0	0.648	0.8529	0.92
+ENSG00000162813	10380	BPNT1	3'(2'), 5'-bisphosphate nucleotidase 1	1	false	true	false	false	0.0	0.872	0.9877	0.534
+ENSG00000172270	682	BSG	basigin (Ok blood group)	19	false	true	true	false	0.0	0.0	0.0505	0.136
+ENSG00000169814	686	BTD	biotinidase	3	false	true	true	false	1.0	0.012	0.7619	0.7
+ENSG00000124508	10385	BTN2A2	butyrophilin, subfamily 2, member A2	6	false	true	false	true	0.0	0.0	0.0061	0.004
+ENSG00000005379	9256	BZRAP1	benzodiazepine receptor (peripheral) associated protein 1	17	false	true	true	true	0.0	0.0	0.0814	0.079
+ENSG00000107815	56652	C10orf2	chromosome 10 open reading frame 2	10	true	true	true	false	1.0	0.367	0.9565	0.828
+ENSG00000139637	""	C12orf10	chromosome 12 open reading frame 10	12	true	true	true	false	0.0	0.481	0.5566	0.518
+ENSG00000130921	91574	C12orf65	chromosome 12 open reading frame 65	12	true	true	true	true	0.0	0.028	0.3915	0.201
+ENSG00000133943	80017	C14orf159	chromosome 14 open reading frame 159	14	true	true	true	false	1.0	0.945	0.7664	0.898
+ENSG00000087302	51637	C14orf166	chromosome 14 open reading frame 166	14	false	true	false	false	0.0	0.05	0.3715	0.177
+ENSG00000156411	9556	C14orf2	chromosome 14 open reading frame 2	14	true	true	true	true	0.0	0.081	0.1134	0.041
+ENSG00000169609	123207	C15orf40	chromosome 15 open reading frame 40	15	true	true	false	false	1.0	0.994	0.9677	0.88
+ENSG00000166920	84419	C15orf48	chromosome 15 open reading frame 48	15	true	true	true	false	0.0	0.003	0.1176	0.127
+ENSG00000189227	145853	C15orf61	chromosome 15 open reading frame 61	15	true	true	false	false	1.0	0.97	0.888	0.867
+ENSG00000188277	643338	C15orf62	chromosome 15 open reading frame 62	15	false	true	true	false	1.0	0.39	0.8131	0.927
+ENSG00000174109	283951	C16orf91	chromosome 16 open reading frame 91	16	true	true	false	false	0.0	0.973	0.8222	0.894
+ENSG00000131943	83636	C19orf12	chromosome 19 open reading frame 12	19	false	true	true	false	0.0	0.0	0.1504	0.101
+ENSG00000142444	90580	C19orf52	chromosome 19 open reading frame 52	19	true	true	false	true	1.0	0.939	0.8272	0.921
+ENSG00000174917	125988	C19orf70	chromosome 19 open reading frame 70	19	true	true	true	true	0.0	0.029	0.7425	0.316
+ENSG00000108561	708	C1QBP	complement component 1, q subcomponent binding protein	17	true	true	true	true	1.0	0.999	0.9583	0.908
+ENSG00000162913	""	C1orf145	chromosome 1 open reading frame 145	1	false	true	false	false	1.0	0.285	0.8517	0.923
+ENSG00000160221	8209	C21orf33	chromosome 21 open reading frame 33	21	true	true	true	true	0.0	0.994	0.9708	0.925
+ENSG00000162972	79568	C2orf47	chromosome 2 open reading frame 47	2	true	true	true	true	1.0	0.917	0.9877	0.841
+ENSG00000135974	79074	C2orf49	chromosome 2 open reading frame 49	2	false	true	false	true	0.0	0.0	0.0851	0.019
+ENSG00000178074	205327	C2orf69	chromosome 2 open reading frame 69	2	true	true	false	false	0.0	0.005	0.2113	0.186
+ENSG00000174928	285315	C3orf33	chromosome 3 open reading frame 33	3	true	true	false	false	0.0	0.0	0.0132	0.084
+ENSG00000186493	153571	C5orf38	chromosome 5 open reading frame 38	5	false	true	false	false	1.0	0.871	0.9925	0.738
+ENSG00000164241	401207	C5orf63	chromosome 5 open reading frame 63	5	true	true	true	true	1.0	0.937	0.7215	0.863
+ENSG00000204564	""	C6orf136	chromosome 6 open reading frame 136	6	true	true	true	false	1.0	0.391	0.8333	0.789
+ENSG00000130349	51250	C6orf203	chromosome 6 open reading frame 203	6	true	true	true	false	0.0	0.148	0.8307	0.264
+ENSG00000164898	154791	C7orf55	chromosome 7 open reading frame 55	7	true	true	true	false	1.0	0.597	0.9041	0.843
+ENSG00000213563	414919	C8orf82	chromosome 8 open reading frame 82	8	true	true	false	false	1.0	0.424	0.4229	0.825
+ENSG00000165233	84270	C9orf89	chromosome 9 open reading frame 89	9	false	true	true	true	0.0	0.0	0.2962	0.115
+ENSG00000174990	763	CA5A	carbonic anhydrase VA, mitochondrial	16	true	true	true	false	1.0	0.996	0.8123	0.442
+ENSG00000169239	11238	CA5B	carbonic anhydrase VB, mitochondrial	X	true	true	true	true	1.0	0.996	0.9447	0.888
+ENSG00000179218	811	CALR	calreticulin	19	false	true	false	false	0.0	0.0	0.0017	0.02
+ENSG00000070808	815	CAMK2A	calcium/calmodulin-dependent protein kinase II alpha	5	false	true	true	false	0.0	0.012	0.1819	0.11
+ENSG00000144712	23066	CAND2	cullin-associated and neddylation-dissociated 2 (putative)	3	false	true	false	false	0.0	0.006	0.3088	0.074
+ENSG00000127022	821	CANX	calnexin	5	false	true	false	false	0.0	0.0	0.0014	0.019
+ENSG00000110888	65981	CAPRIN2	caprin family member 2	12	false	true	true	false	0.0	0.0	0.0107	0.104
+ENSG00000116489	829	CAPZA1	capping protein (actin filament) muscle Z-line, alpha 1	1	false	true	false	false	0.0	0.0	0.114	0.055
+ENSG00000213995	55739	CARKD	carbohydrate kinase domain containing	13	true	true	true	false	0.0	0.012	0.1239	0.08
+ENSG00000134905	79587	CARS2	cysteinyl-tRNA synthetase 2, mitochondrial (putative)	13	true	true	true	true	0.0	0.662	0.4831	0.759
+ENSG00000106144	835	CASP2	caspase 2, apoptosis-related cysteine peptidase	7	false	true	true	false	0.0	0.0	0.0875	0.569
+ENSG00000064012	841	CASP8	caspase 8, apoptosis-related cysteine peptidase	2	true	true	true	true	0.0	0.0	0.087	0.038
+ENSG00000143318	844	CASQ1	calsequestrin 1 (fast-twitch, skeletal muscle)	1	false	true	true	false	0.0	0.0	0.3471	0.114
+ENSG00000145439	84869	CBR4	carbonyl reductase 4	4	true	true	true	false	0.0	0.075	0.9824	0.698
+ENSG00000137944	56267	CCBL2	cysteine conjugate-beta lyase 2	1	true	true	true	false	1.0	0.818	0.9966	0.918
+ENSG00000005059	55013	CCDC109B	coiled-coil domain containing 109B	4	true	true	true	false	1.0	0.78	0.945	0.799
+ENSG00000164366	133957	CCDC127	coiled-coil domain containing 127	5	true	true	false	false	0.0	0.019	0.0622	0.148
+ENSG00000164051	79714	CCDC51	coiled-coil domain containing 51	3	true	true	true	true	1.0	0.916	0.254	0.839
+ENSG00000160124	131076	CCDC58	coiled-coil domain containing 58	3	true	true	true	true	0.0	0.0	0.0146	0.059
+ENSG00000137500	60492	CCDC90B	coiled-coil domain containing 90B	11	true	true	true	true	1.0	0.942	0.9854	0.94
+ENSG00000158402	995	CDC25C	cell division cycle 25C	5	true	true	false	false	0.0	0.0	0.074	0.268
+ENSG00000170312	983	CDK1	cyclin-dependent kinase 1	10	false	true	true	false	0.0	0.0	0.0195	0.068
+ENSG00000223510	146822	CDRT15	CMT1A duplicated region transcript 15	17	false	true	false	false	1.0	0.634	0.9982	0.756
+ENSG00000101290	8760	CDS2	CDP-diacylglycerol synthase (phosphatidate cytidylyltransferase) 2	20	false	true	true	false	0.0	0.0	0.0392	0.106
+ENSG00000218739	""	CEBPZOS	CEBPZ opposite strand	2	false	true	true	false	0.0	0.005	0.3283	0.084
+ENSG00000069998	27440	CECR5	cat eye syndrome chromosome region, candidate 5	22	true	true	true	true	0.0	0.949	0.9729	0.878
+ENSG00000121289	84902	CEP89	centrosomal protein 89kDa	19	true	true	true	false	0.0	0.716	0.8955	0.821
+ENSG00000172757	1072	CFL1	cofilin 1 (non-muscle)	11	false	true	false	false	0.0	0.004	0.4397	0.155
+ENSG00000280071	8209	CH507-9B2.3	Protein LOC102724023; Uncharacterized protein 	21	false	true	false	false	0.0	0.993	0.9712	0.936
+ENSG00000172586	118487	CHCHD1	coiled-coil-helix-coiled-coil-helix domain containing 1	10	true	true	true	true	1.0	0.107	0.8041	0.802
+ENSG00000250479	""	CHCHD10	coiled-coil-helix-coiled-coil-helix domain containing 10	22	true	true	true	true	1.0	0.013	0.4981	0.872
+ENSG00000106153	51142	CHCHD2	coiled-coil-helix-coiled-coil-helix domain containing 2	7	true	true	true	true	1.0	0.132	0.9734	0.899
+ENSG00000106554	54927	CHCHD3	coiled-coil-helix-coiled-coil-helix domain containing 3	7	true	true	true	true	0.0	0.0	0.0668	0.137
+ENSG00000163528	131474	CHCHD4	coiled-coil-helix-coiled-coil-helix domain containing 4	3	true	true	true	true	0.0	0.0	0.0667	0.119
+ENSG00000125611	84269	CHCHD5	coiled-coil-helix-coiled-coil-helix domain containing 5	2	true	true	true	true	0.0	0.055	0.199	0.089
+ENSG00000159685	84303	CHCHD6	coiled-coil-helix-coiled-coil-helix domain containing 6	3	true	true	true	true	0.0	0.0	0.0068	0.095
+ENSG00000016391	55349	CHDH	choline dehydrogenase	3	true	true	true	false	0.0	0.965	0.9248	0.957
+ENSG00000187446	11261	CHP1	calcineurin-like EF-hand protein 1	15	false	true	false	false	0.0	0.0	0.037	0.101
+ENSG00000122873	55847	CISD1	CDGSH iron sulfur domain 1	10	true	true	true	true	0.0	0.0	0.6221	0.12
+ENSG00000145354	493856	CISD2	CDGSH iron sulfur domain 2	4	true	true	true	false	0.0	0.078	0.3208	0.391
+ENSG00000277972	""	CISD3	CDGSH iron sulfur domain 3	17	false	true	true	false	1.0	0.585	0.5089	0.877
+ENSG00000166165	1152	CKB	creatine kinase, brain	14	false	true	true	false	0.0	0.013	0.0168	0.164
+ENSG00000223572	""	CKMT1A	creatine kinase, mitochondrial 1A	15	true	true	true	false	1.0	0.996	0.8597	0.921
+ENSG00000237289	""	CKMT1B	creatine kinase, mitochondrial 1B	15	false	true	true	false	1.0	0.996	0.8597	0.921
+ENSG00000131730	1160	CKMT2	creatine kinase, mitochondrial 2 (sarcomeric)	5	true	true	true	false	0.0	0.996	0.7787	0.619
+ENSG00000169504	25932	CLIC4	chloride intracellular channel 4	1	true	true	true	false	0.0	0.0	0.0042	0.069
+ENSG00000162129	81570	CLPB	ClpB homolog, mitochondrial AAA ATPase chaperonin	11	true	true	true	false	1.0	0.999	0.9767	0.969
+ENSG00000125656	8192	CLPP	caseinolytic mitochondrial matrix peptidase proteolytic subunit	19	true	true	true	true	1.0	0.831	0.9915	0.932
+ENSG00000166855	10845	CLPX	caseinolytic mitochondrial matrix peptidase chaperone subunit	15	true	true	true	true	0.0	0.41	0.9734	0.499
+ENSG00000132361	23277	CLUH	clustered mitochondria (cluA/CLU1) homolog	17	false	true	false	false	0.0	0.0	0.0341	0.058
+ENSG00000125246	171425	CLYBL	citrate lyase beta like	13	true	true	true	false	1.0	0.998	0.9985	0.962
+ENSG00000187118	152100	CMC1	C-x(9)-C motif containing 1	3	true	true	true	false	0.0	0.0	0.0514	0.087
+ENSG00000103121	56942	CMC2	C-x(9)-C motif containing 2	16	true	true	true	true	0.0	0.0	0.0089	0.071
+ENSG00000182712	100272147	CMC4	C-x(9)-C motif containing 4	X	true	true	true	true	0.0	0.009	0.0354	0.078
+ENSG00000134326	129607	CMPK2	cytidine monophosphate (UMP-CMP) kinase 2, mitochondrial	2	true	true	true	true	1.0	0.983	0.9807	0.958
+ENSG00000106603	55744	COA1	cytochrome c oxidase assembly factor 1 homolog	7	true	true	true	true	1.0	0.683	0.9887	0.834
+ENSG00000183978	28958	COA3	cytochrome c oxidase assembly factor 3	17	true	true	true	true	0.0	0.0	0.0181	0.104
+ENSG00000181924	51287	COA4	cytochrome c oxidase assembly factor 4 homolog	11	true	true	true	true	0.0	0.0	0.0599	0.16
+ENSG00000183513	493753	COA5	cytochrome c oxidase assembly factor 5	2	true	true	true	true	0.0	0.0	0.0041	0.027
+ENSG00000168275	388753	COA6	cytochrome c oxidase assembly factor 6	1	true	true	true	true	0.0	0.152	0.0515	0.501
+ENSG00000162377	65260	COA7	cytochrome c oxidase assembly factor 7 (putative)	1	true	true	true	true	0.0	0.0	0.0388	0.05
+ENSG00000068120	80347	COASY	CoA synthase	17	true	true	true	false	0.0	0.659	0.464	0.567
+ENSG00000165644	118881	COMTD1	catechol-O-methyltransferase domain containing 1	10	true	true	true	false	0.0	0.016	0.7548	0.219
+ENSG00000135469	93058	COQ10A	coenzyme Q10A	12	true	true	true	false	1.0	0.774	0.6774	0.812
+ENSG00000115520	80219	COQ10B	coenzyme Q10B	2	true	true	true	false	1.0	0.985	0.9926	0.881
+ENSG00000173085	27235	COQ2	coenzyme Q2 4-hydroxybenzoate polyprenyltransferase	4	true	true	true	false	0.0	0.976	0.9253	0.959
+ENSG00000132423	51805	COQ3	coenzyme Q3 methyltransferase	6	true	true	true	true	1.0	0.698	0.9962	0.849
+ENSG00000167113	51117	COQ4	coenzyme Q4	9	true	true	true	false	1.0	0.996	0.9958	0.889
+ENSG00000110871	84274	COQ5	coenzyme Q5, methyltransferase	12	true	true	true	true	0.0	0.605	0.9734	0.745
+ENSG00000119723	51004	COQ6	coenzyme Q6 monooxygenase	14	true	true	true	false	1.0	0.981	0.8948	0.933
+ENSG00000167186	10229	COQ7	coenzyme Q7 homolog, ubiquinone (yeast)	16	true	true	true	false	1.0	0.989	0.9989	0.94
+ENSG00000088682	57017	COQ9	coenzyme Q9	16	true	true	true	false	1.0	0.939	0.9881	0.96
+ENSG00000006695	1352	COX10	COX10 heme A:farnesyltransferase cytochrome c oxidase assembly factor	17	true	true	true	true	0.0	0.996	0.3922	0.434
+ENSG00000166260	1353	COX11	COX11 cytochrome c oxidase copper chaperone	17	true	true	true	false	1.0	0.996	0.7411	0.817
+ENSG00000178449	84987	COX14	COX14 cytochrome c oxidase assembly factor	12	true	true	true	true	0.0	0.05	0.03	0.169
+ENSG00000014919	1355	COX15	cytochrome c oxidase assembly homolog 15 (yeast)	10	true	true	true	true	1.0	0.869	0.9755	0.899
+ENSG00000133983	51241	COX16	COX16 cytochrome c oxidase assembly homolog	14	true	true	true	false	1.0	0.556	0.9282	0.31
+ENSG00000138495	10063	COX17	COX17 cytochrome c oxidase copper chaperone	3	true	true	true	true	0.0	0.0	0.0246	0.085
+ENSG00000163626	285521	COX18	COX18 cytochrome c oxidase assembly factor	4	true	true	true	false	1.0	0.41	0.9258	0.863
+ENSG00000240230	90639	COX19	COX19 cytochrome c oxidase assembly factor	7	true	true	true	false	0.0	0.004	0.1075	0.281
+ENSG00000203667	116228	COX20	COX20 cytochrome c oxidase assembly factor	1	true	true	true	true	0.0	0.0	0.0081	0.056
+ENSG00000131143	1327	COX4I1	cytochrome c oxidase subunit IV isoform 1	16	true	true	true	true	0.0	0.996	0.9807	0.781
+ENSG00000131055	84701	COX4I2	cytochrome c oxidase subunit IV isoform 2 (lung)	20	true	true	true	false	1.0	0.929	0.528	0.716
+ENSG00000178741	9377	COX5A	cytochrome c oxidase subunit Va	15	true	true	true	false	1.0	0.996	0.8249	0.945
+ENSG00000135940	1329	COX5B	cytochrome c oxidase subunit Vb	2	true	true	true	true	1.0	1.0	0.9908	0.944
+ENSG00000111775	1337	COX6A1	cytochrome c oxidase subunit VIa polypeptide 1	12	true	true	true	false	1.0	0.924	0.7865	0.929
+ENSG00000156885	1339	COX6A2	cytochrome c oxidase subunit VIa polypeptide 2	16	true	true	true	false	1.0	0.999	0.2347	0.752
+ENSG00000126267	1340	COX6B1	cytochrome c oxidase subunit VIb polypeptide 1 (ubiquitous)	19	true	true	true	true	0.0	0.003	0.0539	0.105
+ENSG00000160471	125965	COX6B2	cytochrome c oxidase subunit VIb polypeptide 2 (testis)	19	true	true	true	false	0.0	0.005	0.0044	0.092
+ENSG00000164919	1345	COX6C	cytochrome c oxidase subunit VIc	8	true	true	true	true	1.0	0.673	0.7198	0.723
+ENSG00000161281	1346	COX7A1	cytochrome c oxidase subunit VIIa polypeptide 1 (muscle)	19	true	true	true	false	1.0	0.997	0.9911	0.911
+ENSG00000112695	1347	COX7A2	cytochrome c oxidase subunit VIIa polypeptide 2 (liver)	6	true	true	true	false	1.0	0.996	0.9991	0.842
+ENSG00000115944	9167	COX7A2L	cytochrome c oxidase subunit VIIa polypeptide 2 like	2	true	true	true	true	0.0	0.179	0.0325	0.237
+ENSG00000131174	1349	COX7B	cytochrome c oxidase subunit VIIb	X	true	true	true	false	1.0	0.996	0.9694	0.836
+ENSG00000170516	170712	COX7B2	cytochrome c oxidase subunit VIIb2	4	false	true	true	false	1.0	0.749	0.8655	0.766
+ENSG00000127184	1350	COX7C	cytochrome c oxidase subunit VIIc	5	true	true	true	false	1.0	0.813	0.9194	0.598
+ENSG00000176340	1351	COX8A	cytochrome c oxidase subunit VIIIA (ubiquitous)	11	true	true	true	false	1.0	0.996	0.8861	0.889
+ENSG00000187581	""	COX8C	cytochrome c oxidase subunit VIIIC	14	true	true	true	false	1.0	0.905	0.985	0.954
+ENSG00000080819	1371	CPOX	coproporphyrinogen oxidase	3	true	true	true	true	0.0	0.996	0.6002	0.458
+ENSG00000104324	10404	CPQ	carboxypeptidase Q	8	false	true	false	false	0.0	0.015	0.5231	0.191
+ENSG00000021826	1373	CPS1	carbamoyl-phosphate synthase 1, mitochondrial	2	true	true	true	false	1.0	0.758	0.9674	0.86
+ENSG00000110090	1374	CPT1A	carnitine palmitoyltransferase 1A (liver)	11	true	true	true	true	0.0	0.01	0.0025	0.125
+ENSG00000205560	1375	CPT1B	carnitine palmitoyltransferase 1B (muscle)	22	true	true	true	false	0.0	0.0	0.0032	0.108
+ENSG00000169169	126129	CPT1C	carnitine palmitoyltransferase 1C	19	true	true	true	false	0.0	0.0	0.0068	0.092
+ENSG00000157184	1376	CPT2	carnitine palmitoyltransferase 2	1	true	true	true	true	1.0	0.996	0.9923	0.915
+ENSG00000095321	1384	CRAT	carnitine O-acetyltransferase	9	true	true	true	false	1.0	0.958	0.9908	0.816
+ENSG00000088766	54675	CRLS1	cardiolipin synthase 1	20	true	true	true	false	1.0	0.992	0.8502	0.849
+ENSG00000008405	1407	CRY1	cryptochrome circadian clock 1	12	true	true	true	false	0.0	0.186	0.5828	0.392
+ENSG00000109846	1410	CRYAB	crystallin, alpha B	11	false	true	true	false	0.0	0.024	0.3697	0.319
+ENSG00000116791	1429	CRYZ	crystallin, zeta (quinone reductase)	1	true	true	false	false	0.0	0.029	0.1845	0.554
+ENSG00000062485	1431	CS	citrate synthase	12	true	true	true	true	1.0	0.996	0.8446	0.675
+ENSG00000124207	1434	CSE1L	CSE1 chromosome segregation 1-like (yeast)	20	false	true	false	false	0.0	0.0	0.0637	0.077
+ENSG00000070770	1459	CSNK2A2	casein kinase 2, alpha prime polypeptide	16	false	true	false	false	0.0	0.021	0.0819	0.486
+ENSG00000204435	""	CSNK2B	casein kinase 2, beta polypeptide	6	false	true	false	false	0.0	0.0	0.0363	0.052
+ENSG00000255730	""	CTC-435M10.3	Uncharacterized protein 	19	false	true	false	false	0.0	0.0	0.1331	0.076
+ENSG00000064601	5476	CTSA	cathepsin A	20	false	true	true	false	0.0	0.0	0.1024	0.011
+ENSG00000109861	1075	CTSC	cathepsin C	11	false	true	false	false	0.0	0.0	0.0025	0.028
+ENSG00000174177	348180	CTU2	cytosolic thiouridylase subunit 2 homolog (S. pombe)	16	false	true	true	true	0.0	0.0	0.0084	0.052
+ENSG00000165182	254158	CXorf58	chromosome X open reading frame 58	X	false	true	false	false	0.0	0.968	0.9822	0.757
+ENSG00000166347	1528	CYB5A	cytochrome b5 type A (microsomal)	18	true	true	true	false	0.0	0.0	0.0142	0.069
+ENSG00000103018	80777	CYB5B	cytochrome b5 type B (outer mitochondrial membrane)	16	true	true	true	false	0.0	0.0	0.0111	0.063
+ENSG00000159348	51706	CYB5R1	cytochrome b5 reductase 1	1	false	true	true	true	0.0	0.0	0.6619	0.088
+ENSG00000100243	1727	CYB5R3	cytochrome b5 reductase 3	22	true	true	true	false	0.0	0.009	0.7346	0.042
+ENSG00000179091	1537	CYC1	cytochrome c-1	8	true	true	true	true	0.0	0.995	0.8091	0.831
+ENSG00000172115	54205	CYCS	cytochrome c, somatic	7	true	true	true	true	0.0	0.006	0.0318	0.078
+ENSG00000140459	1583	CYP11A1	cytochrome P450, family 11, subfamily A, polypeptide 1	15	true	true	true	false	1.0	0.996	0.8531	0.648
+ENSG00000160882	1584	CYP11B1	cytochrome P450, family 11, subfamily B, polypeptide 1	8	false	true	true	false	1.0	0.996	0.9974	0.54
+ENSG00000179142	1585	CYP11B2	cytochrome P450, family 11, subfamily B, polypeptide 2	8	true	true	true	false	1.0	0.997	0.9824	0.72
+ENSG00000148795	1586	CYP17A1	cytochrome P450, family 17, subfamily A, polypeptide 1	10	false	true	true	false	0.0	0.008	0.6447	0.118
+ENSG00000019186	1591	CYP24A1	cytochrome P450, family 24, subfamily A, polypeptide 1	20	true	true	true	true	1.0	0.7	0.9882	0.929
+ENSG00000135929	1593	CYP27A1	cytochrome P450, family 27, subfamily A, polypeptide 1	2	true	true	true	true	1.0	0.997	0.9975	0.931
+ENSG00000111012	1594	CYP27B1	cytochrome P450, family 27, subfamily B, polypeptide 1	12	true	true	true	false	1.0	0.996	0.6759	0.892
+ENSG00000180902	728294	D2HGDH	D-2-hydroxyglutarate dehydrogenase	2	true	true	true	false	1.0	0.963	0.9642	0.785
+ENSG00000132676	7818	DAP3	death associated protein 3	1	true	true	true	true	0.0	0.982	0.8964	0.869
+ENSG00000117593	55157	DARS2	aspartyl-tRNA synthetase 2, mitochondrial	1	true	true	true	true	1.0	0.585	0.998	0.88
+ENSG00000155368	1622	DBI	diazepam binding inhibitor (GABA receptor modulator, acyl-CoA binding protein)	2	true	true	true	false	0.0	0.0	0.2442	0.068
+ENSG00000137992	1629	DBT	dihydrolipoamide branched chain transacylase E2	1	true	true	true	true	1.0	0.989	0.9977	0.942
+ENSG00000172992	79877	DCAKD	dephospho-CoA kinase domain containing	17	true	true	true	false	0.0	0.01	0.139	0.221
+ENSG00000169738	51181	DCXR	dicarbonyl/L-xylulose reductase	17	true	true	false	false	1.0	0.079	0.8191	0.868
+ENSG00000099977	""	DDT	D-dopachrome tautomerase	22	false	true	false	true	0.0	0.004	0.014	0.115
+ENSG00000182810	55794	DDX28	DEAD (Asp-Glu-Ala-Asp) box polypeptide 28	16	true	true	true	true	0.0	0.975	0.991	0.827
+ENSG00000104325	1666	DECR1	2,4-dienoyl CoA reductase 1, mitochondrial	8	true	true	true	true	1.0	0.989	0.9847	0.87
+ENSG00000077044	""	DGKD	diacylglycerol kinase, delta 130kDa	2	false	true	false	false	0.0	0.0	8.0E-4	0.117
+ENSG00000114956	1716	DGUOK	deoxyguanosine kinase	2	true	true	true	false	1.0	0.996	0.9563	0.871
+ENSG00000178700	200895	DHFRL1	dihydrofolate reductase-like 1	3	false	true	true	false	0.0	0.084	0.0219	0.121
+ENSG00000102967	1723	DHODH	dihydroorotate dehydrogenase (quinone)	16	true	true	true	true	0.0	0.996	0.3239	0.157
+ENSG00000157379	115817	DHRS1	dehydrogenase/reductase (SDR family) member 1	14	true	true	true	false	0.0	0.041	0.9126	0.582
+ENSG00000100867	10202	DHRS2	dehydrogenase/reductase (SDR family) member 2	14	false	true	true	true	1.0	0.908	0.9053	0.893
+ENSG00000187630	""	DHRS4L2	dehydrogenase/reductase (SDR family) member 4 like 2	14	false	true	false	false	1.0	0.982	0.9979	0.941
+ENSG00000181192	55526	DHTKD1	dehydrogenase E1 and transketolase domain containing 1	10	true	true	true	true	1.0	0.983	0.9825	0.851
+ENSG00000132153	22907	DHX30	DEAH (Asp-Glu-Ala-His) box helicase 30	3	true	true	true	true	1.0	0.012	0.006	0.674
+ENSG00000184047	56616	DIABLO	diablo, IAP-binding mitochondrial protein	12	true	true	true	true	1.0	0.598	0.987	0.971
+ENSG00000150768	1737	DLAT	dihydrolipoamide S-acetyltransferase	11	true	true	true	true	0.0	0.996	0.6085	0.725
+ENSG00000091140	1738	DLD	dihydrolipoamide dehydrogenase	7	true	true	true	true	1.0	0.996	0.9127	0.908
+ENSG00000119689	1743	DLST	dihydrolipoamide S-succinyltransferase (E2 component of 2-oxo-glutarate complex)	14	true	true	true	true	1.0	0.999	0.9995	0.894
+ENSG00000132837	29958	DMGDH	dimethylglycine dehydrogenase	5	true	true	true	false	1.0	0.995	0.9937	0.843
+ENSG00000104936	1760	DMPK	dystrophia myotonica-protein kinase	19	true	true	true	false	0.0	0.0	0.0159	0.117
+ENSG00000138346	1763	DNA2	DNA replication helicase/nuclease 2	10	true	true	true	true	0.0	0.0	0.0234	0.04
+ENSG00000103423	""	DNAJA3	DnaJ (Hsp40) homolog, subfamily A, member 3	16	true	true	true	true	1.0	0.333	0.9837	0.717
+ENSG00000007923	55735	DNAJC11	DnaJ (Hsp40) homolog, subfamily C, member 11	1	true	true	true	false	0.0	0.0	0.0477	0.065
+ENSG00000120675	29103	DNAJC15	DnaJ (Hsp40) homolog, subfamily C, member 15	13	true	true	true	false	0.0	0.004	0.0818	0.24
+ENSG00000205981	131118	DNAJC19	DnaJ (Hsp40) homolog, subfamily C, member 19	3	true	true	true	false	0.0	0.028	0.6015	0.344
+ENSG00000176410	84277	DNAJC30	DnaJ (Hsp40) homolog, subfamily C, member 30	7	true	true	true	false	1.0	0.85	0.8125	0.957
+ENSG00000110011	3338	DNAJC4	DnaJ (Hsp40) homolog, subfamily C, member 4	11	true	true	true	false	1.0	0.815	0.9679	0.939
+ENSG00000213221	728489	DNLZ	DNL-type zinc finger	9	false	true	true	true	1.0	1.0	0.9999	0.897
+ENSG00000087470	10059	DNM1L	dynamin 1-like	12	true	true	true	false	0.0	0.0	0.0502	0.062
+ENSG00000197959	26052	DNM3	dynamin 3	1	false	true	true	false	0.0	0.007	0.4814	0.057
+ENSG00000092964	1808	DPYSL2	dihydropyrimidinase-like 2	8	false	true	true	false	1.0	0.0	0.3916	0.157
+ENSG00000168393	1841	DTYMK	deoxythymidylate kinase (thymidylate kinase)	2	true	true	true	true	1.0	0.004	0.5778	0.588
+ENSG00000133878	78986	DUSP26	dual specificity phosphatase 26 (putative)	8	true	true	true	false	1.0	0.551	0.9624	0.846
+ENSG00000128951	1854	DUT	deoxyuridine triphosphatase	15	true	true	true	false	1.0	0.996	0.9987	0.786
+ENSG00000103356	124454	EARS2	glutamyl-tRNA synthetase 2, mitochondrial	16	true	true	true	true	1.0	0.94	0.9936	0.909
+ENSG00000104823	1891	ECH1	enoyl CoA hydratase 1, peroxisomal	19	true	true	true	false	1.0	0.996	0.9802	0.93
+ENSG00000093144	55862	ECHDC1	ethylmalonyl-CoA decarboxylase 1	6	true	true	false	false	0.0	0.379	0.868	0.425
+ENSG00000121310	55268	ECHDC2	enoyl CoA hydratase domain containing 2	1	true	true	true	false	1.0	0.896	0.6906	0.852
+ENSG00000134463	79746	ECHDC3	enoyl CoA hydratase domain containing 3	10	true	true	true	true	1.0	0.427	0.976	0.913
+ENSG00000127884	1892	ECHS1	enoyl CoA hydratase, short chain, 1, mitochondrial	10	true	true	true	true	1.0	0.996	0.9954	0.915
+ENSG00000167969	1632	ECI1	enoyl-CoA delta isomerase 1	16	true	true	true	false	1.0	0.998	0.9852	0.892
+ENSG00000198721	10455	ECI2	enoyl-CoA delta isomerase 2	6	true	true	true	false	1.0	0.112	0.9773	0.938
+ENSG00000130159	51295	ECSIT	ECSIT signalling integrator	19	true	true	true	false	0.0	0.492	0.9932	0.69
+ENSG00000102189	8411	EEA1	early endosome antigen 1	12	false	true	false	false	0.0	0.732	0.8757	0.59
+ENSG00000254772	1937	EEF1G	eukaryotic translation elongation factor 1 gamma	11	false	true	false	true	0.0	0.038	0.1211	0.414
+ENSG00000024422	30846	EHD2	EH-domain containing 2	19	false	true	false	false	1.0	0.854	0.3721	0.743
+ENSG00000107581	8661	EIF3A	eukaryotic translation initiation factor 3, subunit A	10	false	true	false	false	0.0	0.01	0.1234	0.173
+ENSG00000006744	60528	ELAC2	elaC ribonuclease Z 2	17	true	true	true	false	1.0	0.939	0.9853	0.817
+ENSG00000126767	2002	ELK1	ELK1, member of ETS oncogene family	X	false	true	true	false	0.0	0.006	0.1083	0.058
+ENSG00000131148	10328	EMC8	ER membrane protein complex subunit 8	16	false	true	true	false	0.0	0.012	0.6244	0.095
+ENSG00000167136	2021	ENDOG	endonuclease G	9	true	true	true	false	0.0	0.116	0.7631	0.728
+ENSG00000132199	55556	ENOSF1	enolase superfamily member 1	18	false	true	true	false	1.0	0.154	0.9382	0.719
+ENSG00000086289	54749	EPDR1	ependymin related 1	7	false	true	false	false	0.0	0.099	0.7445	0.057
+ENSG00000143819	2052	EPHX1	epoxide hydrolase 1, microsomal (xenobiotic)	1	false	true	false	false	0.0	0.003	0.2401	0.032
+ENSG00000136628	2058	EPRS	glutamyl-prolyl-tRNA synthetase	1	false	true	false	false	0.0	0.0	0.0078	0.075
+ENSG00000132591	26284	ERAL1	Era-like 12S mitochondrial rRNA chaperone 1	17	true	true	true	true	1.0	0.854	0.9588	0.916
+ENSG00000178568	2066	ERBB4	erb-b2 receptor tyrosine kinase 4	2	false	true	true	false	0.0	0.004	0.0084	0.023
+ENSG00000187672	26059	ERC2	ELKS/RAB6-interacting/CAST family member 2	3	false	true	false	false	1.0	0.364	0.2451	0.626
+ENSG00000182150	375748	ERCC6L2	excision repair cross-complementation group 6-like 2	9	false	true	true	false	0.0	0.0	0.0278	0.22
+ENSG00000140009	2100	ESR2	estrogen receptor 2 (ER beta)	14	false	true	true	false	0.0	0.0	0.0509	0.104
+ENSG00000140374	2108	ETFA	electron-transfer-flavoprotein, alpha polypeptide	15	true	true	true	true	1.0	0.997	0.9863	0.763
+ENSG00000105379	2109	ETFB	electron-transfer-flavoprotein, beta polypeptide	19	true	true	true	true	0.0	0.083	0.2458	0.207
+ENSG00000171503	2110	ETFDH	electron-transferring-flavoprotein dehydrogenase	4	true	true	true	false	0.0	0.996	0.8956	0.285
+ENSG00000105755	23474	ETHE1	ethylmalonic encephalopathy 1	19	true	true	true	true	1.0	0.997	0.9036	0.888
+ENSG00000164089	64850	ETNPPL	ethanolamine-phosphate phospho-lyase	4	false	true	true	false	0.0	0.05	0.0096	0.277
+ENSG00000157036	9941	EXOG	endo/exonuclease (5'-3'), endonuclease G-like	3	true	true	true	false	1.0	0.991	0.9944	0.856
+ENSG00000180185	81889	FAHD1	fumarylacetoacetate hydrolase domain containing 1	16	true	true	true	true	0.0	0.123	0.8532	0.582
+ENSG00000115042	51011	FAHD2A	fumarylacetoacetate hydrolase domain containing 2A	2	true	true	false	false	1.0	0.79	0.5737	0.881
+ENSG00000144199	151313	FAHD2B	fumarylacetoacetate hydrolase domain containing 2B	2	false	true	false	false	1.0	0.884	0.7123	0.921
+ENSG00000212747	441518	FAM127C	family with sequence similarity 127, member C	X	false	true	false	false	1.0	0.809	0.9627	0.743
+ENSG00000035141	84908	FAM136A	family with sequence similarity 136, member A	2	true	true	false	true	0.0	0.0	0.1058	0.129
+ENSG00000051009	84067	FAM160A2	family with sequence similarity 160, member A2	11	false	true	false	true	1.0	0.841	0.8278	0.709
+ENSG00000114023	26355	FAM162A	family with sequence similarity 162, member A	3	true	true	true	true	1.0	0.533	0.073	0.775
+ENSG00000103254	65990	FAM173A	family with sequence similarity 173, member A	16	false	true	false	false	0.0	0.0	0.0234	0.075
+ENSG00000222011	222234	FAM185A	family with sequence similarity 185, member A	7	true	true	false	false	1.0	0.778	0.6778	0.634
+ENSG00000177150	125228	FAM210A	family with sequence similarity 210, member A	18	true	true	true	true	1.0	0.527	0.9228	0.804
+ENSG00000124098	116151	FAM210B	family with sequence similarity 210, member B	20	true	true	false	false	1.0	0.316	0.7893	0.853
+ENSG00000122378	84293	FAM213A	family with sequence similarity 213, member A	10	true	true	true	false	0.0	0.0	0.0316	0.013
+ENSG00000039523	79567	FAM65A	family with sequence similarity 65, member A	16	false	true	false	false	1.0	0.908	0.9956	0.952
+ENSG00000187773	125704	FAM69C	family with sequence similarity 69, member C	18	false	true	false	false	1.0	0.578	0.9391	0.583
+ENSG00000196550	729533	FAM72A	family with sequence similarity 72, member A	1	false	true	true	false	1.0	0.235	0.873	0.257
+ENSG00000138399	79675	FASTKD1	FAST kinase domains 1	2	true	true	true	false	1.0	0.87	0.8246	0.362
+ENSG00000118246	22868	FASTKD2	FAST kinase domains 2	2	true	true	true	true	0.0	0.318	0.7173	0.43
+ENSG00000124279	79072	FASTKD3	FAST kinase domains 3	5	true	true	true	false	1.0	0.261	0.6908	0.842
+ENSG00000215251	60493	FASTKD5	FAST kinase domains 5	20	true	true	true	false	1.0	0.438	0.9505	0.881
+ENSG00000112234	26235	FBXL4	F-box and leucine-rich repeat protein 4	6	true	true	true	false	0.0	0.598	0.9427	0.535
+ENSG00000137714	2230	FDX1	ferredoxin 1	11	true	true	true	true	1.0	0.996	0.9895	0.893
+ENSG00000267673	112812	FDX1L	ferredoxin 1-like	19	true	true	true	false	1.0	0.437	0.9495	0.871
+ENSG00000161513	2232	FDXR	ferredoxin reductase	17	true	true	true	false	1.0	0.74	0.183	0.882
+ENSG00000066926	2235	FECH	ferrochelatase	18	true	true	true	false	0.0	0.996	0.6669	0.882
+ENSG00000091483	2271	FH	fumarate hydratase	1	true	true	true	true	1.0	1.0	0.9977	0.955
+ENSG00000189283	2272	FHIT	fragile histidine triad	3	true	true	true	false	0.0	0.052	0.4193	0.523
+ENSG00000172500	9158	FIBP	fibroblast growth factor (acidic) intracellular binding protein	11	false	true	true	false	0.0	0.0	0.0358	0.047
+ENSG00000214253	51024	FIS1	fission, mitochondrial 1	7	true	true	true	true	0.0	0.0	0.0592	0.068
+ENSG00000141756	60681	FKBP10	FK506 binding protein 10, 65 kDa	17	true	true	false	false	0.0	0.0	0.5138	0.061
+ENSG00000105701	23770	FKBP8	FK506 binding protein 8, 38kDa	19	true	true	true	true	0.0	0.0	7.0E-4	0.059
+ENSG00000160688	80308	FLAD1	flavin adenine dinucleotide synthetase 1	1	true	true	true	false	1.0	0.249	0.7284	0.883
+ENSG00000196924	2316	FLNA	filamin A, alpha	X	false	true	false	false	0.0	0.0	0.0354	0.393
+ENSG00000137312	""	FLOT1	flotillin 1	6	false	true	false	false	0.0	0.006	0.214	0.273
+ENSG00000115414	2335	FN1	fibronectin 1	2	false	true	false	false	0.0	0.011	0.242	0.167
+ENSG00000110074	55572	FOXRED1	FAD-dependent oxidoreductase domain containing 1	11	true	true	true	true	1.0	0.975	0.9546	0.56
+ENSG00000136877	2356	FPGS	folylpolyglutamate synthase	9	true	true	true	false	1.0	0.996	0.9928	0.902
+ENSG00000172159	257019	FRMD3	FERM domain containing 3	9	false	true	false	false	1.0	0.968	0.8194	0.89
+ENSG00000181867	94033	FTMT	ferritin mitochondrial	5	true	true	true	false	1.0	0.751	0.9913	0.939
+ENSG00000122687	29960	FTSJ2	FtsJ RNA methyltransferase homolog 2 (E. coli)	7	true	true	true	false	0.0	0.541	0.6233	0.604
+ENSG00000069509	139341	FUNDC1	FUN14 domain containing 1	X	true	true	true	false	0.0	0.0	0.0127	0.094
+ENSG00000165775	65991	FUNDC2	FUN14 domain containing 2	X	true	true	true	false	0.0	0.017	0.7258	0.724
+ENSG00000165060	2395	FXN	frataxin	9	true	true	true	false	1.0	0.996	0.8649	0.826
+ENSG00000123689	50486	G0S2	G0/G1 switch 2	1	false	true	true	false	0.0	0.0	0.0799	0.022
+ENSG00000171298	2548	GAA	glucosidase, alpha; acid	17	false	true	false	false	0.0	0.028	0.0969	0.071
+ENSG00000179271	90480	GADD45GIP1	growth arrest and DNA-damage-inducible, gamma interacting protein 1	19	true	true	true	true	1.0	0.484	0.9016	0.792
+ENSG00000175229	89792	GAL3ST3	galactose-3-O-sulfotransferase 3	11	false	true	false	false	1.0	0.885	0.9621	0.403
+ENSG00000111640	2597	GAPDH	glyceraldehyde-3-phosphate dehydrogenase	12	true	true	false	false	1.0	0.024	0.9334	0.774
+ENSG00000106105	2617	GARS	glycyl-tRNA synthetase	7	true	true	true	false	0.0	0.187	0.9884	0.891
+ENSG00000059691	5188	GATB	glutamyl-tRNA(Gln) amidotransferase, subunit B	4	true	true	true	true	0.0	0.873	0.8156	0.882
+ENSG00000257218	283459	GATC	glutamyl-tRNA(Gln) amidotransferase, subunit C	12	false	true	true	false	1.0	0.545	0.1556	0.861
+ENSG00000171766	2628	GATM	glycine amidinotransferase (L-arginine:glycine amidinotransferase)	15	true	true	true	true	1.0	0.998	0.9971	0.945
+ENSG00000146729	2631	GBAS	glioblastoma amplified sequence	7	true	true	true	true	1.0	0.999	0.9984	0.963
+ENSG00000100116	23464	GCAT	glycine C-acetyltransferase	22	true	true	true	true	1.0	0.888	0.7162	0.825
+ENSG00000105607	2639	GCDH	glutaryl-CoA dehydrogenase	19	true	true	true	true	1.0	0.998	0.9333	0.943
+ENSG00000140905	2653	GCSH	glycine cleavage system protein H (aminomethyl carrier)	16	true	true	true	false	1.0	0.996	0.9932	0.847
+ENSG00000104381	54332	GDAP1	ganglioside induced differentiation associated protein 1	8	true	true	true	true	0.0	0.0	0.0184	0.087
+ENSG00000204183	""	GDF5OS	growth differentiation factor 5 opposite strand	20	false	true	true	false	1.0	0.515	0.9999	0.849
+ENSG00000127554	2671	GFER	growth factor, augmenter of liver regeneration	16	true	true	true	true	0.0	0.0	0.0234	0.371
+ENSG00000168827	85476	GFM1	G elongation factor, mitochondrial 1	3	true	true	true	true	0.0	0.838	0.7122	0.885
+ENSG00000164347	84340	GFM2	G elongation factor, mitochondrial 2	5	true	true	true	false	1.0	0.038	0.6863	0.294
+ENSG00000165678	27069	GHITM	growth hormone inducible transmembrane protein	10	true	true	true	true	1.0	0.948	0.9946	0.911
+ENSG00000196329	55340	GIMAP5	GTPase, IMAP family member 5	7	false	true	true	false	0.0	0.0	0.0023	0.149
+ENSG00000170266	2720	GLB1	galactosidase, beta 1	3	false	true	false	false	0.0	0.014	0.6043	0.112
+ENSG00000178445	2731	GLDC	glycine dehydrogenase (decarboxylating)	9	true	true	true	true	1.0	0.996	0.9495	0.77
+ENSG00000167699	51031	GLOD4	glyoxalase domain containing 4	17	true	true	true	false	1.0	0.938	0.9593	0.908
+ENSG00000023572	51022	GLRX2	glutaredoxin 2	1	true	true	true	false	1.0	0.976	0.9737	0.914
+ENSG00000182512	51218	GLRX5	glutaredoxin 5	14	true	true	true	true	0.0	0.962	0.8587	0.623
+ENSG00000115419	2744	GLS	glutaminase	2	true	true	true	true	1.0	0.998	0.9897	0.946
+ENSG00000135423	27165	GLS2	glutaminase 2 (liver, mitochondrial)	12	true	true	true	false	0.0	0.996	0.9409	0.85
+ENSG00000148672	2746	GLUD1	glutamate dehydrogenase 1	10	true	true	true	true	0.0	0.965	0.5482	0.385
+ENSG00000182890	2747	GLUD2	glutamate dehydrogenase 2	X	false	true	true	true	1.0	0.983	0.9491	0.918
+ENSG00000135821	2752	GLUL	glutamate-ammonia ligase	1	false	true	true	true	0.0	0.004	0.4031	0.2
+ENSG00000149124	10249	GLYAT	glycine-N-acyltransferase	11	true	true	true	false	0.0	0.146	0.7723	0.444
+ENSG00000168237	132158	GLYCTK	glycerate kinase	3	true	true	true	false	1.0	0.996	0.9847	0.921
+ENSG00000196743	2760	GM2A	GM2 ganglioside activator	5	false	true	true	false	0.0	0.0	0.0667	0.039
+ENSG00000197045	2764	GMFB	glia maturation factor, beta	14	false	true	false	false	0.0	0.0	0.5245	0.114
+ENSG00000146535	2768	GNA12	guanine nucleotide binding protein (G protein) alpha 12	7	false	true	false	false	1.0	0.709	0.8571	0.586
+ENSG00000127955	2770	GNAI1	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 1	7	false	true	false	false	0.0	0.0	0.0155	0.121
+ENSG00000172354	2783	GNB2	guanine nucleotide binding protein (G protein), beta polypeptide 2	7	false	true	false	false	0.0	0.0	0.04	0.112
+ENSG00000174021	2787	GNG5	guanine nucleotide binding protein (G protein), gamma 5	1	true	true	false	false	0.0	0.293	0.6838	0.548
+ENSG00000113384	64083	GOLPH3	golgi phosphoprotein 3 (coat-protein)	5	true	true	true	false	1.0	0.009	0.5489	0.679
+ENSG00000125166	2806	GOT2	glutamic-oxaloacetic transaminase 2, mitochondrial	16	true	true	true	false	0.0	0.996	0.6033	0.697
+ENSG00000119927	57678	GPAM	glycerol-3-phosphate acyltransferase, mitochondrial	10	true	true	true	false	0.0	0.0	0.0246	0.073
+ENSG00000186281	150763	GPAT2	glycerol-3-phosphate acyltransferase 2, mitochondrial	2	false	true	true	false	0.0	0.024	0.1379	0.524
+ENSG00000115159	2820	GPD2	glycerol-3-phosphate dehydrogenase 2 (mitochondrial)	2	true	true	true	false	0.0	0.903	0.6882	0.458
+ENSG00000170412	55890	GPRC5C	G protein-coupled receptor, class C, group 5, member C	17	false	true	true	false	0.0	0.003	0.181	0.034
+ENSG00000166123	84706	GPT2	glutamic pyruvate transaminase (alanine aminotransferase) 2	16	true	true	true	true	1.0	0.94	0.9264	0.871
+ENSG00000233276	2876	GPX1	glutathione peroxidase 1	3	true	true	true	false	0.0	0.012	0.4122	0.57
+ENSG00000167468	2879	GPX4	glutathione peroxidase 4	19	true	true	true	true	0.0	0.353	0.8718	0.292
+ENSG00000075240	23151	GRAMD4	GRAM domain containing 4	22	false	true	true	false	0.0	0.0	0.4244	0.408
+ENSG00000137106	9380	GRHPR	glyoxylate reductase/hydroxypyruvate reductase	9	true	true	false	false	1.0	0.032	0.9237	0.722
+ENSG00000030582	2896	GRN	granulin	17	false	true	true	false	0.0	0.006	0.0673	0.04
+ENSG00000109519	80273	GRPEL1	GrpE-like 1, mitochondrial (E. coli)	4	true	true	true	true	1.0	0.995	0.9953	0.925
+ENSG00000164284	134266	GRPEL2	GrpE-like 2, mitochondrial (E. coli)	5	true	true	true	true	1.0	0.907	0.9391	0.89
+ENSG00000132463	2926	GRSF1	G-rich RNA sequence binding factor 1	4	true	true	true	true	1.0	0.012	0.9894	0.534
+ENSG00000104687	2936	GSR	glutathione reductase	8	true	true	true	false	1.0	0.963	0.9717	0.908
+ENSG00000197448	373156	GSTK1	glutathione S-transferase kappa 1	7	true	true	true	false	0.0	0.013	0.4625	0.09
+ENSG00000168765	2948	GSTM4	glutathione S-transferase mu 4	1	false	true	false	false	0.0	0.009	0.1569	0.122
+ENSG00000084207	2950	GSTP1	glutathione S-transferase pi 1	11	false	true	true	true	1.0	0.015	0.5566	0.58
+ENSG00000100577	2954	GSTZ1	glutathione S-transferase zeta 1	14	true	true	true	false	1.0	0.378	0.851	0.712
+ENSG00000105793	85865	GTPBP10	GTP-binding protein 10 (putative)	7	true	true	true	false	0.0	0.724	0.8458	0.391
+ENSG00000130299	84705	GTPBP3	GTP binding protein 3 (mitochondrial)	19	true	true	true	true	1.0	0.971	0.985	0.937
+ENSG00000178605	8225	GTPBP6	GTP binding protein 6 (putative)	X	true	true	false	true	1.0	0.992	0.9972	0.96
+ENSG00000163607	29083	GTPBP8	GTP-binding protein 8 (putative)	3	false	true	true	true	0.0	0.246	0.2493	0.815
+ENSG00000151806	60558	GUF1	GUF1 homolog, GTPase	4	true	true	true	true	1.0	0.721	0.9386	0.847
+ENSG00000143774	2987	GUK1	guanylate kinase 1	1	true	true	false	false	0.0	0.05	0.1623	0.755
+ENSG00000138796	3033	HADH	hydroxyacyl-CoA dehydrogenase	4	true	true	true	true	1.0	0.996	0.9956	0.824
+ENSG00000084754	3030	HADHA	hydroxyacyl-CoA dehydrogenase/3-ketoacyl-CoA thiolase/enoyl-CoA hydratase (trifunctional protein), alpha subunit	2	true	true	true	true	0.0	0.996	0.9975	0.958
+ENSG00000138029	3032	HADHB	hydroxyacyl-CoA dehydrogenase/3-ketoacyl-CoA thiolase/enoyl-CoA hydratase (trifunctional protein), beta subunit	2	true	true	true	true	1.0	0.91	0.9881	0.817
+ENSG00000063854	3029	HAGH	hydroxyacylglutathione hydrolase	16	true	true	true	false	1.0	0.979	0.9372	0.947
+ENSG00000116882	51179	HAO2	hydroxyacid oxidase 2 (long chain)	1	true	true	true	false	0.0	0.0	0.099	0.107
+ENSG00000112855	23438	HARS2	histidyl-tRNA synthetase 2, mitochondrial	5	true	true	true	false	1.0	0.965	0.9722	0.825
+ENSG00000143575	10456	HAX1	HCLS1 associated protein X-1	1	false	true	true	false	0.0	0.006	0.1227	0.559
+ENSG00000004961	3052	HCCS	holocytochrome c synthase	X	true	true	true	true	0.0	0.0	0.02	0.208
+ENSG00000119431	81932	HDHD3	haloacid dehalogenase-like hydrolase domain containing 3	9	true	true	true	false	0.0	0.5	0.5639	0.345
+ENSG00000013583	50865	HEBP1	heme binding protein 1	12	true	true	false	false	0.0	0.01	0.2064	0.09
+ENSG00000114735	51409	HEMK1	HemK methyltransferase family member 1	3	true	true	true	false	0.0	0.304	0.4597	0.808
+ENSG00000106049	11112	HIBADH	3-hydroxyisobutyrate dehydrogenase	7	true	true	true	false	1.0	0.996	0.9954	0.969
+ENSG00000198130	26275	HIBCH	3-hydroxyisobutyryl-CoA hydrolase	2	true	true	true	true	1.0	0.911	0.9454	0.909
+ENSG00000181061	25994	HIGD1A	HIG1 hypoxia inducible domain family, member 1A	3	true	true	true	true	0.0	0.0	0.0103	0.07
+ENSG00000146066	192286	HIGD2A	HIG1 hypoxia inducible domain family, member 2A	5	true	true	true	true	0.0	0.0	0.0031	0.109
+ENSG00000175202	""	HIGD2B	HIG1 hypoxia inducible domain family, member 2B	15	false	true	false	true	0.0	0.0	0.0061	0.141
+ENSG00000169567	3094	HINT1	histidine triad nucleotide binding protein 1	5	true	true	false	false	0.0	0.004	0.6548	0.073
+ENSG00000137133	84681	HINT2	histidine triad nucleotide binding protein 2	9	true	true	true	true	0.0	0.964	0.9733	0.914
+ENSG00000156515	3098	HK1	hexokinase 1	10	true	true	true	true	0.0	0.003	0.0254	0.096
+ENSG00000159399	3099	HK2	hexokinase 2	2	true	true	true	false	0.0	0.013	0.052	0.093
+ENSG00000159267	3141	HLCS	holocarboxylase synthetase (biotin-(proprionyl-CoA-carboxylase (ATP-hydrolysing)) ligase)	21	false	true	true	false	0.0	0.0	0.0559	0.097
+ENSG00000117305	3155	HMGCL	3-hydroxymethyl-3-methylglutaryl-CoA lyase	1	true	true	true	false	1.0	0.999	0.9901	0.888
+ENSG00000134240	3158	HMGCS2	3-hydroxy-3-methylglutaryl-CoA synthase 2 (mitochondrial)	1	true	true	true	true	1.0	0.954	0.9725	0.876
+ENSG00000241935	112817	HOGA1	4-hydroxy-2-oxoglutarate aldolase 1	10	true	true	true	false	0.0	0.886	0.952	0.801
+ENSG00000186603	84842	HPDL	4-hydroxyphenylpyruvate dioxygenase-like	1	false	true	false	true	1.0	0.65	0.9744	0.675
+ENSG00000110169	3263	HPX	hemopexin	11	false	true	false	false	0.0	0.003	0.415	0.026
+ENSG00000132541	10247	HRSP12	heat-responsive protein 12	8	true	true	true	false	1.0	0.012	0.8774	0.61
+ENSG00000100209	150274	HSCB	HscB mitochondrial iron-sulfur cluster co-chaperone	22	true	true	true	true	1.0	0.898	0.5727	0.832
+ENSG00000072506	3028	HSD17B10	hydroxysteroid (17-beta) dehydrogenase 10	X	true	true	true	false	0.0	0.613	0.5563	0.343
+ENSG00000204228	""	HSD17B8	hydroxysteroid (17-beta) dehydrogenase 8	6	false	true	true	false	1.0	0.935	0.8727	0.893
+ENSG00000103160	83693	HSDL1	hydroxysteroid dehydrogenase like 1	16	true	true	true	false	0.0	0.011	0.2711	0.05
+ENSG00000119471	84263	HSDL2	hydroxysteroid dehydrogenase like 2	9	true	true	true	true	0.0	0.293	0.9574	0.403
+ENSG00000096384	3326	HSP90AB1	heat shock protein 90kDa alpha (cytosolic), class B member 1	6	false	true	true	false	0.0	0.0	0.0096	0.047
+ENSG00000166598	7184	HSP90B1	heat shock protein 90kDa beta (Grp94), member 1	12	false	true	false	false	0.0	0.0	0.073	0.027
+ENSG00000044574	3309	HSPA5	heat shock 70kDa protein 5 (glucose-regulated protein, 78kDa)	9	false	true	true	false	0.0	0.0	0.046	0.029
+ENSG00000109971	3312	HSPA8	heat shock 70kDa protein 8	11	false	true	false	false	0.0	0.0	0.02	0.095
+ENSG00000113013	3313	HSPA9	heat shock 70kDa protein 9 (mortalin)	5	true	true	true	true	1.0	0.996	0.8982	0.92
+ENSG00000004776	126393	HSPB6	heat shock protein, alpha-crystallin-related, B6	19	false	true	false	false	0.0	0.006	0.57	0.562
+ENSG00000144381	3329	HSPD1	heat shock 60kDa protein 1 (chaperonin)	2	true	true	true	true	1.0	0.996	0.9949	0.921
+ENSG00000115541	3336	HSPE1	heat shock 10kDa protein 1	2	true	true	true	false	0.0	0.057	0.8235	0.367
+ENSG00000115317	27429	HTRA2	HtrA serine peptidase 2	2	true	true	true	false	1.0	0.397	0.9472	0.868
+ENSG00000134330	285148	IAH1	isoamyl acetate-hydrolyzing esterase 1 homolog	2	false	true	false	false	0.0	0.005	0.0342	0.051
+ENSG00000067704	55699	IARS2	isoleucyl-tRNA synthetase 2, mitochondrial	1	true	true	true	true	1.0	0.922	0.9503	0.923
+ENSG00000181873	200205	IBA57	IBA57 homolog, iron-sulfur cluster assembly	1	true	true	true	false	1.0	0.98	0.8019	0.795
+ENSG00000160223	""	ICOSLG	inducible T-cell co-stimulator ligand	21	false	true	false	true	0.0	0.0	0.0178	0.084
+ENSG00000167862	3396	ICT1	immature colon carcinoma transcript 1	17	true	true	true	true	1.0	0.92	0.9671	0.9
+ENSG00000119912	3416	IDE	insulin-degrading enzyme	10	true	true	true	false	1.0	0.401	0.9752	0.696
+ENSG00000138413	3417	IDH1	isocitrate dehydrogenase 1 (NADP+), soluble	2	true	true	true	false	0.0	0.0	0.1171	0.086
+ENSG00000182054	3418	IDH2	isocitrate dehydrogenase 2 (NADP+), mitochondrial	15	true	true	true	true	1.0	0.993	0.9564	0.925
+ENSG00000166411	3419	IDH3A	isocitrate dehydrogenase 3 (NAD+) alpha	15	true	true	true	true	0.0	0.961	0.851	0.634
+ENSG00000101365	3420	IDH3B	isocitrate dehydrogenase 3 (NAD+) beta	20	true	true	true	true	1.0	0.997	0.9879	0.933
+ENSG00000067829	3421	IDH3G	isocitrate dehydrogenase 3 (NAD+) gamma	X	true	true	true	true	0.0	0.801	0.7044	0.183
+ENSG00000067064	3422	IDI1	isopentenyl-diphosphate delta isomerase 1	10	true	true	false	false	0.0	0.0	0.0572	0.056
+ENSG00000165949	3429	IFI27	interferon, alpha-inducible protein 27	14	true	true	true	false	0.0	0.021	0.8787	0.482
+ENSG00000126709	2537	IFI6	interferon, alpha-inducible protein 6	1	false	true	true	true	0.0	0.0	0.3941	0.016
+ENSG00000104951	259307	IL4I1	interleukin 4 induced 1	19	false	true	false	false	0.0	0.0	0.0139	0.019
+ENSG00000148950	196294	IMMP1L	inner mitochondrial membrane peptidase subunit 1	11	true	true	true	false	0.0	0.244	0.5431	0.211
+ENSG00000184903	83943	IMMP2L	inner mitochondrial membrane peptidase subunit 2	7	true	true	true	true	0.0	0.039	0.6469	0.1
+ENSG00000132305	10989	IMMT	inner membrane protein, mitochondrial	2	true	true	true	true	1.0	0.679	0.9827	0.835
+ENSG00000214686	440956	IQCF6	IQ motif containing F6	3	false	true	false	false	1.0	0.76	0.9903	0.852
+ENSG00000135070	81689	ISCA1	iron-sulfur cluster assembly 1	9	true	true	true	false	1.0	0.988	0.9807	0.915
+ENSG00000165898	122961	ISCA2	iron-sulfur cluster assembly 2	14	true	true	true	false	1.0	0.44	0.9407	0.892
+ENSG00000136003	23479	ISCU	iron-sulfur cluster assembly enzyme	12	true	true	true	false	1.0	0.997	0.9976	0.967
+ENSG00000063241	79763	ISOC2	isochorismatase domain containing 2	19	true	true	false	true	0.0	0.074	0.6916	0.761
+ENSG00000128928	3712	IVD	isovaleryl-CoA dehydrogenase	15	true	true	true	true	1.0	0.977	0.9448	0.943
+ENSG00000065427	3735	KARS	lysyl-tRNA synthetase	16	true	true	true	false	0.0	0.0	0.0223	0.105
+ENSG00000081791	9812	KIAA0141	KIAA0141	5	true	true	true	false	1.0	0.753	0.2514	0.906
+ENSG00000100890	9692	KIAA0391	KIAA0391	14	true	true	true	true	1.0	0.595	0.8182	0.459
+ENSG00000196872	343990	KIAA1211L	KIAA1211-like	2	false	true	false	false	0.0	0.0	0.2294	0.09
+ENSG00000054523	23095	KIF1B	kinesin family member 1B	1	true	true	true	false	1.0	0.022	0.3558	0.608
+ENSG00000168280	3800	KIF5C	kinesin family member 5C	2	false	true	false	false	0.0	0.0	0.0561	0.099
+ENSG00000167755	5653	KLK6	kallikrein-related peptidase 6	19	false	true	true	false	0.0	0.003	0.1576	0.03
+ENSG00000117009	8564	KMO	kynurenine 3-monooxygenase (kynurenine 3-hydroxylase)	1	true	true	true	false	0.0	0.021	0.0881	0.447
+ENSG00000133703	3845	KRAS	Kirsten rat sarcoma viral oncogene homolog	12	false	true	true	false	0.0	0.0	0.062	0.082
+ENSG00000187242	""	KRT12	keratin 12, type I	17	false	true	false	false	1.0	0.085	0.9175	0.838
+ENSG00000186847	3861	KRT14	keratin 14, type I	17	false	true	false	false	1.0	0.097	0.782	0.406
+ENSG00000186832	3868	KRT16	keratin 16, type I	17	false	true	false	false	1.0	0.097	0.8472	0.464
+ENSG00000128422	3872	KRT17	keratin 17, type I	17	false	true	false	false	1.0	0.214	0.8227	0.671
+ENSG00000111057	3875	KRT18	keratin 18, type I	12	false	true	false	false	1.0	0.033	0.9328	0.905
+ENSG00000170477	""	KRT4	keratin 4, type II	12	false	true	false	false	1.0	0.867	0.8749	0.691
+ENSG00000186081	3852	KRT5	keratin 5, type II	12	true	true	true	false	1.0	0.18	0.9879	0.924
+ENSG00000185479	3854	KRT6B	keratin 6B, type II	12	false	true	false	false	1.0	0.618	0.9834	0.912
+ENSG00000139648	112802	KRT71	keratin 71, type II	12	false	true	false	false	1.0	0.035	0.9221	0.713
+ENSG00000170454	9119	KRT75	keratin 75, type II	12	false	true	false	false	1.0	0.108	0.9959	0.836
+ENSG00000105700	79036	KXD1	KxDL motif containing 1	19	false	true	false	false	0.0	0.0	0.2765	0.097
+ENSG00000087299	79944	L2HGDH	L-2-hydroxyglutarate dehydrogenase	14	true	true	true	true	1.0	0.111	0.7971	0.908
+ENSG00000135537	246269	LACE1	lactation elevated 1	6	true	true	true	false	1.0	0.689	0.9394	0.703
+ENSG00000103642	114294	LACTB	lactamase, beta	15	true	true	true	true	1.0	0.372	0.9674	0.885
+ENSG00000147592	51110	LACTB2	lactamase, beta 2	8	true	true	true	false	1.0	0.401	0.9611	0.742
+ENSG00000135862	3915	LAMC1	laminin, gamma 1 (formerly LAMB2)	1	true	true	false	false	1.0	0.012	0.1522	0.416
+ENSG00000185896	3916	LAMP1	lysosomal-associated membrane protein 1	13	false	true	false	false	0.0	0.0	0.3577	0.043
+ENSG00000005893	3920	LAMP2	lysosomal-associated membrane protein 2	X	false	true	false	false	0.0	0.012	0.0306	0.03
+ENSG00000109270	8649	LAMTOR3	late endosomal/lysosomal adaptor, MAPK and MTOR activator 3	4	false	true	false	false	0.0	0.008	0.2714	0.1
+ENSG00000002549	51056	LAP3	leucine aminopeptidase 3	4	true	true	true	false	1.0	0.997	0.9979	0.946
+ENSG00000011376	23395	LARS2	leucyl-tRNA synthetase 2, mitochondrial	3	true	true	true	true	0.0	0.996	0.7828	0.718
+ENSG00000166816	197257	LDHD	lactate dehydrogenase D	16	true	true	true	false	1.0	0.241	0.8328	0.443
+ENSG00000168924	3954	LETM1	leucine zipper-EF-hand containing transmembrane protein 1	4	true	true	true	true	1.0	0.974	0.1506	0.882
+ENSG00000165046	137994	LETM2	leucine zipper-EF-hand containing transmembrane protein 2	8	true	true	true	false	0.0	0.072	0.5696	0.849
+ENSG00000050426	25875	LETMD1	LETM1 domain containing 1	12	true	true	true	false	1.0	0.82	0.9999	0.898
+ENSG00000108679	3959	LGALS3BP	lectin, galactoside-binding, soluble, 3 binding protein	17	false	true	false	false	0.0	0.0	0.2829	0.029
+ENSG00000100600	5641	LGMN	legumain	14	false	true	false	false	0.0	0.0	0.0221	0.032
+ENSG00000121897	11019	LIAS	lipoic acid synthetase	4	true	true	true	true	1.0	0.902	0.9581	0.721
+ENSG00000005156	3980	LIG3	ligase III, DNA, ATP-dependent	17	false	true	true	false	1.0	0.371	0.8809	0.763
+ENSG00000144182	51601	LIPT1	lipoyltransferase 1	2	true	true	true	false	1.0	0.045	0.8774	0.256
+ENSG00000175536	387787	LIPT2	lipoyl(octanoyl) transferase 2 (putative)	11	true	true	true	false	1.0	0.49	0.8301	0.866
+ENSG00000113441	4012	LNPEP	leucyl/cystinyl aminopeptidase	5	false	true	false	false	0.0	0.006	0.0054	0.093
+ENSG00000196365	9361	LONP1	lon peptidase 1, mitochondrial	19	true	true	true	true	1.0	0.983	0.9679	0.945
+ENSG00000138095	10128	LRPPRC	leucine-rich pentatricopeptide repeat containing	2	true	true	true	true	1.0	0.999	0.9943	0.943
+ENSG00000198812	376132	LRRC10	leucine rich repeat containing 10	12	false	true	true	false	0.0	0.003	0.1926	0.278
+ENSG00000254402	441381	LRRC24	leucine rich repeat containing 24	8	false	true	false	false	0.0	0.006	0.1513	0.063
+ENSG00000188906	120892	LRRK2	leucine-rich repeat kinase 2	12	false	true	true	false	0.0	0.0	0.0652	0.074
+ENSG00000120992	10434	LYPLA1	lysophospholipase I	8	true	true	true	false	0.0	0.0	0.2488	0.189
+ENSG00000143353	127018	LYPLAL1	lysophospholipase-like 1	1	true	true	false	false	0.0	0.284	0.732	0.655
+ENSG00000102897	57149	LYRM1	LYR motif containing 1	16	true	true	true	false	1.0	0.847	0.9333	0.607
+ENSG00000083099	57226	LYRM2	LYR motif containing 2	6	true	true	true	false	1.0	0.91	0.9857	0.92
+ENSG00000214113	57128	LYRM4	LYR motif containing 4	6	true	true	true	false	1.0	0.843	0.921	0.902
+ENSG00000186687	90624	LYRM7	LYR motif containing 7	5	true	true	true	false	1.0	0.5	0.8715	0.849
+ENSG00000183833	89876	MAATS1	MYCBP-associated, testis expressed 1	3	false	true	true	false	0.0	0.01	0.0274	0.191
+ENSG00000133315	28992	MACROD1	MACRO domain containing 1	11	true	true	true	false	1.0	0.96	0.998	0.938
+ENSG00000185247	4110	MAGEA11	melanoma antigen family A11	X	false	true	false	true	0.0	0.0	0.0303	0.11
+ENSG00000156928	115416	MALSU1	mitochondrial assembly of ribosomal large subunit 1	7	true	true	true	true	1.0	0.969	0.98	0.874
+ENSG00000013288	23324	MAN2B2	mannosidase, alpha, class 2B, member 2	4	false	true	false	false	0.0	0.013	0.5123	0.074
+ENSG00000189221	4128	MAOA	monoamine oxidase A	X	true	true	true	true	0.0	0.003	0.0262	0.052
+ENSG00000069535	4129	MAOB	monoamine oxidase B	X	true	true	true	true	0.0	0.012	0.0283	0.059
+ENSG00000186205	64757	MARC1	mitochondrial amidoxime reducing component 1	1	true	true	true	true	0.0	0.17	0.9827	0.369
+ENSG00000117791	54996	MARC2	mitochondrial amidoxime reducing component 2	1	true	true	true	false	1.0	0.597	0.989	0.69
+ENSG00000198060	54708	MARCH5	membrane-associated ring finger (C3HC4) 5	10	true	true	true	true	0.0	0.021	0.3463	0.064
+ENSG00000277443	4082	MARCKS	myristoylated alanine-rich protein kinase C substrate	6	false	true	false	false	0.0	0.0	0.1712	0.245
+ENSG00000247626	92935	MARS2	methionyl-tRNA synthetase 2, mitochondrial	2	true	true	true	false	1.0	0.99	0.9822	0.869
+ENSG00000088888	57506	MAVS	mitochondrial antiviral signaling protein	20	true	true	true	true	0.0	0.059	0.0198	0.025
+ENSG00000100294	27349	MCAT	malonyl CoA:ACP acyltransferase (mitochondrial)	22	true	true	true	false	1.0	0.981	0.9826	0.87
+ENSG00000078070	56922	MCCC1	methylcrotonoyl-CoA carboxylase 1 (alpha)	3	true	true	true	true	0.0	0.978	0.9922	0.754
+ENSG00000131844	64087	MCCC2	methylcrotonoyl-CoA carboxylase 2 (beta)	5	true	true	true	true	1.0	0.932	0.9272	0.885
+ENSG00000204511	""	MCCD1	mitochondrial coiled-coil domain 1	6	false	true	true	false	0.0	0.058	0.37	0.39
+ENSG00000124370	84693	MCEE	methylmalonyl CoA epimerase	2	true	true	true	false	1.0	0.985	0.9543	0.796
+ENSG00000143384	4170	MCL1	myeloid cell leukemia 1	1	false	true	true	true	0.0	0.211	0.4586	0.261
+ENSG00000156026	90550	MCU	mitochondrial calcium uniporter	10	true	true	true	true	0.0	0.106	0.9759	0.482
+ENSG00000050393	63933	MCUR1	mitochondrial calcium uniporter regulator 1	6	true	true	true	false	1.0	0.065	0.1805	0.439
+ENSG00000146701	4191	MDH2	malate dehydrogenase 2, NAD (mitochondrial)	7	true	true	true	true	1.0	0.999	0.9973	0.908
+ENSG00000082212	4200	ME2	malic enzyme 2, NAD(+)-dependent, mitochondrial	18	true	true	true	true	1.0	0.996	0.5152	0.732
+ENSG00000151376	10873	ME3	malic enzyme 3, NADP(+)-dependent, mitochondrial	11	true	true	true	false	1.0	0.275	0.5265	0.471
+ENSG00000116353	51102	MECR	mitochondrial trans-2-enoyl-CoA reductase	1	true	true	true	true	1.0	0.696	0.8015	0.953
+ENSG00000172878	254042	METAP1D	methionyl aminopeptidase type 1D (mitochondrial)	2	true	true	true	false	1.0	0.405	0.9929	0.894
+ENSG00000214756	751071	METTL12	methyltransferase like 12	11	false	true	true	false	0.0	0.924	0.9505	0.66
+ENSG00000169519	196074	METTL15	methyltransferase like 15	11	true	true	false	false	0.0	0.133	0.6471	0.097
+ENSG00000165792	64745	METTL17	methyltransferase like 17	14	true	true	true	false	1.0	0.645	0.8484	0.15
+ENSG00000123600	""	METTL8	methyltransferase like 8	2	true	true	false	false	0.0	0.841	0.7801	0.882
+ENSG00000168958	56947	MFF	mitochondrial fission factor	2	true	true	true	false	0.0	0.0	0.4337	0.641
+ENSG00000171109	55669	MFN1	mitofusin 1	3	true	true	true	true	0.0	0.02	0.1453	0.059
+ENSG00000116688	9927	MFN2	mitofusin 2	1	true	true	true	false	0.0	0.088	0.7226	0.696
+ENSG00000137463	84709	MGARP	mitochondria-localized glutamic acid-rich protein	4	true	true	true	true	1.0	0.72	0.9685	0.821
+ENSG00000125871	92667	MGME1	mitochondrial genome maintenance exonuclease 1	20	true	true	true	true	1.0	0.625	0.9033	0.667
+ENSG00000008394	4257	MGST1	microsomal glutathione S-transferase 1	12	true	true	true	true	0.0	0.017	0.1626	0.027
+ENSG00000143198	4259	MGST3	microsomal glutathione S-transferase 3	1	true	true	false	false	0.0	0.0	0.0483	0.062
+ENSG00000107745	10367	MICU1	mitochondrial calcium uptake 1	10	true	true	true	true	0.0	0.845	0.8241	0.722
+ENSG00000165487	221154	MICU2	mitochondrial calcium uptake 2	13	true	true	true	true	1.0	0.966	0.9915	0.938
+ENSG00000155970	286097	MICU3	mitochondrial calcium uptake family, member 3	8	false	true	true	false	1.0	0.741	0.8113	0.854
+ENSG00000100335	54471	MIEF1	mitochondrial elongation factor 1	22	true	true	true	true	0.0	0.0	0.0155	0.056
+ENSG00000177427	125170	MIEF2	mitochondrial elongation factor 2	17	false	true	true	false	0.0	0.0	0.0888	0.117
+ENSG00000173436	440574	MINOS1	mitochondrial inner membrane organizing system 1	1	true	true	true	true	0.0	0.003	0.5818	0.083
+ENSG00000027001	4285	MIPEP	mitochondrial intermediate peptidase	13	true	true	true	true	1.0	0.996	0.8792	0.937
+ENSG00000103150	23417	MLYCD	malonyl-CoA decarboxylase	16	true	true	true	false	1.0	0.958	0.9076	0.923
+ENSG00000151611	166785	MMAA	methylmalonic aciduria (cobalamin deficiency) cblA type	4	false	true	true	false	1.0	0.661	0.6215	0.596
+ENSG00000139428	326625	MMAB	methylmalonic aciduria (cobalamin deficiency) cblB type	12	true	true	true	true	1.0	0.928	0.9755	0.896
+ENSG00000168288	27249	MMADHC	methylmalonic aciduria (cobalamin deficiency) cblD type, with homocystinuria	2	true	true	true	false	1.0	0.625	0.9451	0.877
+ENSG00000124615	4337	MOCS1	molybdenum cofactor synthesis 1	6	true	true	false	false	1.0	1.0	0.9982	0.945
+ENSG00000060762	51660	MPC1	mitochondrial pyruvate carrier 1	6	true	true	true	true	0.0	0.063	0.7213	0.394
+ENSG00000143158	25874	MPC2	mitochondrial pyruvate carrier 2	1	true	true	true	false	0.0	0.295	0.7804	0.531
+ENSG00000128309	4357	MPST	mercaptopyruvate sulfurtransferase	22	true	true	true	true	0.0	0.035	0.7459	0.399
+ENSG00000115204	4358	MPV17	MpV17 mitochondrial inner membrane protein	2	true	true	true	false	1.0	0.771	0.8598	0.552
+ENSG00000156968	""	MPV17L	MPV17 mitochondrial membrane protein-like	16	true	true	false	false	1.0	0.86	0.946	0.781
+ENSG00000254858	84769	MPV17L2	MPV17 mitochondrial membrane protein-like 2	19	true	true	true	false	1.0	0.992	0.9944	0.84
+ENSG00000278619	""	MRM1	mitochondrial rRNA methyltransferase 1	17	false	true	true	true	0.0	0.959	0.9899	0.922
+ENSG00000169288	65008	MRPL1	mitochondrial ribosomal protein L1	4	true	true	true	true	1.0	0.93	0.9997	0.925
+ENSG00000159111	124995	MRPL10	mitochondrial ribosomal protein L10	17	true	true	true	true	0.0	0.964	0.8754	0.825
+ENSG00000174547	65003	MRPL11	mitochondrial ribosomal protein L11	11	true	true	true	false	1.0	0.486	0.9667	0.814
+ENSG00000262814	6182	MRPL12	mitochondrial ribosomal protein L12	17	true	true	true	true	1.0	0.993	0.9975	0.896
+ENSG00000172172	28998	MRPL13	mitochondrial ribosomal protein L13	8	true	true	true	false	1.0	0.118	0.6534	0.775
+ENSG00000180992	64928	MRPL14	mitochondrial ribosomal protein L14	6	true	true	true	false	0.0	0.38	0.9423	0.842
+ENSG00000137547	29088	MRPL15	mitochondrial ribosomal protein L15	8	true	true	true	false	1.0	0.051	0.7478	0.662
+ENSG00000166902	54948	MRPL16	mitochondrial ribosomal protein L16	11	true	true	true	false	0.0	0.985	0.9154	0.519
+ENSG00000158042	63875	MRPL17	mitochondrial ribosomal protein L17	11	true	true	true	false	0.0	0.897	0.9626	0.91
+ENSG00000112110	29074	MRPL18	mitochondrial ribosomal protein L18	6	true	true	true	false	1.0	0.769	0.8723	0.92
+ENSG00000115364	9801	MRPL19	mitochondrial ribosomal protein L19	2	true	true	true	false	0.0	0.418	0.8611	0.786
+ENSG00000112651	51069	MRPL2	mitochondrial ribosomal protein L2	6	true	true	true	true	0.0	0.323	0.9813	0.624
+ENSG00000242485	55052	MRPL20	mitochondrial ribosomal protein L20	1	true	true	true	true	1.0	0.85	0.5825	0.889
+ENSG00000197345	219927	MRPL21	mitochondrial ribosomal protein L21	11	true	true	true	true	0.0	0.312	0.9747	0.858
+ENSG00000082515	29093	MRPL22	mitochondrial ribosomal protein L22	5	true	true	true	true	0.0	0.752	0.404	0.752
+ENSG00000214026	6150	MRPL23	mitochondrial ribosomal protein L23	11	true	true	true	true	1.0	0.341	0.9868	0.893
+ENSG00000143314	79590	MRPL24	mitochondrial ribosomal protein L24	1	true	true	true	false	0.0	0.074	0.8032	0.726
+ENSG00000108826	51264	MRPL27	mitochondrial ribosomal protein L27	17	true	true	true	false	1.0	0.975	0.9818	0.871
+ENSG00000086504	10573	MRPL28	mitochondrial ribosomal protein L28	16	true	true	true	true	0.0	0.402	0.9134	0.302
+ENSG00000114686	11222	MRPL3	mitochondrial ribosomal protein L3	3	true	true	true	false	0.0	0.786	0.7669	0.561
+ENSG00000185414	51263	MRPL30	mitochondrial ribosomal protein L30	2	true	true	true	false	0.0	0.259	0.8317	0.542
+ENSG00000106591	64983	MRPL32	mitochondrial ribosomal protein L32	7	true	true	true	false	0.0	0.222	0.9938	0.491
+ENSG00000243147	9553	MRPL33	mitochondrial ribosomal protein L33	2	true	true	true	false	1.0	0.044	0.9381	0.684
+ENSG00000130312	64981	MRPL34	mitochondrial ribosomal protein L34	19	true	true	true	false	1.0	0.991	0.9348	0.857
+ENSG00000132313	51318	MRPL35	mitochondrial ribosomal protein L35	2	true	true	true	false	1.0	0.513	1.0	0.859
+ENSG00000171421	64979	MRPL36	mitochondrial ribosomal protein L36	5	true	true	true	false	0.0	0.807	0.9906	0.831
+ENSG00000116221	51253	MRPL37	mitochondrial ribosomal protein L37	1	true	true	true	true	1.0	0.5	0.7904	0.8
+ENSG00000204316	64978	MRPL38	mitochondrial ribosomal protein L38	17	true	true	true	true	1.0	0.734	0.82	0.874
+ENSG00000154719	54148	MRPL39	mitochondrial ribosomal protein L39	21	true	true	true	false	1.0	0.538	0.5563	0.646
+ENSG00000105364	51073	MRPL4	mitochondrial ribosomal protein L4	19	true	true	true	false	0.0	0.77	0.9397	0.76
+ENSG00000185608	64976	MRPL40	mitochondrial ribosomal protein L40	22	true	true	true	true	0.0	0.892	0.7912	0.902
+ENSG00000182154	64975	MRPL41	mitochondrial ribosomal protein L41	9	true	true	true	true	1.0	0.688	0.9843	0.662
+ENSG00000198015	28977	MRPL42	mitochondrial ribosomal protein L42	12	true	true	true	true	0.0	0.056	0.9518	0.419
+ENSG00000055950	84545	MRPL43	mitochondrial ribosomal protein L43	10	true	true	true	true	1.0	0.698	0.9243	0.936
+ENSG00000135900	65080	MRPL44	mitochondrial ribosomal protein L44	2	true	true	true	true	1.0	0.882	0.9851	0.832
+ENSG00000278845	84311	MRPL45	mitochondrial ribosomal protein L45	17	false	true	false	true	0.0	0.305	0.9382	0.649
+ENSG00000259494	26589	MRPL46	mitochondrial ribosomal protein L46	15	true	true	true	true	1.0	0.903	0.9085	0.912
+ENSG00000136522	57129	MRPL47	mitochondrial ribosomal protein L47	3	true	true	true	true	1.0	0.999	0.9869	0.9
+ENSG00000175581	51642	MRPL48	mitochondrial ribosomal protein L48	11	true	true	true	false	1.0	0.899	0.6046	0.367
+ENSG00000149792	740	MRPL49	mitochondrial ribosomal protein L49	11	true	true	true	false	1.0	0.998	0.9965	0.887
+ENSG00000136897	54534	MRPL50	mitochondrial ribosomal protein L50	9	true	true	true	false	1.0	0.877	0.9291	0.744
+ENSG00000111639	51258	MRPL51	mitochondrial ribosomal protein L51	12	true	true	true	true	1.0	0.915	0.8994	0.91
+ENSG00000172590	122704	MRPL52	mitochondrial ribosomal protein L52	14	true	true	true	true	0.0	0.959	0.7853	0.759
+ENSG00000204822	116540	MRPL53	mitochondrial ribosomal protein L53	2	true	true	true	false	1.0	0.519	0.7316	0.837
+ENSG00000183617	116541	MRPL54	mitochondrial ribosomal protein L54	19	true	true	true	true	1.0	0.584	0.9197	0.625
+ENSG00000162910	128308	MRPL55	mitochondrial ribosomal protein L55	1	true	true	true	false	1.0	0.993	0.9291	0.897
+ENSG00000173141	78988	MRPL57	mitochondrial ribosomal protein L57	13	true	true	true	true	1.0	0.802	0.993	0.878
+ENSG00000143436	65005	MRPL9	mitochondrial ribosomal protein L9	1	true	true	true	true	0.0	0.886	0.9813	0.853
+ENSG00000048544	55173	MRPS10	mitochondrial ribosomal protein S10	6	true	true	true	true	1.0	0.982	0.9041	0.799
+ENSG00000181991	64963	MRPS11	mitochondrial ribosomal protein S11	15	true	true	true	true	1.0	0.991	0.9973	0.862
+ENSG00000128626	6183	MRPS12	mitochondrial ribosomal protein S12	19	true	true	true	false	0.0	0.486	0.9946	0.252
+ENSG00000120333	63931	MRPS14	mitochondrial ribosomal protein S14	1	true	true	true	true	1.0	0.592	0.7739	0.826
+ENSG00000116898	64960	MRPS15	mitochondrial ribosomal protein S15	1	true	true	true	true	1.0	0.991	0.9981	0.755
+ENSG00000182180	51021	MRPS16	mitochondrial ribosomal protein S16	10	true	true	true	true	1.0	0.807	0.969	0.83
+ENSG00000239789	51373	MRPS17	mitochondrial ribosomal protein S17	7	true	true	true	false	1.0	0.516	0.9783	0.671
+ENSG00000096080	55168	MRPS18A	mitochondrial ribosomal protein S18A	6	true	true	true	false	0.0	0.946	0.9064	0.873
+ENSG00000204568	""	MRPS18B	mitochondrial ribosomal protein S18B	6	false	true	true	true	1.0	0.908	0.9855	0.915
+ENSG00000163319	51023	MRPS18C	mitochondrial ribosomal protein S18C	4	true	true	true	false	0.0	0.169	0.8584	0.619
+ENSG00000122140	51116	MRPS2	mitochondrial ribosomal protein S2	9	true	true	true	true	1.0	0.922	0.9929	0.921
+ENSG00000266472	""	MRPS21	mitochondrial ribosomal protein S21	1	false	true	true	false	1.0	0.52	0.2138	0.213
+ENSG00000175110	56945	MRPS22	mitochondrial ribosomal protein S22	3	true	true	true	true	1.0	0.775	0.7159	0.329
+ENSG00000181610	51649	MRPS23	mitochondrial ribosomal protein S23	17	true	true	true	true	1.0	0.096	0.088	0.542
+ENSG00000062582	64951	MRPS24	mitochondrial ribosomal protein S24	7	true	true	true	false	0.0	0.922	0.9667	0.581
+ENSG00000131368	64432	MRPS25	mitochondrial ribosomal protein S25	3	true	true	true	true	1.0	0.615	0.8012	0.719
+ENSG00000125901	64949	MRPS26	mitochondrial ribosomal protein S26	20	true	true	true	true	1.0	0.999	0.9802	0.891
+ENSG00000113048	23107	MRPS27	mitochondrial ribosomal protein S27	5	true	true	true	false	1.0	0.978	0.959	0.907
+ENSG00000147586	28957	MRPS28	mitochondrial ribosomal protein S28	8	true	true	true	true	1.0	0.652	0.8797	0.898
+ENSG00000112996	10884	MRPS30	mitochondrial ribosomal protein S30	5	true	true	true	false	1.0	0.968	0.8422	0.712
+ENSG00000102738	10240	MRPS31	mitochondrial ribosomal protein S31	13	true	true	true	true	0.0	0.224	0.9326	0.89
+ENSG00000090263	51650	MRPS33	mitochondrial ribosomal protein S33	7	true	true	true	false	1.0	0.319	0.8555	0.806
+ENSG00000074071	65993	MRPS34	mitochondrial ribosomal protein S34	16	true	true	true	true	1.0	0.807	0.9397	0.916
+ENSG00000061794	60488	MRPS35	mitochondrial ribosomal protein S35	12	true	true	true	true	1.0	0.882	0.9512	0.902
+ENSG00000134056	""	MRPS36	mitochondrial ribosomal protein S36	5	true	true	true	true	1.0	0.037	0.4537	0.553
+ENSG00000144029	64969	MRPS5	mitochondrial ribosomal protein S5	2	true	true	true	true	0.0	0.123	0.7279	0.361
+ENSG00000243927	64968	MRPS6	mitochondrial ribosomal protein S6	21	true	true	true	false	0.0	0.129	0.1934	0.143
+ENSG00000125445	51081	MRPS7	mitochondrial ribosomal protein S7	17	true	true	true	true	1.0	0.987	0.9915	0.877
+ENSG00000135972	64965	MRPS9	mitochondrial ribosomal protein S9	2	true	true	true	true	1.0	0.137	0.9506	0.757
+ENSG00000148187	92399	MRRF	mitochondrial ribosome recycling factor	9	true	true	true	false	1.0	0.792	0.942	0.88
+ENSG00000124532	57380	MRS2	MRS2 magnesium transporter	6	true	true	true	false	1.0	0.146	0.9858	0.599
+ENSG00000113318	4437	MSH3	mutS homolog 3	5	false	true	false	false	1.0	0.849	0.9714	0.952
+ENSG00000188895	339287	MSL1	male-specific lethal 1 homolog (Drosophila)	17	false	true	false	false	0.0	0.0	0.1163	0.39
+ENSG00000175806	4482	MSRA	methionine sulfoxide reductase A	8	true	true	true	false	1.0	0.697	0.9505	0.634
+ENSG00000148450	22921	MSRB2	methionine sulfoxide reductase B2	10	true	true	true	false	1.0	0.982	0.9805	0.831
+ENSG00000174099	253827	MSRB3	methionine sulfoxide reductase B3	12	true	true	true	false	0.0	0.017	0.2054	0.108
+ENSG00000166343	118490	MSS51	MSS51 mitochondrial translational activator	10	false	true	false	false	1.0	0.019	0.6645	0.655
+ENSG00000125459	55154	MSTO1	misato 1, mitochondrial distribution and morphology regulator	1	false	true	true	false	0.0	0.133	0.0404	0.119
+ENSG00000198899	4508	MT-ATP6	mitochondrially encoded ATP synthase 6	MT	true	true	true	false	0.0	0.0	0.4686	0.005
+ENSG00000228253	4509	MT-ATP8	mitochondrially encoded ATP synthase 8	MT	true	true	true	true	0.0	0.006	0.4816	0.021
+ENSG00000198804	4512	MT-CO1	mitochondrially encoded cytochrome c oxidase I	MT	true	true	true	true	0.0	0.004	0.0974	0.012
+ENSG00000198712	4513	MT-CO2	mitochondrially encoded cytochrome c oxidase II	MT	true	true	true	false	0.0	0.0	0.0148	0.015
+ENSG00000198938	4514	MT-CO3	mitochondrially encoded cytochrome c oxidase III	MT	true	true	true	false	0.0	0.015	0.2867	0.17
+ENSG00000198727	4519	MT-CYB	mitochondrially encoded cytochrome b	MT	true	true	true	true	0.0	0.015	0.0023	0.248
+ENSG00000198888	4535	MT-ND1	mitochondrially encoded NADH dehydrogenase 1	MT	true	true	true	false	0.0	0.0	0.3362	0.016
+ENSG00000198763	4536	MT-ND2	mitochondrially encoded NADH dehydrogenase 2	MT	true	true	true	false	0.0	0.0	0.5596	0.011
+ENSG00000198840	4537	MT-ND3	mitochondrially encoded NADH dehydrogenase 3	MT	true	true	true	false	0.0	0.004	0.1251	0.01
+ENSG00000198886	4538	MT-ND4	mitochondrially encoded NADH dehydrogenase 4	MT	true	true	true	false	1.0	0.061	0.8185	0.01
+ENSG00000212907	4539	MT-ND4L	mitochondrially encoded NADH dehydrogenase 4L	MT	true	true	true	false	0.0	0.008	0.0219	0.012
+ENSG00000198786	4540	MT-ND5	mitochondrially encoded NADH dehydrogenase 5	MT	true	true	true	false	0.0	0.006	0.734	0.183
+ENSG00000198695	4541	MT-ND6	mitochondrially encoded NADH dehydrogenase 6	MT	true	true	true	false	0.0	0.0	0.227	0.051
+ENSG00000137409	23787	MTCH1	mitochondrial carrier 1	6	true	true	true	false	0.0	0.03	0.0466	0.133
+ENSG00000109919	23788	MTCH2	mitochondrial carrier 2	11	true	true	true	true	0.0	0.032	0.7533	0.018
+ENSG00000127989	7978	MTERF1	mitochondrial transcription termination factor 1	7	true	true	true	true	0.0	0.077	0.8869	0.285
+ENSG00000120832	80298	MTERF2	mitochondrial transcription termination factor 2	12	true	true	true	false	1.0	0.98	0.9858	0.956
+ENSG00000156469	51001	MTERF3	mitochondrial transcription termination factor 3	8	true	true	true	true	1.0	0.569	0.9961	0.921
+ENSG00000122085	130916	MTERF4	mitochondrial transcription termination factor 4	2	true	true	true	true	0.0	0.145	0.588	0.757
+ENSG00000103707	123263	MTFMT	mitochondrial methionyl-tRNA formyltransferase	15	true	true	true	false	1.0	0.93	0.9815	0.894
+ENSG00000242114	51537	MTFP1	mitochondrial fission process 1	22	true	true	true	false	0.0	0.0	0.4034	0.165
+ENSG00000066855	9650	MTFR1	mitochondrial fission regulator 1	8	true	true	true	true	1.0	0.717	0.9808	0.741
+ENSG00000117640	56181	MTFR1L	mitochondrial fission regulator 1-like	1	true	true	true	true	1.0	0.083	0.6936	0.242
+ENSG00000146410	113115	MTFR2	mitochondrial fission regulator 2	6	false	true	true	false	0.0	0.005	0.522	0.015
+ENSG00000148824	92170	MTG1	mitochondrial ribosome-associated GTPase 1	10	true	true	true	false	1.0	0.273	0.8244	0.664
+ENSG00000101181	26164	MTG2	mitochondrial ribosome-associated GTPase 2	20	true	true	true	false	1.0	0.983	0.9922	0.936
+ENSG00000100714	4522	MTHFD1	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1, methenyltetrahydrofolate cyclohydrolase, formyltetrahydrofolate synthetase	14	true	true	true	false	0.0	0.011	0.0343	0.236
+ENSG00000120254	25902	MTHFD1L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1-like	6	true	true	true	false	1.0	0.996	0.984	0.79
+ENSG00000065911	10797	MTHFD2	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2, methenyltetrahydrofolate cyclohydrolase	2	true	true	true	false	1.0	0.974	0.9037	0.834
+ENSG00000163738	441024	MTHFD2L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2-like	4	true	true	true	false	1.0	0.991	0.9305	0.947
+ENSG00000085760	4528	MTIF2	mitochondrial translational initiation factor 2	2	true	true	true	true	1.0	0.685	0.9013	0.82
+ENSG00000122033	219402	MTIF3	mitochondrial translational initiation factor 3	13	true	true	true	true	1.0	0.904	0.9719	0.568
+ENSG00000135297	25821	MTO1	mitochondrial tRNA translation optimization 1	6	true	true	true	false	1.0	0.52	0.5291	0.887
+ENSG00000198793	2475	MTOR	mechanistic target of rapamycin (serine/threonine kinase)	1	false	true	true	false	0.0	0.022	0.3176	0.503
+ENSG00000107951	55149	MTPAP	mitochondrial poly(A) polymerase	10	true	true	true	true	1.0	0.974	0.9853	0.914
+ENSG00000120662	9617	MTRF1	mitochondrial translational release factor 1	13	true	true	true	false	0.0	0.996	0.5871	0.723
+ENSG00000112031	54516	MTRF1L	mitochondrial translational release factor 1-like	6	true	true	true	false	1.0	0.998	0.9964	0.928
+ENSG00000129422	57509	MTUS1	microtubule associated tumor suppressor 1	8	false	true	true	false	0.0	0.0	0.0388	0.067
+ENSG00000173171	4580	MTX1	metaxin 1	1	true	true	true	true	0.0	0.016	0.9331	0.575
+ENSG00000128654	10651	MTX2	metaxin 2	2	true	true	true	false	0.0	0.0	0.0934	0.127
+ENSG00000090432	79594	MUL1	mitochondrial E3 ubiquitin protein ligase 1	1	true	true	true	true	0.0	0.0	0.056	0.129
+ENSG00000146085	4594	MUT	methylmalonyl CoA mutase	6	true	true	true	true	1.0	0.996	0.5959	0.768
+ENSG00000132781	4595	MUTYH	mutY DNA glycosylase	1	true	true	true	false	1.0	0.455	0.9913	0.918
+ENSG00000214114	26292	MYCBP	MYC binding protein	1	false	true	true	false	1.0	0.006	0.2354	0.19
+ENSG00000105357	79784	MYH14	myosin, heavy chain 14, non-muscle	19	false	true	false	false	0.0	0.0	0.3035	0.368
+ENSG00000100345	4627	MYH9	myosin, heavy chain 9, non-muscle	22	false	true	false	false	0.0	0.0	0.1807	0.104
+ENSG00000092841	4637	MYL6	myosin, light chain 6, alkali, smooth muscle and non-muscle	12	false	true	false	false	0.0	0.006	0.1189	0.053
+ENSG00000141052	93649	MYOCD	myocardin	17	false	true	false	false	1.0	0.923	0.7928	0.863
+ENSG00000152620	133686	NADK2	NAD kinase 2, mitochondrial	5	true	true	true	false	0.0	0.1	0.1162	0.113
+ENSG00000198951	4668	NAGA	N-acetylgalactosaminidase, alpha-	22	false	true	false	false	0.0	0.012	0.0193	0.025
+ENSG00000161653	162417	NAGS	N-acetylglutamate synthase	17	true	true	true	false	0.0	0.933	0.9997	0.621
+ENSG00000137513	79731	NARS2	asparaginyl-tRNA synthetase 2, mitochondrial (putative)	11	true	true	true	true	1.0	0.954	0.9748	0.853
+ENSG00000185818	339983	NAT8L	N-acetyltransferase 8-like (GCN5-related, putative)	4	false	true	true	true	0.0	0.0	0.0197	0.036
+ENSG00000188554	4077	NBR1	neighbor of BRCA1 gene 1	17	true	true	true	false	0.0	0.0	0.0321	0.057
+ENSG00000061676	10787	NCKAP1	NCK-associated protein 1	2	false	true	false	false	1.0	0.522	0.2214	0.263
+ENSG00000102471	54602	NDFIP2	Nedd4 family interacting protein 2	13	false	true	true	false	1.0	0.784	0.9926	0.925
+ENSG00000125356	4694	NDUFA1	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 1, 7.5kDa	X	true	true	true	true	0.0	0.035	0.0143	0.022
+ENSG00000130414	""	NDUFA10	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 10, 42kDa	2	true	true	true	true	0.0	0.999	0.9917	0.867
+ENSG00000174886	126328	NDUFA11	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 11, 14.7kDa	19	true	true	true	false	0.0	0.043	0.2831	0.121
+ENSG00000184752	55967	NDUFA12	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 12	12	true	true	true	false	1.0	0.596	0.5082	0.463
+ENSG00000186010	51079	NDUFA13	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 13	19	true	true	true	true	0.0	0.03	0.0611	0.061
+ENSG00000131495	4695	NDUFA2	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 2, 8kDa	5	true	true	true	false	1.0	0.074	0.6925	0.879
+ENSG00000170906	""	NDUFA3	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 3, 9kDa	19	true	true	true	false	0.0	0.006	0.1435	0.102
+ENSG00000189043	4697	NDUFA4	NDUFA4, mitochondrial complex associated	7	true	true	true	true	1.0	0.095	0.653	0.328
+ENSG00000185633	56901	NDUFA4L2	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 4-like 2	12	false	true	false	true	1.0	0.485	0.6998	0.418
+ENSG00000128609	4698	NDUFA5	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 5	7	true	true	true	false	1.0	0.176	0.0222	0.153
+ENSG00000184983	""	NDUFA6	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 6, 14kDa	22	true	true	true	false	1.0	0.32	0.9372	0.638
+ENSG00000267855	4701	NDUFA7	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 7, 14.5kDa	19	false	true	true	true	1.0	0.902	0.414	0.712
+ENSG00000119421	4702	NDUFA8	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 8, 19kDa	9	true	true	true	true	0.0	0.0	0.003	0.054
+ENSG00000139180	4704	NDUFA9	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 9, 39kDa	12	true	true	true	true	1.0	0.996	0.9992	0.938
+ENSG00000004779	4706	NDUFAB1	NADH dehydrogenase (ubiquinone) 1, alpha/beta subcomplex, 1, 8kDa	16	true	true	true	false	0.0	0.996	0.9674	0.948
+ENSG00000137806	51103	NDUFAF1	NADH dehydrogenase (ubiquinone) complex I, assembly factor 1	15	true	true	true	false	0.0	0.708	0.9838	0.807
+ENSG00000164182	91942	NDUFAF2	NADH dehydrogenase (ubiquinone) complex I, assembly factor 2	5	true	true	true	true	0.0	0.252	0.9759	0.319
+ENSG00000178057	25915	NDUFAF3	NADH dehydrogenase (ubiquinone) complex I, assembly factor 3	3	true	true	true	false	1.0	0.533	0.8049	0.911
+ENSG00000123545	29078	NDUFAF4	NADH dehydrogenase (ubiquinone) complex I, assembly factor 4	6	true	true	true	true	0.0	0.085	0.6112	0.605
+ENSG00000101247	79133	NDUFAF5	NADH dehydrogenase (ubiquinone) complex I, assembly factor 5	20	true	true	true	false	1.0	0.984	0.9861	0.909
+ENSG00000156170	137682	NDUFAF6	NADH dehydrogenase (ubiquinone) complex I, assembly factor 6	8	true	true	true	false	1.0	0.225	0.3358	0.727
+ENSG00000003509	55471	NDUFAF7	NADH dehydrogenase (ubiquinone) complex I, assembly factor 7	2	true	true	true	false	1.0	0.624	0.9665	0.663
+ENSG00000183648	4707	NDUFB1	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 1, 7kDa	14	true	true	true	true	0.0	0.008	0.0193	0.132
+ENSG00000140990	4716	NDUFB10	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 10, 22kDa	16	true	true	true	false	0.0	0.0	0.1203	0.084
+ENSG00000147123	54539	NDUFB11	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 11, 17.3kDa	X	true	true	true	true	1.0	0.992	0.7783	0.975
+ENSG00000090266	4708	NDUFB2	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 2, 8kDa	7	true	true	true	false	1.0	0.978	0.999	0.827
+ENSG00000119013	4709	NDUFB3	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 3, 12kDa	2	true	true	true	false	0.0	0.018	0.0043	0.037
+ENSG00000065518	4710	NDUFB4	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 4, 15kDa	3	true	true	true	true	0.0	0.003	0.2118	0.182
+ENSG00000136521	4711	NDUFB5	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 5, 16kDa	3	true	true	true	true	0.0	0.999	0.996	0.922
+ENSG00000165264	4712	NDUFB6	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 6, 17kDa	9	true	true	true	true	0.0	0.042	0.1082	0.238
+ENSG00000099795	4713	NDUFB7	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 7, 18kDa	19	true	true	true	false	0.0	0.042	0.3285	0.222
+ENSG00000166136	4714	NDUFB8	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 8, 19kDa	10	true	true	true	true	1.0	0.933	0.9718	0.907
+ENSG00000147684	4715	NDUFB9	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 9, 22kDa	8	true	true	true	true	0.0	0.735	0.9	0.849
+ENSG00000109390	4717	NDUFC1	NADH dehydrogenase (ubiquinone) 1, subcomplex unknown, 1, 6kDa	4	true	true	true	true	1.0	0.984	0.9751	0.958
+ENSG00000151366	4718	NDUFC2	NADH dehydrogenase (ubiquinone) 1, subcomplex unknown, 2, 14.5kDa	11	true	true	true	false	0.0	0.147	0.6459	0.265
+ENSG00000023228	4719	NDUFS1	NADH dehydrogenase (ubiquinone) Fe-S protein 1, 75kDa (NADH-coenzyme Q reductase)	2	true	true	true	true	1.0	0.994	0.7461	0.71
+ENSG00000158864	4720	NDUFS2	NADH dehydrogenase (ubiquinone) Fe-S protein 2, 49kDa (NADH-coenzyme Q reductase)	1	true	true	true	true	1.0	0.977	0.9613	0.873
+ENSG00000213619	4722	NDUFS3	NADH dehydrogenase (ubiquinone) Fe-S protein 3, 30kDa (NADH-coenzyme Q reductase)	11	true	true	true	true	1.0	0.962	0.9874	0.896
+ENSG00000164258	4724	NDUFS4	NADH dehydrogenase (ubiquinone) Fe-S protein 4, 18kDa (NADH-coenzyme Q reductase)	5	true	true	true	true	1.0	0.95	0.9985	0.964
+ENSG00000168653	4725	NDUFS5	NADH dehydrogenase (ubiquinone) Fe-S protein 5, 15kDa (NADH-coenzyme Q reductase)	1	true	true	true	false	0.0	0.027	0.4039	0.154
+ENSG00000145494	4726	NDUFS6	NADH dehydrogenase (ubiquinone) Fe-S protein 6, 13kDa (NADH-coenzyme Q reductase)	5	true	true	true	false	1.0	0.894	0.9448	0.876
+ENSG00000115286	374291	NDUFS7	NADH dehydrogenase (ubiquinone) Fe-S protein 7, 20kDa (NADH-coenzyme Q reductase)	19	true	true	true	false	0.0	0.869	0.9421	0.948
+ENSG00000110717	4728	NDUFS8	NADH dehydrogenase (ubiquinone) Fe-S protein 8, 23kDa (NADH-coenzyme Q reductase)	11	true	true	true	true	1.0	0.999	0.8542	0.854
+ENSG00000167792	4723	NDUFV1	NADH dehydrogenase (ubiquinone) flavoprotein 1, 51kDa	11	true	true	true	false	1.0	0.993	0.9653	0.872
+ENSG00000178127	4729	NDUFV2	NADH dehydrogenase (ubiquinone) flavoprotein 2, 24kDa	18	true	true	true	false	1.0	0.996	0.9957	0.936
+ENSG00000160194	4731	NDUFV3	NADH dehydrogenase (ubiquinone) flavoprotein 3, 10kDa	21	true	true	true	true	0.0	0.937	0.7573	0.775
+ENSG00000100285	4744	NEFH	neurofilament, heavy polypeptide	22	false	true	true	false	0.0	0.003	0.673	0.211
+ENSG00000204099	""	NEU4	sialidase 4	2	true	true	true	false	1.0	0.021	0.2891	0.835
+ENSG00000244005	9054	NFS1	NFS1 cysteine desulfurase	20	true	true	true	false	1.0	0.939	0.9737	0.885
+ENSG00000169599	27247	NFU1	NFU1 iron-sulfur cluster scaffold	2	true	true	true	false	1.0	0.987	0.9812	0.891
+ENSG00000182768	51335	NGRN	neugrin, neurite outgrowth associated	15	true	true	false	false	0.0	0.139	0.6875	0.595
+ENSG00000196290	60491	NIF3L1	NIF3 NGG1 interacting factor 3-like 1	2	true	true	true	false	0.0	0.427	0.7406	0.667
+ENSG00000184117	8508	NIPSNAP1	nipsnap homolog 1 (C. elegans)	22	true	true	true	false	1.0	0.912	0.9864	0.895
+ENSG00000136783	25934	NIPSNAP3A	nipsnap homolog 3A (C. elegans)	9	true	true	false	false	1.0	0.997	0.9971	0.902
+ENSG00000165028	55335	NIPSNAP3B	nipsnap homolog 3B (C. elegans)	9	true	true	false	false	1.0	0.996	0.9911	0.768
+ENSG00000158793	4817	NIT1	nitrilase 1	1	true	true	true	false	1.0	0.121	0.7265	0.628
+ENSG00000114021	56954	NIT2	nitrilase family, member 2	3	true	true	true	false	0.0	0.021	0.105	0.329
+ENSG00000123213	""	NLN	neurolysin (metallopeptidase M3 family)	5	true	true	false	true	0.0	0.004	0.0485	0.103
+ENSG00000160703	79671	NLRX1	NLR family member X1	11	true	true	true	true	1.0	0.313	0.9565	0.855
+ENSG00000243678	4831	NME1-NME2	NME1-NME2 readthrough	17	false	true	false	false	0.0	0.01	0.1454	0.192
+ENSG00000103202	4833	NME4	NME/NM23 nucleoside diphosphate kinase 4	16	true	true	true	true	1.0	1.0	0.9877	0.837
+ENSG00000172113	10201	NME6	NME/NM23 nucleoside diphosphate kinase 6	3	true	true	true	false	0.0	0.0	0.0395	0.092
+ENSG00000163864	349565	NMNAT3	nicotinamide nucleotide adenylyltransferase 3	3	true	true	true	false	0.0	0.06	0.6319	0.364
+ENSG00000112992	23530	NNT	nicotinamide nucleotide transhydrogenase	5	true	true	true	true	0.0	0.975	0.8163	0.453
+ENSG00000084092	84273	NOA1	nitric oxide associated 1	4	true	true	true	true	1.0	0.998	0.8924	0.927
+ENSG00000151014	25819	NOCT	nocturnin	4	false	true	false	false	1.0	0.942	0.9864	0.923
+ENSG00000140939	8996	NOL3	nucleolar protein 3 (apoptosis repressor with CARD domain)	16	false	true	true	false	0.0	0.0	0.0433	0.094
+ENSG00000162408	79707	NOL9	nucleolar protein 9	1	false	true	false	false	1.0	0.767	0.9941	0.691
+ENSG00000141458	4864	NPC1	Niemann-Pick disease, type C1	18	false	true	false	false	0.0	0.011	0.1287	0.027
+ENSG00000119655	10577	NPC2	Niemann-Pick disease, type C2	14	false	true	false	false	0.0	0.0	0.3402	0.027
+ENSG00000113580	2908	NR3C1	nuclear receptor subfamily 3, group C, member 1 (glucocorticoid receptor)	5	false	true	true	true	0.0	0.0	0.0107	0.071
+ENSG00000178694	63899	NSUN3	NOP2/Sun domain family, member 3	3	true	true	true	false	0.0	0.15	0.1692	0.122
+ENSG00000117481	387338	NSUN4	NOP2/Sun domain family, member 4	1	true	true	true	false	0.0	0.214	0.5887	0.771
+ENSG00000168268	64943	NT5DC2	5'-nucleotidase domain containing 2	3	true	true	false	false	0.0	0.0	0.0196	0.086
+ENSG00000111696	51559	NT5DC3	5'-nucleotidase domain containing 3	12	true	true	true	false	0.0	0.64	0.9796	0.8
+ENSG00000205309	56953	NT5M	5',3'-nucleotidase, mitochondrial	17	true	true	true	false	1.0	0.978	0.9458	0.872
+ENSG00000151413	80224	NUBPL	nucleotide binding protein-like	14	true	true	true	true	1.0	0.91	0.9393	0.736
+ENSG00000070081	4925	NUCB2	nucleobindin 2	11	true	true	false	false	0.0	0.025	0.0825	0.029
+ENSG00000106268	4521	NUDT1	nudix (nucleoside diphosphate linked moiety X)-type motif 1	7	false	true	true	false	0.0	0.077	0.7079	0.351
+ENSG00000166321	25961	NUDT13	nudix (nucleoside diphosphate linked moiety X)-type motif 13	10	true	true	true	false	1.0	0.529	0.9694	0.751
+ENSG00000213965	390916	NUDT19	nudix (nucleoside diphosphate linked moiety X)-type motif 19	19	true	true	true	false	1.0	0.798	0.8695	0.887
+ENSG00000164978	318	NUDT2	nudix (nucleoside diphosphate linked moiety X)-type motif 2	9	true	true	true	false	0.0	0.466	0.2749	0.24
+ENSG00000170917	11162	NUDT6	nudix (nucleoside diphosphate linked moiety X)-type motif 6	4	true	true	true	false	1.0	0.939	0.8715	0.864
+ENSG00000167799	254552	NUDT8	nudix (nucleoside diphosphate linked moiety X)-type motif 8	11	true	true	true	false	1.0	0.821	0.0745	0.6
+ENSG00000170502	53343	NUDT9	nudix (nucleoside diphosphate linked moiety X)-type motif 9	4	true	true	true	false	0.0	0.359	0.4776	0.688
+ENSG00000153989	116150	NUS1	NUS1 dehydrodolichyl diphosphate synthase subunit	6	false	true	false	false	1.0	0.848	0.9933	0.511
+ENSG00000065154	4942	OAT	ornithine aminotransferase	10	true	true	true	true	1.0	0.996	0.9531	0.905
+ENSG00000109180	54940	OCIAD1	OCIA domain containing 1	4	true	true	true	true	0.0	0.0	0.035	0.126
+ENSG00000145247	132299	OCIAD2	OCIA domain containing 2	4	true	true	true	true	0.0	0.0	0.0263	0.579
+ENSG00000105953	4967	OGDH	oxoglutarate (alpha-ketoglutarate) dehydrogenase (lipoamide)	7	true	true	true	true	0.0	0.996	0.9531	0.904
+ENSG00000197444	55753	OGDHL	oxoglutarate dehydrogenase-like	10	true	true	true	false	1.0	0.519	0.8793	0.899
+ENSG00000162600	115209	OMA1	OMA1 zinc metallopeptidase	1	true	true	true	true	0.0	0.257	0.9968	0.946
+ENSG00000198836	4976	OPA1	optic atrophy 1 (autosomal dominant)	3	true	true	true	true	1.0	0.509	0.9994	0.726
+ENSG00000125741	80207	OPA3	optic atrophy 3 (autosomal recessive, with chorea and spastic paraplegia)	19	true	true	true	false	1.0	0.123	0.871	0.648
+ENSG00000128694	64172	OSGEPL1	O-sialoglycoprotein endopeptidase-like 1	2	true	true	true	true	0.0	0.44	0.8589	0.736
+ENSG00000036473	5009	OTC	ornithine carbamoyltransferase	X	true	true	true	true	1.0	0.996	0.9966	0.853
+ENSG00000155463	5018	OXA1L	oxidase (cytochrome c) assembly 1-like	14	true	true	true	true	1.0	0.75	0.9729	0.888
+ENSG00000083720	5019	OXCT1	3-oxoacid CoA transferase 1	5	true	true	true	true	0.0	0.996	0.9782	0.872
+ENSG00000198754	64064	OXCT2	3-oxoacid CoA transferase 2	1	false	true	true	false	1.0	0.985	0.9782	0.888
+ENSG00000154814	92106	OXNAD1	oxidoreductase NAD-binding domain containing 1	3	true	true	true	false	0.0	0.4	0.8599	0.574
+ENSG00000151093	54995	OXSM	3-oxoacyl-ACP synthase, mitochondrial	3	true	true	true	true	1.0	0.94	0.9982	0.876
+ENSG00000122884	5033	P4HA1	prolyl 4-hydroxylase, alpha polypeptide I	10	false	true	true	true	0.0	0.009	0.067	0.03
+ENSG00000185624	5034	P4HB	prolyl 4-hydroxylase, beta polypeptide	17	true	true	false	false	0.0	0.017	0.5497	0.118
+ENSG00000179364	23241	PACS2	phosphofurin acidic cluster sorting protein 2	14	false	true	true	false	0.0	0.0	0.0355	0.141
+ENSG00000128050	10606	PAICS	phosphoribosylaminoimidazole carboxylase, phosphoribosylaminoimidazole succinocarboxamide synthetase	4	true	true	false	false	0.0	0.007	0.0308	0.06
+ENSG00000217930	""	PAM16	presequence translocase-associated motor 16 homolog (S. cerevisiae)	16	true	true	true	true	0.0	0.518	0.8125	0.522
+ENSG00000125779	80025	PANK2	pantothenate kinase 2	20	true	true	true	false	0.0	0.68	0.9532	0.949
+ENSG00000116288	11315	PARK7	parkinson protein 7	1	true	true	true	false	0.0	0.0	0.255	0.103
+ENSG00000175193	55486	PARL	presenilin associated, rhomboid-like	3	true	true	true	true	0.0	0.265	0.6033	0.501
+ENSG00000143799	142	PARP1	poly (ADP-ribose) polymerase 1	1	false	true	true	false	0.0	0.0	0.084	0.125
+ENSG00000162396	25973	PARS2	prolyl-tRNA synthetase 2, mitochondrial (putative)	1	true	true	true	false	1.0	0.578	0.9863	0.786
+ENSG00000173599	5091	PC	pyruvate carboxylase	11	true	true	true	true	1.0	0.997	0.972	0.83
+ENSG00000132570	84105	PCBD2	pterin-4 alpha-carbinolamine dehydratase/dimerization cofactor of hepatocyte nuclear factor 1 alpha (TCF1) 2	5	true	true	true	false	1.0	0.981	0.6942	0.927
+ENSG00000175198	5095	PCCA	propionyl CoA carboxylase, alpha polypeptide	13	true	true	true	false	0.0	0.996	0.9837	0.797
+ENSG00000114054	5096	PCCB	propionyl CoA carboxylase, beta polypeptide	3	true	true	true	false	0.0	1.0	0.9846	0.908
+ENSG00000100889	5106	PCK2	phosphoenolpyruvate carboxykinase 2 (mitochondrial)	14	true	true	true	true	1.0	0.996	0.882	0.803
+ENSG00000174840	201626	PDE12	phosphodiesterase 12	3	true	true	true	false	1.0	0.975	0.944	0.894
+ENSG00000258429	64146	PDF	peptide deformylase (mitochondrial)	16	true	true	true	false	0.0	0.127	0.6547	0.047
+ENSG00000131828	5160	PDHA1	pyruvate dehydrogenase (lipoamide) alpha 1	X	true	true	true	false	1.0	1.0	0.9944	0.913
+ENSG00000163114	5161	PDHA2	pyruvate dehydrogenase (lipoamide) alpha 2	4	true	true	true	false	1.0	1.0	0.9999	0.951
+ENSG00000168291	5162	PDHB	pyruvate dehydrogenase (lipoamide) beta	3	true	true	true	true	1.0	0.996	0.9631	0.886
+ENSG00000110435	8050	PDHX	pyruvate dehydrogenase complex, component X	11	true	true	true	true	1.0	0.518	0.9049	0.877
+ENSG00000167004	2923	PDIA3	protein disulfide isomerase family A, member 3	15	false	true	false	false	0.0	0.012	0.64	0.199
+ENSG00000152256	5163	PDK1	pyruvate dehydrogenase kinase, isozyme 1	2	true	true	true	false	1.0	0.999	0.984	0.936
+ENSG00000005882	5164	PDK2	pyruvate dehydrogenase kinase, isozyme 2	17	true	true	true	true	0.0	0.921	0.4866	0.404
+ENSG00000067992	5165	PDK3	pyruvate dehydrogenase kinase, isozyme 3	X	true	true	true	false	1.0	0.257	0.9481	0.8
+ENSG00000004799	5166	PDK4	pyruvate dehydrogenase kinase, isozyme 4	7	true	true	true	false	0.0	0.924	0.8315	0.847
+ENSG00000164951	54704	PDP1	pyruvate dehyrogenase phosphatase catalytic subunit 1	8	true	true	true	true	0.0	0.995	0.2531	0.309
+ENSG00000172840	57546	PDP2	pyruvate dehyrogenase phosphatase catalytic subunit 2	16	true	true	true	true	1.0	0.848	0.9988	0.448
+ENSG00000090857	55066	PDPR	pyruvate dehydrogenase phosphatase regulatory subunit	16	true	true	true	false	1.0	0.93	0.6075	0.951
+ENSG00000148459	23590	PDSS1	prenyl (decaprenyl) diphosphate synthase, subunit 1	10	true	true	true	false	1.0	0.644	0.9458	0.852
+ENSG00000164494	57107	PDSS2	prenyl (decaprenyl) diphosphate synthase, subunit 2	6	true	true	true	false	1.0	0.547	0.8465	0.807
+ENSG00000133027	10400	PEMT	phosphatidylethanolamine N-methyltransferase	17	false	true	true	false	0.0	0.0	0.0947	0.098
+ENSG00000229833	100131801	PET100	PET100 homolog	19	true	true	true	false	0.0	0.031	0.0988	0.023
+ENSG00000232838	100303755	PET117	PET117 homolog	20	false	true	true	false	0.0	0.013	0.1204	0.149
+ENSG00000247077	192111	PGAM5	phosphoglycerate mutase family member 5	12	true	true	true	true	0.0	0.124	0.481	0.412
+ENSG00000102144	5230	PGK1	phosphoglycerate kinase 1	X	false	true	false	false	0.0	0.003	0.1638	0.224
+ENSG00000164040	10424	PGRMC2	progesterone receptor membrane component 2	4	false	true	false	false	0.0	0.0	0.0021	0.075
+ENSG00000087157	9489	PGS1	phosphatidylglycerophosphate synthase 1	17	true	true	true	false	1.0	0.711	0.9796	0.73
+ENSG00000167085	5245	PHB	prohibitin	17	true	true	true	true	0.0	0.01	0.3255	0.065
+ENSG00000215021	11331	PHB2	prohibitin 2	12	true	true	true	true	0.0	0.806	0.5117	0.231
+ENSG00000067177	5255	PHKA1	phosphorylase kinase, alpha 1 (muscle)	X	false	true	false	false	1.0	0.649	0.4657	0.754
+ENSG00000044446	5256	PHKA2	phosphorylase kinase, alpha 2 (liver)	X	false	true	false	false	1.0	0.437	0.6474	0.735
+ENSG00000175309	85007	PHYKPL	5-phosphohydroxy-L-lysine phospho-lyase	5	false	true	true	true	0.0	0.445	0.0391	0.551
+ENSG00000241973	""	PI4KA	phosphatidylinositol 4-kinase, catalytic, alpha	22	true	true	false	false	0.0	0.0	0.0063	0.056
+ENSG00000163964	54965	PIGX	phosphatidylinositol glycan anchor biosynthesis, class X	3	false	true	false	false	0.0	0.958	0.7964	0.68
+ENSG00000102309	5303	PIN4	peptidylprolyl cis/trans isomerase, NIMA-interacting 4	X	false	true	true	false	0.0	0.0	0.0454	0.126
+ENSG00000158828	65018	PINK1	PTEN induced putative kinase 1	1	true	true	true	false	1.0	0.996	0.9948	0.923
+ENSG00000241878	23761	PISD	phosphatidylserine decarboxylase	22	true	true	true	false	0.0	0.084	0.7117	0.488
+ENSG00000107959	10531	PITRM1	pitrilysin metallopeptidase 1	10	true	true	true	true	1.0	0.996	0.9774	0.871
+ENSG00000143627	""	PKLR	pyruvate kinase, liver and RBC	1	true	true	false	false	0.0	0.081	0.2027	0.318
+ENSG00000067225	5315	PKM	pyruvate kinase, muscle	15	false	true	true	false	0.0	0.0	0.0088	0.081
+ENSG00000116711	5321	PLA2G4A	phospholipase A2, group IVA (cytosolic, calcium-dependent)	1	false	true	true	false	0.0	0.011	0.043	0.083
+ENSG00000243708	100137049	PLA2G4B	phospholipase A2, group IVB (cytosolic)	15	false	true	true	false	0.0	0.024	0.3499	0.311
+ENSG00000184381	8398	PLA2G6	phospholipase A2, group VI (cytosolic, calcium-independent)	22	false	true	false	false	0.0	0.038	0.6066	0.617
+ENSG00000121316	79887	PLBD1	phospholipase B domain containing 1	12	false	true	false	false	0.0	0.0	0.0033	0.018
+ENSG00000151176	196463	PLBD2	phospholipase B domain containing 2	12	false	true	false	false	0.0	0.083	0.4579	0.15
+ENSG00000075651	5337	PLD1	phospholipase D1, phosphatidylcholine-specific	3	false	true	false	false	0.0	0.0	0.0461	0.194
+ENSG00000179598	201164	PLD6	phospholipase D family, member 6	17	false	true	true	false	0.0	0.052	0.775	0.34
+ENSG00000107020	55848	PLGRKT	plasminogen receptor, C-terminal lysine transmembrane protein	9	true	true	true	false	0.0	0.13	0.3446	0.247
+ENSG00000141682	5366	PMAIP1	phorbol-12-myristate-13-acetate-induced protein 1	18	true	true	true	false	1.0	0.0	0.0154	0.47
+ENSG00000165688	23203	PMPCA	peptidase (mitochondrial processing) alpha	9	true	true	true	true	1.0	0.999	0.9873	0.875
+ENSG00000105819	9512	PMPCB	peptidase (mitochondrial processing) beta	7	true	true	true	true	1.0	0.996	0.9877	0.971
+ENSG00000127838	25953	PNKD	paroxysmal nonkinesigenic dyskinesia	2	false	true	true	true	0.0	0.838	0.978	0.873
+ENSG00000135241	50640	PNPLA8	patatin-like phospholipase domain containing 8	7	true	true	false	false	1.0	0.006	0.9753	0.204
+ENSG00000138035	87178	PNPT1	polyribonucleotide nucleotidyltransferase 1	2	true	true	true	true	1.0	0.222	0.3632	0.92
+ENSG00000174348	127435	PODN	podocan	1	false	true	false	false	0.0	0.0	0.1989	0.099
+ENSG00000004142	26073	POLDIP2	polymerase (DNA-directed), delta interacting protein 2	17	true	true	true	false	1.0	0.978	0.9998	0.959
+ENSG00000140521	5428	POLG	polymerase (DNA directed), gamma	15	true	true	true	false	1.0	0.918	0.8941	0.863
+ENSG00000256525	11232	POLG2	polymerase (DNA directed), gamma 2, accessory subunit	17	true	true	true	true	1.0	0.527	0.9843	0.845
+ENSG00000099821	5442	POLRMT	polymerase (RNA) mitochondrial (DNA directed)	19	true	true	true	true	0.0	0.996	0.9491	0.759
+ENSG00000180817	5464	PPA1	pyrophosphatase (inorganic) 1	10	false	true	false	false	0.0	0.0	0.0203	0.163
+ENSG00000138777	27068	PPA2	pyrophosphatase (inorganic) 2	4	true	true	true	true	1.0	0.996	0.8944	0.899
+ENSG00000166794	5479	PPIB	peptidylprolyl isomerase B (cyclophilin B)	15	false	true	false	false	0.0	0.015	0.1394	0.048
+ENSG00000108179	10105	PPIF	peptidylprolyl isomerase F	10	true	true	true	false	1.0	0.982	0.8669	0.948
+ENSG00000163644	152926	PPM1K	protein phosphatase, Mg2+/Mn2+ dependent, 1K	4	true	true	true	true	1.0	0.888	0.9738	0.917
+ENSG00000143224	5498	PPOX	protoporphyrinogen oxidase	1	true	true	true	true	0.0	0.016	0.1962	0.493
+ENSG00000138814	5530	PPP3CA	protein phosphatase 3, catalytic subunit, alpha isozyme	4	false	true	true	false	0.0	0.0	0.1657	0.18
+ENSG00000131238	5538	PPT1	palmitoyl-protein thioesterase 1	1	false	true	false	false	0.0	0.004	0.2474	0.033
+ENSG00000196850	160760	PPTC7	PTC7 protein phosphatase homolog	12	true	true	true	false	0.0	0.612	0.8948	0.397
+ENSG00000185686	""	PRAME	preferentially expressed antigen in melanoma	22	false	true	false	false	1.0	0.717	0.9159	0.803
+ENSG00000117450	5052	PRDX1	peroxiredoxin 1	1	false	true	true	true	0.0	0.0	0.0772	0.342
+ENSG00000167815	7001	PRDX2	peroxiredoxin 2	19	true	true	true	false	0.0	0.0	0.1369	0.4
+ENSG00000165672	10935	PRDX3	peroxiredoxin 3	10	true	true	true	false	1.0	0.978	0.9881	0.914
+ENSG00000123131	10549	PRDX4	peroxiredoxin 4	X	true	true	true	false	0.0	0.0	0.0057	0.031
+ENSG00000126432	25824	PRDX5	peroxiredoxin 5	11	true	true	true	true	0.0	0.626	0.8035	0.836
+ENSG00000117592	9588	PRDX6	peroxiredoxin 6	1	true	true	false	false	0.0	0.0	0.0329	0.118
+ENSG00000169230	27166	PRELID1	PRELI domain containing 1	5	true	true	true	true	0.0	0.232	0.7414	0.614
+ENSG00000138078	9581	PREPL	prolyl endopeptidase-like	2	true	true	false	false	0.0	0.131	0.9337	0.249
+ENSG00000171132	5581	PRKCE	protein kinase C, epsilon	2	false	true	true	false	0.0	0.077	0.1436	0.15
+ENSG00000100033	5625	PRODH	proline dehydrogenase (oxidase) 1	22	true	true	true	false	1.0	0.751	0.9296	0.782
+ENSG00000250799	58510	PRODH2	proline dehydrogenase (oxidase) 2	19	true	true	true	false	0.0	0.47	0.7816	0.794
+ENSG00000147471	11212	PROSC	proline synthetase co-transcribed homolog (bacterial)	8	true	true	true	false	0.0	0.35	0.5404	0.608
+ENSG00000135406	5630	PRPH	peripherin	12	false	true	false	false	1.0	0.03	0.8715	0.888
+ENSG00000185198	400668	PRSS57	protease, serine, 57	19	false	true	false	false	0.0	0.917	0.7993	0.696
+ENSG00000143363	58497	PRUNE	prune exopolyphosphatase	1	false	true	false	false	0.0	0.0	0.0587	0.181
+ENSG00000197746	5660	PSAP	prosaposin	10	false	true	true	false	0.0	0.004	0.1192	0.058
+ENSG00000106246	26024	PTCD1	pentatricopeptide repeat domain 1	7	true	true	true	false	1.0	0.291	0.8235	0.907
+ENSG00000049883	79810	PTCD2	pentatricopeptide repeat domain 2	5	true	true	true	false	0.0	0.069	0.9323	0.519
+ENSG00000132300	55037	PTCD3	pentatricopeptide repeat domain 3	2	true	true	true	true	1.0	0.999	0.9059	0.958
+ENSG00000148334	80142	PTGES2	prostaglandin E synthase 2	9	true	true	true	true	1.0	0.574	0.9713	0.599
+ENSG00000110536	114971	PTPMT1	protein tyrosine phosphatase, mitochondrial 1	11	true	true	true	true	0.0	0.133	0.7062	0.334
+ENSG00000070778	11099	PTPN21	protein tyrosine phosphatase, non-receptor type 21	14	false	true	false	false	1.0	0.835	0.7572	0.776
+ENSG00000187024	138428	PTRH1	peptidyl-tRNA hydrolase 1 homolog	9	true	true	true	false	1.0	0.922	0.9923	0.774
+ENSG00000141378	51651	PTRH2	peptidyl-tRNA hydrolase 2	17	true	true	true	true	0.0	0.0	0.1008	0.064
+ENSG00000177192	80324	PUS1	pseudouridylate synthase 1	12	true	true	true	true	1.0	0.928	0.9946	0.889
+ENSG00000169972	126789	PUSL1	pseudouridylate synthase-like 1	1	true	true	false	false	0.0	0.011	0.4056	0.6
+ENSG00000176894	5827	PXMP2	peroxisomal membrane protein 2, 22kDa	12	true	true	true	false	1.0	0.96	0.9504	0.874
+ENSG00000103490	29108	PYCARD	PYD and CARD domain containing	16	false	true	true	false	0.0	0.0	0.2626	0.065
+ENSG00000183010	5831	PYCR1	pyrroline-5-carboxylate reductase 1	17	true	true	true	false	0.0	0.015	0.3351	0.179
+ENSG00000143811	29920	PYCR2	pyrroline-5-carboxylate reductase family, member 2	1	true	true	true	true	0.0	0.019	0.6232	0.36
+ENSG00000119943	84795	PYROXD2	pyridine nucleotide-disulphide oxidoreductase domain 2	10	false	true	false	true	0.0	0.087	0.9112	0.504
+ENSG00000145337	100996939	PYURF	PIGY upstream reading frame	4	true	true	true	false	1.0	0.995	0.996	0.947
+ENSG00000172053	5859	QARS	glutaminyl-tRNA synthetase	3	false	true	true	false	0.0	0.012	0.0249	0.158
+ENSG00000130348	55278	QRSL1	glutaminyl-tRNA synthase (glutamine-hydrolyzing)-like 1	6	true	true	true	false	0.0	0.464	0.1796	0.302
+ENSG00000213339	81890	QTRT1	queuine tRNA-ribosyltransferase 1	19	true	true	true	true	1.0	0.147	0.1827	0.765
+ENSG00000151576	79691	QTRTD1	queuine tRNA-ribosyltransferase domain containing 1	3	false	true	true	false	0.0	0.022	0.2073	0.191
+ENSG00000103769	8766	RAB11A	RAB11A, member RAS oncogene family	15	false	true	true	false	0.0	0.0	0.0402	0.073
+ENSG00000129472	84932	RAB2B	RAB2B, member RAS oncogene family	14	false	true	false	false	0.0	0.019	0.0241	0.05
+ENSG00000118508	10981	RAB32	RAB32, member RAS oncogene family	6	true	true	true	false	0.0	0.0	0.0054	0.142
+ENSG00000111737	11021	RAB35	RAB35, member RAS oncogene family	12	true	true	true	false	0.0	0.008	0.064	0.086
+ENSG00000152932	115827	RAB3C	RAB3C, member RAS oncogene family	5	false	true	false	false	0.0	0.003	0.0232	0.187
+ENSG00000102128	282808	RAB40AL	RAB40A, member RAS oncogene family-like	X	false	true	true	false	0.0	0.0	0.1605	0.049
+ENSG00000166128	51762	RAB8B	RAB8B, member RAS oncogene family	15	false	true	true	false	0.0	0.009	0.0474	0.029
+ENSG00000128340	5880	RAC2	ras-related C3 botulinum toxin substrate 2 (rho family, small GTP binding protein Rac2)	22	false	true	false	false	0.0	0.0	0.0348	0.064
+ENSG00000169750	5881	RAC3	ras-related C3 botulinum toxin substrate 3 (rho family, small GTP binding protein Rac3)	17	false	true	false	false	0.0	0.0	0.0408	0.056
+ENSG00000051180	5888	RAD51	RAD51 recombinase	15	false	true	true	true	0.0	0.0	0.0079	0.059
+ENSG00000108384	5889	RAD51C	RAD51 paralog C	17	false	true	true	false	0.0	0.05	0.3075	0.577
+ENSG00000132155	5894	RAF1	Raf-1 proto-oncogene, serine/threonine kinase	3	false	true	true	false	0.0	0.15	0.0593	0.099
+ENSG00000116473	5906	RAP1A	RAP1A, member of RAS oncogene family	1	false	true	false	false	0.0	0.0	0.1152	0.101
+ENSG00000146282	57038	RARS2	arginyl-tRNA synthetase 2, mitochondrial	6	true	true	true	false	0.0	0.306	0.7816	0.496
+ENSG00000165105	158158	RASEF	RAS and EF-hand domain containing	9	false	true	false	false	0.0	0.0	0.0152	0.102
+ENSG00000101546	79863	RBFA	ribosome binding factor A (putative)	18	true	true	true	true	1.0	0.958	0.969	0.946
+ENSG00000160439	""	RDH13	retinol dehydrogenase 13 (all-trans/9-cis)	19	true	true	true	false	0.0	0.0	0.6852	0.082
+ENSG00000240857	57665	RDH14	retinol dehydrogenase 14 (all-trans/9-cis/11-cis)	2	true	true	true	false	0.0	0.93	0.9388	0.426
+ENSG00000068615	65055	REEP1	receptor accessory protein 1	2	false	true	true	false	0.0	0.054	0.7806	0.177
+ENSG00000129625	7905	REEP5	receptor accessory protein 5	5	false	true	false	false	0.0	0.026	0.6166	0.372
+ENSG00000076043	25996	REXO2	RNA exonuclease 2	11	true	true	true	true	0.0	0.965	0.8849	0.892
+ENSG00000135002	55312	RFK	riboflavin kinase	9	true	true	true	false	0.0	0.299	0.9823	0.737
+ENSG00000067560	387	RHOA	ras homolog family member A	3	false	true	true	false	1.0	0.012	0.0514	0.063
+ENSG00000155366	389	RHOC	ras homolog family member C	1	false	true	false	false	1.0	0.012	0.0523	0.062
+ENSG00000177105	391	RHOG	ras homolog family member G	11	false	true	false	false	0.0	0.004	0.0142	0.064
+ENSG00000126858	55288	RHOT1	ras homolog family member T1	17	true	true	true	false	0.0	0.0	0.0849	0.075
+ENSG00000140983	89941	RHOT2	ras homolog family member T2	16	true	true	true	false	0.0	0.0	0.1658	0.112
+ENSG00000129465	11035	RIPK3	receptor-interacting serine-threonine kinase 3	14	false	true	true	false	0.0	0.0	0.0206	0.066
+ENSG00000176623	51115	RMDN1	regulator of microtubule dynamics 1	8	true	true	true	false	1.0	0.997	0.8283	0.894
+ENSG00000137824	55177	RMDN3	regulator of microtubule dynamics 3	15	true	true	true	true	0.0	0.038	0.3841	0.459
+ENSG00000155906	55005	RMND1	required for meiotic nuclear division 1 homolog	6	true	true	true	true	1.0	0.957	0.9465	0.822
+ENSG00000171865	246243	RNASEH1	ribonuclease H1	2	true	true	true	false	0.0	0.542	0.9794	0.809
+ENSG00000135828	6041	RNASEL	ribonuclease L (2',5'-oligoisoadenylate synthetase-dependent)	1	false	true	true	false	0.0	0.0	0.0045	0.196
+ENSG00000171861	55178	RNMTL1	RNA methyltransferase like 1	17	true	true	true	true	1.0	0.377	0.9454	0.883
+ENSG00000125995	140823	ROMO1	reactive oxygen species modulator 1	20	true	true	true	false	0.0	0.0	0.1207	0.214
+ENSG00000266202	""	RP1-66C13.4	Uncharacterized protein 	17	false	true	false	false	1.0	0.193	0.8722	0.798
+ENSG00000260729	""	RP11-106M3.2	Uncharacterized protein 	15	false	true	false	false	0.0	0.012	0.2713	0.214
+ENSG00000254536	""	RP11-108K14.8	Mitochondrial GTPase 1 	10	false	true	true	false	0.0	0.0	0.0171	0.092
+ENSG00000249773	""	RP11-15K19.2	HCG1984214, isoform CRA_a; Uncharacterized protein 	7	false	true	false	false	0.0	0.0	0.0187	0.059
+ENSG00000256591	""	RP11-286N22.8	Uncharacterized protein 	11	false	true	true	false	0.0	0.226	0.9535	0.701
+ENSG00000255339	""	RP11-411B6.6	NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 8, mitochondrial; Uncharacterized protein 	10	false	true	true	false	1.0	0.936	0.9705	0.907
+ENSG00000249967	""	RP11-548K23.11	Uncharacterized protein 	10	false	true	false	false	0.0	0.933	0.928	0.741
+ENSG00000267127	""	RP11-795F19.5	Uncharacterized protein 	18	false	true	false	false	1.0	0.879	0.7156	0.943
+ENSG00000262660	""	RP13-1032I1.10	Uncharacterized protein; cDNA FLJ60124, highly similar to Mitochondrial dicarboxylate carrier 	17	false	true	true	false	1.0	0.993	0.9973	0.896
+ENSG00000255835	""	RP4-559A3.7	Uncharacterized protein 	1	false	true	false	false	0.0	0.019	0.7538	0.369
+ENSG00000280571	""	RP4-613B23.5	Uncharacterized protein 	3	false	true	false	false	0.0	0.0	0.0084	0.064
+ENSG00000105640	6142	RPL18A	ribosomal protein L18a	19	false	true	false	false	0.0	0.119	0.9202	0.478
+ENSG00000156482	6156	RPL30	ribosomal protein L30	8	false	true	false	false	0.0	0.169	0.8841	0.45
+ENSG00000071082	6160	RPL31	ribosomal protein L31	2	false	true	false	false	0.0	0.0	0.0892	0.145
+ENSG00000144713	6161	RPL32	ribosomal protein L32	3	false	true	false	false	1.0	0.753	0.9981	0.26
+ENSG00000109475	6164	RPL34	ribosomal protein L34	4	true	true	false	false	1.0	0.947	0.9998	0.749
+ENSG00000182899	6165	RPL35A	ribosomal protein L35a	3	true	true	true	false	0.0	0.839	0.8125	0.791
+ENSG00000197756	6168	RPL37A	ribosomal protein L37a	2	false	true	false	false	0.0	0.801	0.958	0.228
+ENSG00000172809	6169	RPL38	ribosomal protein L38	17	false	true	false	false	0.0	0.0	0.1295	0.102
+ENSG00000161016	6132	RPL8	ribosomal protein L8	8	false	true	false	false	0.0	0.012	0.992	0.728
+ENSG00000089157	6175	RPLP0	ribosomal protein, large, P0	12	false	true	false	false	0.0	0.01	0.0559	0.113
+ENSG00000255154	""	RPP14	Hydroxyacyl-thioester dehydratase type 2, mitochondrial 	3	false	true	true	true	0.0	0.099	0.6693	0.595
+ENSG00000134419	6210	RPS15A	ribosomal protein S15a	16	true	true	false	false	1.0	0.426	0.1009	0.355
+ENSG00000105193	6217	RPS16	ribosomal protein S16	19	false	true	false	false	0.0	0.016	0.7804	0.477
+ENSG00000231500	""	RPS18	ribosomal protein S18	6	false	true	false	false	1.0	0.209	0.8858	0.249
+ENSG00000156990	285367	RPUSD3	RNA pseudouridylate synthase domain containing 3	3	true	true	true	false	0.0	0.758	0.869	0.83
+ENSG00000165526	84881	RPUSD4	RNA pseudouridylate synthase domain containing 4	11	true	true	true	true	1.0	0.082	0.6972	0.484
+ENSG00000136444	55316	RSAD1	radical S-adenosyl methionine domain containing 1	17	true	true	true	false	1.0	0.788	0.9097	0.865
+ENSG00000134321	91543	RSAD2	radical S-adenosyl methionine domain containing 2	2	false	true	true	false	1.0	0.604	0.9828	0.568
+ENSG00000130347	84816	RTN4IP1	reticulon 4 interacting protein 1	6	true	true	true	false	1.0	0.762	0.9783	0.798
+ENSG00000198838	6263	RYR3	ryanodine receptor 3	15	false	true	false	false	0.0	0.0	4.0E-4	0.041
+ENSG00000211456	22908	SACM1L	SAC1 suppressor of actin mutations 1-like (yeast)	3	false	true	false	false	0.0	0.0	0.007	0.035
+ENSG00000151835	26278	SACS	sacsin molecular chaperone	13	false	true	true	false	0.0	0.019	0.0428	0.085
+ENSG00000100347	25813	SAMM50	SAMM50 sorting and assembly machinery component	22	true	true	true	true	0.0	0.0	0.0502	0.122
+ENSG00000123453	1757	SARDH	sarcosine dehydrogenase	9	true	true	true	true	1.0	0.735	0.9849	0.957
+ENSG00000104835	54938	SARS2	seryl-tRNA synthetase 2, mitochondrial	19	true	true	true	false	1.0	0.917	0.9857	0.923
+ENSG00000141504	112483	SAT2	spermidine/spermine N1-acetyltransferase family member 2	17	false	true	false	false	0.0	0.0	0.1226	0.106
+ENSG00000143653	51097	SCCPDH	saccharopine dehydrogenase (putative)	1	true	true	true	false	0.0	0.003	0.0356	0.116
+ENSG00000133028	6341	SCO1	SCO1 cytochrome c oxidase assembly protein	17	true	true	true	false	1.0	0.996	0.9649	0.806
+ENSG00000130489	9997	SCO2	SCO2 cytochrome c oxidase assembly protein	22	true	true	true	true	1.0	0.996	0.9054	0.937
+ENSG00000116171	6342	SCP2	sterol carrier protein 2	1	true	true	true	false	0.0	0.017	0.3542	0.324
+ENSG00000121064	59342	SCPEP1	serine carboxypeptidase 1	17	false	true	false	false	0.0	0.0	0.1154	0.04
+ENSG00000073578	6389	SDHA	succinate dehydrogenase complex, subunit A, flavoprotein (Fp)	5	true	true	true	true	1.0	0.995	0.9727	0.922
+ENSG00000205138	644096	SDHAF1	succinate dehydrogenase complex assembly factor 1	19	true	true	true	true	1.0	0.09	0.2863	0.909
+ENSG00000167985	54949	SDHAF2	succinate dehydrogenase complex assembly factor 2	11	true	true	true	false	0.0	0.306	0.9319	0.738
+ENSG00000196636	57001	SDHAF3	succinate dehydrogenase complex assembly factor 3	7	true	true	true	true	1.0	0.8	0.9755	0.791
+ENSG00000154079	135154	SDHAF4	succinate dehydrogenase complex assembly factor 4	6	true	true	true	true	1.0	0.238	0.9745	0.694
+ENSG00000117118	6390	SDHB	succinate dehydrogenase complex, subunit B, iron sulfur (Ip)	1	true	true	true	true	1.0	0.963	0.9626	0.936
+ENSG00000143252	6391	SDHC	succinate dehydrogenase complex, subunit C, integral membrane protein, 15kDa	1	true	true	true	false	1.0	0.992	0.9818	0.844
+ENSG00000204370	6392	SDHD	succinate dehydrogenase complex, subunit D, integral membrane protein	11	true	true	true	false	0.0	0.996	0.9357	0.824
+ENSG00000100445	56948	SDR39U1	short chain dehydrogenase/reductase family 39U, member 1	14	true	true	false	false	0.0	0.025	0.9243	0.551
+ENSG00000073169	""	SELO	selenoprotein O	22	true	true	false	false	0.0	0.007	0.9344	0.902
+ENSG00000108387	5414	SEPT4	septin 4	17	true	true	true	false	0.0	0.0	0.0255	0.085
+ENSG00000184702	5413	SEPT5	septin 5	22	false	true	false	false	0.0	0.03	0.0704	0.163
+ENSG00000122335	84947	SERAC1	serine active site containing 1	6	true	true	true	false	1.0	0.297	0.7528	0.443
+ENSG00000155542	133383	SETD9	SET domain containing 9	5	true	true	false	false	1.0	0.852	0.9968	0.859
+ENSG00000164466	94081	SFXN1	sideroflexin 1	5	true	true	true	true	0.0	0.004	0.0067	0.123
+ENSG00000156398	118980	SFXN2	sideroflexin 2	10	true	true	true	true	0.0	0.0	0.1164	0.163
+ENSG00000107819	81855	SFXN3	sideroflexin 3	10	true	true	true	true	0.0	0.0	0.0088	0.084
+ENSG00000183605	119559	SFXN4	sideroflexin 4	10	true	true	true	false	0.0	0.0	0.1646	0.119
+ENSG00000144040	94097	SFXN5	sideroflexin 5	2	true	true	true	true	0.0	0.0	0.0673	0.24
+ENSG00000097033	51100	SH3GLB1	SH3-domain GRB2-like endophilin B1	1	false	true	true	false	0.0	0.006	0.0317	0.127
+ENSG00000160691	6464	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	1	false	true	true	false	0.0	0.0	0.0073	0.117
+ENSG00000176974	6470	SHMT1	serine hydroxymethyltransferase 1 (soluble)	17	true	true	true	false	0.0	0.0	0.0106	0.079
+ENSG00000182199	6472	SHMT2	serine hydroxymethyltransferase 2 (mitochondrial)	12	true	true	true	true	1.0	0.996	0.9084	0.898
+ENSG00000215475	283514	SIAH3	siah E3 ubiquitin protein ligase family member 3	13	false	true	true	false	0.0	0.5	0.5578	0.325
+ENSG00000142082	23410	SIRT3	sirtuin 3	11	true	true	true	false	0.0	0.411	0.7455	0.555
+ENSG00000089163	23409	SIRT4	sirtuin 4	12	true	true	true	false	1.0	0.047	0.9036	0.843
+ENSG00000124523	23408	SIRT5	sirtuin 5	6	true	true	true	true	1.0	0.725	0.8054	0.589
+ENSG00000110911	4891	SLC11A2	solute carrier family 11 (proton-coupled divalent metal ion transporter), member 2	12	false	true	true	true	0.0	0.0	0.0038	0.06
+ENSG00000079215	6507	SLC1A3	solute carrier family 1 (glial high affinity glutamate transporter), member 3	5	false	true	true	true	0.0	0.052	0.0489	0.202
+ENSG00000100075	6576	SLC25A1	solute carrier family 25 (mitochondrial carrier; citrate transporter), member 1	22	true	true	true	false	1.0	0.779	0.1374	0.676
+ENSG00000183048	1468	SLC25A10	solute carrier family 25 (mitochondrial carrier; dicarboxylate transporter), member 10	17	true	true	true	false	0.0	0.007	0.2089	0.312
+ENSG00000108528	8402	SLC25A11	solute carrier family 25 (mitochondrial carrier; oxoglutarate carrier), member 11	17	true	true	true	false	0.0	0.019	0.1431	0.164
+ENSG00000115840	8604	SLC25A12	solute carrier family 25 (aspartate/glutamate carrier), member 12	2	true	true	true	false	0.0	0.0	0.086	0.302
+ENSG00000004864	10165	SLC25A13	solute carrier family 25 (aspartate/glutamate carrier), member 13	7	true	true	true	true	1.0	0.188	0.1815	0.364
+ENSG00000102078	9016	SLC25A14	solute carrier family 25 (mitochondrial carrier, brain), member 14	X	true	true	true	true	0.0	0.026	0.0435	0.201
+ENSG00000102743	10166	SLC25A15	solute carrier family 25 (mitochondrial carrier; ornithine transporter) member 15	13	true	true	true	false	0.0	0.003	0.0357	0.041
+ENSG00000122912	8034	SLC25A16	solute carrier family 25 (mitochondrial carrier), member 16	10	true	true	true	false	0.0	0.0	0.2407	0.181
+ENSG00000100372	10478	SLC25A17	solute carrier family 25 (mitochondrial carrier; peroxisomal membrane protein, 34kDa), member 17	22	true	true	true	false	0.0	0.0	0.0426	0.077
+ENSG00000182902	83733	SLC25A18	solute carrier family 25 (glutamate carrier), member 18	22	true	true	true	false	0.0	0.012	0.1317	0.022
+ENSG00000125454	60386	SLC25A19	solute carrier family 25 (mitochondrial thiamine pyrophosphate carrier), member 19	17	true	true	true	false	0.0	0.004	0.0076	0.249
+ENSG00000120329	83884	SLC25A2	solute carrier family 25 (mitochondrial carrier; ornithine transporter) member 2	5	false	true	true	false	0.0	0.003	0.0139	0.046
+ENSG00000178537	788	SLC25A20	solute carrier family 25 (carnitine/acylcarnitine translocase), member 20	3	true	true	true	true	0.0	0.072	0.0144	0.037
+ENSG00000183032	89874	SLC25A21	solute carrier family 25 (mitochondrial oxoadipate carrier), member 21	14	true	true	true	false	0.0	0.013	0.8247	0.128
+ENSG00000177542	79751	SLC25A22	solute carrier family 25 (mitochondrial carrier: glutamate), member 22	11	true	true	true	true	0.0	0.014	0.0165	0.023
+ENSG00000125648	79085	SLC25A23	solute carrier family 25 (mitochondrial carrier; phosphate carrier), member 23	19	true	true	true	false	0.0	0.0	0.0566	0.204
+ENSG00000085491	29957	SLC25A24	solute carrier family 25 (mitochondrial carrier; phosphate carrier), member 24	1	true	true	true	true	0.0	0.067	0.8789	0.103
+ENSG00000148339	114789	SLC25A25	solute carrier family 25 (mitochondrial carrier; phosphate carrier), member 25	9	true	true	true	true	0.0	0.0	0.0451	0.099
+ENSG00000144741	115286	SLC25A26	solute carrier family 25 (S-adenosylmethionine carrier), member 26	3	true	true	true	true	0.0	0.0	0.0145	0.043
+ENSG00000153291	9481	SLC25A27	solute carrier family 25, member 27	6	true	true	true	false	0.0	0.012	0.089	0.057
+ENSG00000155287	81894	SLC25A28	solute carrier family 25 (mitochondrial iron transporter), member 28	10	true	true	true	false	0.0	0.0	0.0188	0.092
+ENSG00000197119	123096	SLC25A29	solute carrier family 25 (mitochondrial carnitine/acylcarnitine carrier), member 29	14	true	true	true	false	0.0	0.004	0.0106	0.088
+ENSG00000075415	5250	SLC25A3	solute carrier family 25 (mitochondrial carrier; phosphate carrier), member 3	12	true	true	true	true	0.0	0.86	0.1003	0.54
+ENSG00000174032	253512	SLC25A30	solute carrier family 25, member 30	13	true	true	true	false	0.0	0.007	0.0564	0.064
+ENSG00000151475	83447	SLC25A31	solute carrier family 25 (mitochondrial carrier; adenine nucleotide translocator), member 31	4	true	true	true	true	0.0	0.006	0.2919	0.097
+ENSG00000164933	81034	SLC25A32	solute carrier family 25 (mitochondrial folate carrier), member 32	8	true	true	true	false	0.0	0.054	0.503	0.743
+ENSG00000171612	84275	SLC25A33	solute carrier family 25 (pyrimidine nucleotide carrier), member 33	1	true	true	true	false	0.0	0.004	0.2876	0.07
+ENSG00000162461	284723	SLC25A34	solute carrier family 25, member 34	1	true	true	true	true	0.0	0.0	0.0148	0.017
+ENSG00000125434	399512	SLC25A35	solute carrier family 25, member 35	17	true	true	true	true	0.0	0.007	0.0076	0.055
+ENSG00000114120	55186	SLC25A36	solute carrier family 25 (pyrimidine nucleotide carrier), member 36	3	true	true	true	true	0.0	0.005	0.051	0.047
+ENSG00000147454	51312	SLC25A37	solute carrier family 25 (mitochondrial iron transporter), member 37	8	true	true	true	false	0.0	0.0	0.3886	0.345
+ENSG00000144659	54977	SLC25A38	solute carrier family 25, member 38	3	true	true	true	false	0.0	0.003	0.0362	0.113
+ENSG00000013306	51629	SLC25A39	solute carrier family 25, member 39	17	true	true	true	false	0.0	0.0	0.0625	0.041
+ENSG00000151729	291	SLC25A4	solute carrier family 25 (mitochondrial carrier; adenine nucleotide translocator), member 4	4	true	true	true	false	0.0	0.022	0.2422	0.069
+ENSG00000075303	55972	SLC25A40	solute carrier family 25, member 40	7	true	true	true	false	0.0	0.003	0.0212	0.027
+ENSG00000181240	284427	SLC25A41	solute carrier family 25, member 41	19	true	true	true	false	1.0	0.101	0.383	0.332
+ENSG00000181035	284439	SLC25A42	solute carrier family 25, member 42	19	true	true	true	true	0.0	0.007	0.0694	0.347
+ENSG00000077713	203427	SLC25A43	solute carrier family 25, member 43	X	true	true	true	false	0.0	0.435	0.9235	0.233
+ENSG00000160785	9673	SLC25A44	solute carrier family 25, member 44	1	true	true	true	false	0.0	0.007	0.007	0.031
+ENSG00000162241	283130	SLC25A45	solute carrier family 25, member 45	11	true	true	true	false	0.0	0.011	0.0716	0.056
+ENSG00000164209	91137	SLC25A46	solute carrier family 25, member 46	5	true	true	true	true	0.0	0.008	0.0654	0.166
+ENSG00000145832	153328	SLC25A48	solute carrier family 25, member 48	5	true	true	true	false	0.0	0.003	0.0131	0.031
+ENSG00000005022	292	SLC25A5	solute carrier family 25 (mitochondrial carrier; adenine nucleotide translocator), member 5	X	true	true	true	false	0.0	0.007	0.2049	0.103
+ENSG00000141437	147407	SLC25A52	solute carrier family 25, member 52	18	false	true	true	false	0.0	0.003	0.0318	0.131
+ENSG00000269743	401612	SLC25A53	solute carrier family 25, member 53	X	false	true	true	false	0.0	0.061	0.0094	0.201
+ENSG00000169100	293	SLC25A6	solute carrier family 25 (mitochondrial carrier; adenine nucleotide translocator), member 6	X	true	true	true	false	0.0	0.005	0.1499	0.093
+ENSG00000014824	10463	SLC30A9	solute carrier family 30 (zinc transporter), member 9	4	true	true	false	false	1.0	0.978	0.7325	0.942
+ENSG00000124786	51000	SLC35B3	solute carrier family 35 (adenosine 3'-phospho 5'-phosphosulfate transporter), member B3	6	false	true	true	false	0.0	0.0	0.0311	0.072
+ENSG00000004939	6521	SLC4A1	solute carrier family 4 (anion exchanger), member 1 (Diego blood group)	17	false	true	false	false	0.0	0.0	0.0133	0.066
+ENSG00000089060	80024	SLC8B1	solute carrier family 8 (sodium/lithium/calcium exchanger), member B1	12	false	true	true	false	0.0	0.345	0.5265	0.571
+ENSG00000198689	10479	SLC9A6	solute carrier family 9, subfamily A (NHE6, cation proton antiporter 6), member 6	X	false	true	true	false	1.0	0.876	0.9963	0.665
+ENSG00000164038	133308	SLC9B2	solute carrier family 9, subfamily B (NHA2, cation proton antiporter 2), member 2	4	false	true	true	false	0.0	0.0	0.011	0.091
+ENSG00000119705	81892	SLIRP	SRA stem-loop interacting RNA binding protein	14	true	true	true	true	1.0	0.99	0.9822	0.966
+ENSG00000163206	4184	SMCP	sperm mitochondria-associated cysteine-rich protein	1	false	true	true	false	0.0	0.008	0.0065	0.083
+ENSG00000183172	""	SMDT1	single-pass membrane protein with aspartate-rich tail 1	22	true	true	true	true	1.0	0.55	0.7112	0.866
+ENSG00000163866	113444	SMIM12	small integral membrane protein 12	1	false	true	false	true	0.0	0.161	0.2706	0.071
+ENSG00000250317	389203	SMIM20	small integral membrane protein 20	4	false	true	false	false	0.0	0.024	0.3998	0.542
+ENSG00000198742	57154	SMURF1	SMAD specific E3 ubiquitin protein ligase 1	7	false	true	true	false	1.0	0.509	0.8387	0.616
+ENSG00000099940	9342	SNAP29	synaptosomal-associated protein, 29kDa	22	true	true	false	false	0.0	0.0	0.0195	0.051
+ENSG00000145335	6622	SNCA	synuclein, alpha (non A4 component of amyloid precursor)	4	false	true	true	false	0.0	0.0	0.1183	0.056
+ENSG00000142168	6647	SOD1	superoxide dismutase 1, soluble	21	true	true	true	false	0.0	0.0	0.0101	0.081
+ENSG00000112096	6648	SOD2	superoxide dismutase 2, mitochondrial	6	true	true	true	false	1.0	0.996	0.9626	0.762
+ENSG00000124766	6659	SOX4	SRY (sex determining region Y)-box 4	6	false	true	true	true	0.0	0.0	0.0194	0.082
+ENSG00000163071	132671	SPATA18	spermatogenesis associated 18	4	false	true	true	false	0.0	0.01	0.2578	0.137
+ENSG00000166118	219938	SPATA19	spermatogenesis associated 19	11	true	true	true	false	0.0	0.008	0.4785	0.079
+ENSG00000006282	64847	SPATA20	spermatogenesis associated 20	17	true	true	false	false	1.0	1.0	0.9216	0.883
+ENSG00000145375	166378	SPATA5	spermatogenesis associated 5	4	false	true	true	false	0.0	0.009	0.1948	0.807
+ENSG00000197912	6687	SPG7	spastic paraplegia 7 (pure and complicated autosomal recessive)	16	true	true	true	false	1.0	0.741	0.931	0.822
+ENSG00000169682	83985	SPNS1	spinster homolog 1 (Drosophila)	16	false	true	true	false	0.0	0.0	0.0035	0.064
+ENSG00000116096	6697	SPR	sepiapterin reductase (7,8-dihydrobiopterin:NADP+ oxidoreductase)	2	true	true	true	false	0.0	0.012	0.8397	0.467
+ENSG00000176422	283377	SPRYD4	SPRY domain containing 4	12	true	true	true	false	1.0	0.904	0.9889	0.937
+ENSG00000137767	58472	SQRDL	sulfide quinone reductase-like (yeast)	15	true	true	true	true	0.0	0.06	0.2654	0.75
+ENSG00000144867	58477	SRPRB	signal recognition particle receptor, B subunit	3	false	true	false	false	0.0	0.0	0.008	0.19
+ENSG00000106028	""	SSBP1	single-stranded DNA binding protein 1, mitochondrial	7	true	true	true	true	0.0	0.966	0.8367	0.829
+ENSG00000147465	6770	STAR	steroidogenic acute regulatory protein	8	true	true	true	false	0.0	0.823	0.9905	0.841
+ENSG00000084090	56910	STARD7	StAR-related lipid transfer (START) domain containing 7	2	true	true	true	false	0.0	0.997	0.9987	0.842
+ENSG00000168610	6774	STAT3	signal transducer and activator of transcription 3 (acute-phase response factor)	17	false	true	true	false	0.0	0.004	0.1495	0.136
+ENSG00000118046	6794	STK11	serine/threonine kinase 11	19	false	true	true	false	0.0	0.0	0.0076	0.072
+ENSG00000165283	30968	STOML2	stomatin (EPB72)-like 2	9	true	true	true	false	1.0	1.0	0.9904	0.958
+ENSG00000136874	55014	STX17	syntaxin 17	9	true	true	true	false	0.0	0.0	0.05	0.106
+ENSG00000136143	8803	SUCLA2	succinate-CoA ligase, ADP-forming, beta subunit	13	true	true	true	true	1.0	0.826	0.9549	0.945
+ENSG00000163541	8802	SUCLG1	succinate-CoA ligase, alpha subunit	2	true	true	true	true	0.0	0.421	0.3309	0.409
+ENSG00000172340	8801	SUCLG2	succinate-CoA ligase, GDP-forming, beta subunit	3	true	true	true	true	1.0	0.964	0.9343	0.908
+ENSG00000175600	79783	SUGCT	succinyl-CoA:glutarate-CoA transferase	7	true	true	true	false	1.0	0.618	0.9767	0.604
+ENSG00000139531	6821	SUOX	sulfite oxidase	12	true	true	true	false	1.0	0.91	0.8689	0.851
+ENSG00000156502	6832	SUPV3L1	suppressor of var1, 3-like 1 (S. cerevisiae)	10	true	true	true	false	1.0	0.506	0.9525	0.932
+ENSG00000148290	""	SURF1	surfeit 1	9	true	true	true	false	1.0	0.989	0.9971	0.918
+ENSG00000213463	55333	SYNJ2BP	synaptojanin 2 binding protein	14	true	true	true	true	0.0	0.0	0.0169	0.071
+ENSG00000136463	51204	TACO1	translational activator of mitochondrially encoded cytochrome c oxidase I	17	true	true	true	true	1.0	0.954	0.9844	0.898
+ENSG00000165632	83860	TAF3	TAF3 RNA polymerase II, TATA box binding protein (TBP)-associated factor, 140kDa	10	false	true	false	false	0.0	0.019	0.7163	0.137
+ENSG00000186051	6887	TAL2	T-cell acute lymphocytic leukemia 2	9	false	true	false	false	1.0	0.607	0.719	0.643
+ENSG00000144559	132001	TAMM41	TAM41, mitochondrial translocator assembly and maintenance protein, homolog (S. cerevisiae)	3	true	true	true	false	0.0	0.01	0.6441	0.275
+ENSG00000170921	26115	TANC2	tetratricopeptide repeat, ankyrin repeat and coiled-coil containing 2	17	false	true	false	false	0.0	0.049	0.7682	0.629
+ENSG00000143374	80222	TARS2	threonyl-tRNA synthetase 2, mitochondrial (putative)	1	true	true	true	false	1.0	0.287	0.9551	0.888
+ENSG00000102125	6901	TAZ	tafazzin	X	false	true	true	false	0.0	0.003	0.5445	0.022
+ENSG00000121749	64786	TBC1D15	TBC1 domain family, member 15	12	false	true	true	true	0.0	0.0	0.0277	0.077
+ENSG00000167291	125058	TBC1D16	TBC1 domain family, member 16	17	false	true	false	false	1.0	0.765	0.8891	0.648
+ENSG00000136270	9238	TBRG4	transforming growth factor beta regulator 4	7	true	true	true	true	1.0	0.925	0.9869	0.905
+ENSG00000179152	285343	TCAIM	T cell activation inhibitor, mitochondrial	3	true	true	true	false	1.0	0.554	0.8356	0.718
+ENSG00000139437	84260	TCHP	trichoplein, keratin filament binding	12	true	true	true	false	0.0	0.081	0.7318	0.621
+ENSG00000196116	23424	TDRD7	tudor domain containing 7	9	false	true	true	false	0.0	0.231	0.278	0.139
+ENSG00000182134	11022	TDRKH	tudor and KH domain containing	1	true	true	true	false	0.0	0.0	0.1356	0.278
+ENSG00000172171	79736	TEFM	transcription elongation factor, mitochondrial	17	true	true	true	true	0.0	0.158	0.924	0.782
+ENSG00000164362	7015	TERT	telomerase reverse transcriptase	5	false	true	true	false	1.0	0.012	0.9245	0.947
+ENSG00000108064	7019	TFAM	transcription factor A, mitochondrial	10	true	true	true	true	1.0	0.996	0.9226	0.873
+ENSG00000029639	51106	TFB1M	transcription factor B1, mitochondrial	6	true	true	true	false	1.0	0.12	0.8513	0.5
+ENSG00000162851	64216	TFB2M	transcription factor B2, mitochondrial	1	true	true	true	true	1.0	0.729	0.6124	0.895
+ENSG00000041988	90326	THAP3	THAP domain containing, apoptosis associated protein 3	1	false	true	false	true	1.0	0.786	0.9797	0.865
+ENSG00000159445	117145	THEM4	thioesterase superfamily member 4	1	true	true	true	false	1.0	0.997	0.9237	0.916
+ENSG00000196407	284486	THEM5	thioesterase superfamily member 5	1	false	true	true	false	1.0	0.943	0.904	0.927
+ENSG00000185875	79896	THNSL1	threonine synthase-like 1 (S. cerevisiae)	10	true	true	true	false	0.0	0.474	0.6153	0.789
+ENSG00000134809	26519	TIMM10	translocase of inner mitochondrial membrane 10 homolog (yeast)	11	true	true	true	true	0.0	0.0	0.0319	0.074
+ENSG00000132286	""	TIMM10B	translocase of inner mitochondrial membrane 10 homolog B (yeast)	11	true	true	true	false	0.0	0.016	0.0505	0.622
+ENSG00000265264	""	TIMM10B	translocase of inner mitochondrial membrane 10 homolog B (yeast)	11	false	true	true	false	0.0	0.016	0.0505	0.622
+ENSG00000099800	26517	TIMM13	translocase of inner mitochondrial membrane 13 homolog (yeast)	19	true	true	true	true	0.0	0.0	0.0064	0.058
+ENSG00000134375	10440	TIMM17A	translocase of inner mitochondrial membrane 17 homolog A (yeast)	1	true	true	true	true	0.0	0.0	0.0994	0.024
+ENSG00000126768	10245	TIMM17B	translocase of inner mitochondrial membrane 17 homolog B (yeast)	X	true	true	true	true	0.0	0.0	0.1111	0.022
+ENSG00000075336	29090	TIMM21	translocase of inner mitochondrial membrane 21 homolog (yeast)	18	true	true	true	false	1.0	0.343	0.9736	0.504
+ENSG00000177370	""	TIMM22	translocase of inner mitochondrial membrane 22 homolog (yeast)	17	true	true	true	false	0.0	0.0	0.0165	0.051
+ENSG00000265354	100287932	TIMM23	translocase of inner mitochondrial membrane 23 homolog (yeast)	10	false	true	true	true	0.0	0.0	8.0E-4	0.09
+ENSG00000204152	""	TIMM23B	translocase of inner mitochondrial membrane 23 homolog B (yeast)	10	false	true	true	false	0.0	0.0	0.0011	0.09
+ENSG00000104980	10469	TIMM44	translocase of inner mitochondrial membrane 44 homolog (yeast)	19	true	true	true	true	1.0	0.993	0.9502	0.85
+ENSG00000105197	92609	TIMM50	translocase of inner mitochondrial membrane 50 homolog (S. cerevisiae)	19	true	true	true	true	1.0	1.0	0.996	0.924
+ENSG00000126953	1678	TIMM8A	translocase of inner mitochondrial membrane 8 homolog A (yeast)	X	true	true	true	true	0.0	0.0	0.0048	0.119
+ENSG00000150779	26521	TIMM8B	translocase of inner mitochondrial membrane 8 homolog B (yeast)	11	true	true	true	false	0.0	0.0	0.0165	0.059
+ENSG00000100575	26520	TIMM9	translocase of inner mitochondrial membrane 9 homolog (yeast)	14	true	true	true	true	0.0	0.0	0.0394	0.074
+ENSG00000113845	51300	TIMMDC1	translocase of inner mitochondrial membrane domain containing 1	3	true	true	true	true	0.0	0.018	0.9041	0.095
+ENSG00000166548	7084	TK2	thymidine kinase 2, mitochondrial	16	true	true	true	false	1.0	0.949	0.9882	0.877
+ENSG00000178307	8834	TMEM11	transmembrane protein 11	17	true	true	true	true	1.0	0.152	0.3009	0.843
+ENSG00000171202	84233	TMEM126A	transmembrane protein 126A	11	true	true	true	false	0.0	0.0	0.0045	0.036
+ENSG00000171204	55863	TMEM126B	transmembrane protein 126B	11	true	true	true	true	0.0	0.0	0.017	0.157
+ENSG00000161558	55260	TMEM143	transmembrane protein 143	19	true	true	true	false	0.0	0.976	0.8267	0.809
+ENSG00000137210	81853	TMEM14B	transmembrane protein 14B	6	false	true	false	false	0.0	0.003	0.1342	0.039
+ENSG00000130748	54958	TMEM160	transmembrane protein 160	19	false	true	true	false	1.0	0.522	0.9967	0.929
+ENSG00000184584	340061	TMEM173	transmembrane protein 173	5	false	true	true	false	0.0	0.0	0.0618	0.141
+ENSG00000184857	25880	TMEM186	transmembrane protein 186	16	true	true	true	false	1.0	0.857	0.8716	0.832
+ENSG00000135185	79161	TMEM243	transmembrane protein 243, mitochondrial	7	false	true	false	false	0.0	0.0	0.1801	0.17
+ENSG00000262481	""	TMEM256-PLSCR3	Uncharacterized protein 	17	false	true	false	false	0.0	0.392	0.812	0.862
+ENSG00000137038	90871	TMEM261	transmembrane protein 261	9	false	true	false	false	0.0	0.026	0.132	0.361
+ENSG00000164983	157378	TMEM65	transmembrane protein 65	8	true	true	true	false	1.0	0.963	0.9949	0.917
+ENSG00000159596	51249	TMEM69	transmembrane protein 69	1	false	true	false	false	1.0	0.944	0.931	0.883
+ENSG00000175606	54968	TMEM70	transmembrane protein 70	8	true	true	true	true	0.0	0.031	0.9919	0.573
+ENSG00000153214	84910	TMEM87B	transmembrane protein 87B	2	false	true	false	false	1.0	0.972	0.9898	0.851
+ENSG00000185973	55217	TMLHE	trimethyllysine hydroxylase, epsilon	X	true	true	true	true	0.0	0.391	0.6355	0.437
+ENSG00000173726	9804	TOMM20	translocase of outer mitochondrial membrane 20 homolog (yeast)	1	true	true	true	true	0.0	0.008	0.066	0.123
+ENSG00000196860	387990	TOMM20L	translocase of outer mitochondrial membrane 20 homolog (yeast)-like	14	false	true	true	false	0.0	0.494	0.9647	0.581
+ENSG00000100216	56993	TOMM22	translocase of outer mitochondrial membrane 22 homolog (yeast)	22	true	true	true	true	0.0	0.0	0.005	0.172
+ENSG00000025772	10953	TOMM34	translocase of outer mitochondrial membrane 34	20	true	true	true	false	0.0	0.0	0.0661	0.119
+ENSG00000130204	10452	TOMM40	translocase of outer mitochondrial membrane 40 homolog (yeast)	19	true	true	true	true	0.0	0.0	0.0242	0.159
+ENSG00000158882	84134	TOMM40L	translocase of outer mitochondrial membrane 40 homolog (yeast)-like	1	true	true	true	false	0.0	0.0	0.8374	0.45
+ENSG00000175768	401505	TOMM5	translocase of outer mitochondrial membrane 5 homolog (yeast)	9	true	true	true	true	0.0	0.003	0.002	0.094
+ENSG00000214736	100188893	TOMM6	translocase of outer mitochondrial membrane 6 homolog (yeast)	6	false	true	true	true	0.0	0.0	0.0138	0.074
+ENSG00000196683	54543	TOMM7	translocase of outer mitochondrial membrane 7 homolog (yeast)	7	true	true	true	false	1.0	0.056	0.0888	0.481
+ENSG00000154174	9868	TOMM70A	translocase of outer mitochondrial membrane 70 homolog A (S. cerevisiae)	3	true	true	true	true	0.0	0.0	0.2425	0.102
+ENSG00000184428	116447	TOP1MT	topoisomerase (DNA) I, mitochondrial	8	true	true	true	true	0.0	0.958	0.9795	0.871
+ENSG00000177302	7156	TOP3A	topoisomerase (DNA) III alpha	17	true	true	false	false	1.0	0.863	0.8285	0.913
+ENSG00000141510	7157	TP53	tumor protein p53	17	false	true	true	false	0.0	0.0	0.017	0.058
+ENSG00000120471	63970	TP53AIP1	tumor protein p53 regulated apoptosis inducing protein 1	11	false	true	true	false	0.0	0.003	0.159	0.847
+ENSG00000111669	7167	TPI1	triosephosphate isomerase 1	12	true	true	false	false	0.0	0.0	0.0079	0.044
+ENSG00000167460	7171	TPM4	tropomyosin 4	19	false	true	false	false	0.0	0.0	0.0536	0.13
+ENSG00000166340	1200	TPP1	tripeptidyl peptidase I	11	false	true	true	false	0.0	0.0	0.0117	0.048
+ENSG00000175104	7189	TRAF6	TNF receptor-associated factor 6, E3 ubiquitin protein ligase	11	false	true	true	true	0.0	0.0	0.0086	0.071
+ENSG00000126602	10131	TRAP1	TNF receptor-associated protein 1	16	true	true	true	true	1.0	0.936	0.9966	0.905
+ENSG00000170855	51499	TRIAP1	TP53 regulated inhibitor of apoptosis 1	12	true	true	true	true	0.0	0.032	0.2835	0.068
+ENSG00000043514	54802	TRIT1	tRNA isopentenyltransferase 1	1	true	true	true	false	1.0	0.106	0.9342	0.709
+ENSG00000174173	54931	TRMT10C	tRNA methyltransferase 10 homolog C (S. cerevisiae)	3	true	true	true	true	1.0	0.577	0.9908	0.948
+ENSG00000066651	60487	TRMT11	tRNA methyltransferase 11 homolog (S. cerevisiae)	6	true	true	false	false	0.0	0.063	0.1848	0.081
+ENSG00000126814	57570	TRMT5	tRNA methyltransferase 5	14	false	true	true	false	0.0	0.065	0.6802	0.57
+ENSG00000171103	55006	TRMT61B	tRNA methyltransferase 61B	2	true	true	true	false	0.0	0.203	0.7024	0.316
+ENSG00000100416	55687	TRMU	tRNA 5-methylaminomethyl-2-thiouridylate methyltransferase	22	true	true	true	true	0.0	0.678	0.5353	0.438
+ENSG00000072756	51095	TRNT1	tRNA nucleotidyl transferase, CCA-adding, 1	3	true	true	true	true	1.0	0.523	0.9988	0.884
+ENSG00000069018	57113	TRPC7	transient receptor potential cation channel, subfamily C, member 7	5	false	true	false	false	1.0	0.821	0.8823	0.596
+ENSG00000144481	79054	TRPM8	transient receptor potential cation channel, subfamily M, member 8	2	false	true	false	false	1.0	0.717	0.7492	0.917
+ENSG00000167112	26995	TRUB2	TruB pseudouridine (psi) synthase family member 2	9	true	true	false	false	0.0	0.05	0.1636	0.59
+ENSG00000123297	10102	TSFM	Ts translation elongation factor, mitochondrial	12	true	true	true	true	1.0	0.968	0.9908	0.944
+ENSG00000100300	""	TSPO	translocator protein (18kDa)	22	true	true	true	true	0.0	0.02	0.3359	0.156
+ENSG00000128311	7263	TST	thiosulfate sulfurtransferase (rhodanese)	22	true	true	true	true	1.0	0.659	0.8182	0.392
+ENSG00000011295	54902	TTC19	tetratricopeptide repeat domain 19	17	true	true	true	true	1.0	0.996	0.9782	0.933
+ENSG00000167552	7846	TUBA1A	tubulin, alpha 1a	12	false	true	false	false	0.0	0.007	0.0509	0.076
+ENSG00000123416	10376	TUBA1B	tubulin, alpha 1b	12	false	true	false	false	0.0	0.007	0.0504	0.076
+ENSG00000167553	84790	TUBA1C	tubulin, alpha 1c	12	false	true	false	false	0.0	0.007	0.0511	0.076
+ENSG00000196230	""	TUBB	tubulin, beta class I	6	false	true	false	false	0.0	0.0	0.0288	0.103
+ENSG00000176014	84617	TUBB6	tubulin, beta 6 class V	18	false	true	false	false	0.0	0.0	0.0603	0.068
+ENSG00000178952	7284	TUFM	Tu translation elongation factor, mitochondrial	16	true	true	true	true	1.0	0.996	0.972	0.777
+ENSG00000104723	7991	TUSC3	tumor suppressor candidate 3	8	false	true	true	false	1.0	0.253	0.9601	0.352
+ENSG00000136810	7295	TXN	thioredoxin	9	false	true	true	false	0.0	0.0	0.4114	0.062
+ENSG00000100348	25828	TXN2	thioredoxin 2	22	true	true	true	true	1.0	0.996	0.9948	0.921
+ENSG00000184470	10587	TXNRD2	thioredoxin reductase 2	22	true	true	true	true	1.0	0.975	0.9773	0.907
+ENSG00000137831	55075	UACA	uveal autoantigen with coiled-coil domains and ankyrin repeats	15	false	true	true	true	1.0	0.358	0.1764	0.783
+ENSG00000177889	7334	UBE2N	ubiquitin-conjugating enzyme E2N	12	false	true	false	false	0.0	0.143	0.457	0.378
+ENSG00000120942	29914	UBIAD1	UbiA prenyltransferase domain containing 1	1	false	true	true	false	0.0	0.0	0.1419	0.08
+ENSG00000109424	7350	UCP1	uncoupling protein 1 (mitochondrial, proton carrier)	4	true	true	true	false	0.0	0.0	0.0363	0.029
+ENSG00000175567	7351	UCP2	uncoupling protein 2 (mitochondrial, proton carrier)	11	true	true	true	false	0.0	0.0	0.0473	0.042
+ENSG00000175564	7352	UCP3	uncoupling protein 3 (mitochondrial, proton carrier)	11	true	true	true	false	0.0	0.0	0.0308	0.032
+ENSG00000076248	7374	UNG	uracil DNA glycosylase	12	true	true	true	false	0.0	0.103	0.5913	0.731
+ENSG00000101019	55245	UQCC1	ubiquinol-cytochrome c reductase complex assembly factor 1	20	true	true	true	false	1.0	0.831	0.9685	0.785
+ENSG00000137288	84300	UQCC2	ubiquinol-cytochrome c reductase complex assembly factor 2	6	true	true	true	true	0.0	0.013	0.2523	0.423
+ENSG00000204922	790955	UQCC3	ubiquinol-cytochrome c reductase complex assembly factor 3	11	false	true	true	true	0.0	0.014	0.0646	0.03
+ENSG00000184076	29796	UQCR10	ubiquinol-cytochrome c reductase, complex III subunit X	22	true	true	true	false	1.0	0.374	0.7653	0.28
+ENSG00000127540	10975	UQCR11	ubiquinol-cytochrome c reductase, complex III subunit XI	19	true	true	true	false	1.0	0.212	0.2949	0.338
+ENSG00000156467	7381	UQCRB	ubiquinol-cytochrome c reductase binding protein	8	true	true	true	false	0.0	0.052	0.7558	0.284
+ENSG00000010256	7384	UQCRC1	ubiquinol-cytochrome c reductase core protein I	3	true	true	true	true	1.0	0.996	0.9937	0.951
+ENSG00000140740	7385	UQCRC2	ubiquinol-cytochrome c reductase core protein II	16	true	true	true	true	1.0	0.996	0.8094	0.83
+ENSG00000169021	7386	UQCRFS1	ubiquinol-cytochrome c reductase, Rieske iron-sulfur polypeptide 1	19	true	true	true	true	1.0	0.996	0.8377	0.863
+ENSG00000173660	7388	UQCRH	ubiquinol-cytochrome c reductase hinge protein	1	true	true	true	false	0.0	0.223	0.002	0.058
+ENSG00000233954	440567	UQCRHL	ubiquinol-cytochrome c reductase hinge protein like	1	false	true	true	false	0.0	0.22	0.0032	0.059
+ENSG00000164405	27089	UQCRQ	ubiquinol-cytochrome c reductase, complex III subunit VII, 9.5kDa	5	true	true	true	true	0.0	0.249	0.8035	0.836
+ENSG00000105176	8725	URI1	URI1, prefoldin-like chaperone	19	false	true	true	true	0.0	0.0	0.009	0.11
+ENSG00000173915	84833	USMG5	up-regulated during skeletal muscle growth 5 homolog (mouse)	10	true	true	true	true	0.0	0.013	2.0E-4	0.086
+ENSG00000135093	84749	USP30	ubiquitin specific peptidase 30	12	false	true	true	false	1.0	0.987	0.73	0.868
+ENSG00000139190	6843	VAMP1	vesicle-associated membrane protein 1 (synaptobrevin 1)	12	false	true	true	false	0.0	0.0	4.0E-4	0.166
+ENSG00000204394	""	VARS	valyl-tRNA synthetase	6	false	true	true	false	0.0	0.0	0.0261	0.055
+ENSG00000137411	""	VARS2	valyl-tRNA synthetase 2, mitochondrial	6	true	true	true	true	1.0	0.387	0.823	0.879
+ENSG00000213585	7416	VDAC1	voltage-dependent anion channel 1	5	false	true	true	false	0.0	0.0	0.3892	0.139
+ENSG00000165637	7417	VDAC2	voltage-dependent anion channel 2	10	true	true	true	true	0.0	0.007	0.1577	0.207
+ENSG00000078668	7419	VDAC3	voltage-dependent anion channel 3	8	true	true	true	true	0.0	0.0	0.4923	0.112
+ENSG00000026025	7431	VIM	vimentin	10	false	true	false	false	1.0	0.737	0.9878	0.749
+ENSG00000197969	23230	VPS13A	vacuolar protein sorting 13 homolog A (S. cerevisiae)	9	false	true	false	true	0.0	0.0	0.4347	0.057
+ENSG00000131475	84313	VPS25	vacuolar protein sorting 25 homolog (S. cerevisiae)	17	false	true	true	false	0.0	0.015	0.1411	0.397
+ENSG00000102763	23078	VWA8	von Willebrand factor A domain containing 8	13	true	true	true	false	1.0	0.967	0.9697	0.854
+ENSG00000116874	10352	WARS2	tryptophanyl tRNA synthetase 2, mitochondrial	1	true	true	true	true	1.0	0.86	0.7353	0.887
+ENSG00000112290	8936	WASF1	WAS protein family, member 1	6	false	true	true	false	0.0	0.07	0.7019	0.349
+ENSG00000274523	81554	WBSCR16	Williams-Beuren syndrome chromosome region 16	7	false	true	true	false	1.0	0.911	0.9914	0.858
+ENSG00000163625	23001	WDFY3	WD repeat and FYVE domain containing 3	4	false	true	false	false	0.0	0.192	0.3923	0.293
+ENSG00000167716	""	WDR81	WD repeat domain 81	17	true	true	true	false	0.0	0.009	0.0039	0.525
+ENSG00000196236	63929	XPNPEP3	X-prolyl aminopeptidase 3, mitochondrial	22	true	true	true	false	0.0	0.876	0.9561	0.462
+ENSG00000126215	7517	XRCC3	X-ray repair complementing defective repair in Chinese hamster cells 3	14	false	true	true	false	0.0	0.004	0.0246	0.06
+ENSG00000166896	""	XRCC6BP1	XRCC6 binding protein 1	12	true	true	false	false	0.0	0.0	0.0283	0.232
+ENSG00000139131	51067	YARS2	tyrosyl-tRNA synthetase 2, mitochondrial	12	true	true	true	false	1.0	0.721	0.974	0.817
+ENSG00000182362	54059	YBEY	ybeY metallopeptidase (putative)	21	true	true	true	false	1.0	0.701	0.9845	0.862
+ENSG00000136758	10730	YME1L1	YME1-like 1 ATPase	10	true	true	true	true	0.0	0.055	0.3139	0.445
+ENSG00000196449	79693	YRDC	yrdC N(6)-threonylcarbamoyltransferase domain containing	1	false	true	true	true	1.0	0.303	0.9826	0.898
+ENSG00000164924	7534	YWHAZ	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, zeta	8	false	true	true	false	0.0	0.004	0.0672	0.073
+ENSG00000180011	284273	ZADH2	zinc binding alcohol dehydrogenase domain containing 2	18	true	true	true	false	0.0	0.206	0.6488	0.656
+ENSG00000140836	463	ZFHX3	zinc finger homeobox 3	16	false	true	true	false	0.0	0.0	0.0016	0.075
+ENSG00000130844	55422	ZNF331	zinc finger protein 331	19	false	true	false	true	0.0	0.0	0.1083	0.051
+ENSG00000186918	55893	ZNF395	zinc finger protein 395	8	false	true	false	false	1.0	0.93	0.9413	0.916
+ENSG00000243660	""	ZNF487	zinc finger protein 487	10	false	true	false	false	1.0	0.182	0.5185	0.711
+ENSG00000189042	163081	ZNF567	zinc finger protein 567	19	false	true	false	true	0.0	0.0	0.1445	0.087
+ENSG00000083814	79891	ZNF671	zinc finger protein 671	19	false	true	false	false	1.0	0.228	0.5476	0.889
+ENSG00000142409	126208	ZNF787	zinc finger protein 787	19	false	true	false	true	0.0	0.0	0.0067	0.063

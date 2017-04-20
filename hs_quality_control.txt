@@ -1,0 +1,207 @@
+#########	Mitochondrial quality control factors #############
+gene_id	symbol	description
+#	Regulator of mitochondrial biogenesis
+##	Ubiquitas transcription factors
+1385	CREB1	cAMP responsive element binding protein 1
+84340	GFM2	G elongation factor mitochondrial 2
+85476	GFM1	G elongation factor mitochondrial 1
+6667	SP1	Sp1 transcription factor
+7528	YY1	YY1 transcription factor
+404281	YY2	YY2 transcription factor
+2553	GABPB1	GA binding protein transcription factor beta subunit 1
+126626	GABPB2	GA binding protein transcription factor beta subunit 2
+7019	TFAM	transcription factor A, mitochondrial
+##	Nuclear respiratory factors
+4899	NRF1	nuclear respiratory factor 1
+4780	NFE2L2	nuclear factor, erythroid 2 like 2
+4490	MT1B	metallothionein 1B
+4493	MT1E	metallothionein 1E
+4494	MT1F	metallothionein 1F
+4495	MT1G	metallothionein 1G
+4496	MT1H	metallothionein 1H
+4499	MT1M	metallothionein 1M
+4501	MT1X	metallothionein 1X
+4502	MT2A	metallothionein 2A
+4489	MT1A	metallothionein 1A
+645745	MT1HL1	metallothionein 1H-like 1
+4504	MT3	metallothionein 3
+84560	MT4	metallothionein 4
+##	Coactivators
+10891	PPARGC1A	PPARG coactivator 1 alpha
+133522	PPARGC1B	PPARG coactivator 1 beta
+23082	PPRC1	peroxisome proliferator-activated receptor gamma, coactivator-related 1
+23373	CRTC1	CREB regulated transcription coactivator 1
+1387	CREBBP	CREB binding protein
+2033	EP300	E1A binding protein p300
+##	Other regulator of mitochondrial biogenesis
+1374	CPT1A	carnitine palmitoyltransferase 1A
+1375	CPT1B	carnitine palmitoyltransferase 1B
+126129	CPT1C	carnitine palmitoyltransferase 1C
+55526	DHTKD1	dehydrogenase E1 and transketolase domain containing 1
+26235	FBXL4	F-box and leucine rich repeat protein 4
+29915	HCFC2	host cell factor C2
+3054	HCFC1	host cell factor C1
+3064	HTT	huntingtin
+2101	ESRRA	estrogen related receptor alpha
+2103	ESRRB	estrogen related receptor beta
+2104	ESRRG	estrogen related receptor gamma
+8204	NRIP1	nuclear receptor interacting protein 1
+5562	PRKAA1	protein kinase AMP-activated catalytic subunit alpha 1
+5563	PRKAA2	protein kinase AMP-activated catalytic subunit alpha 2
+9361	LONP1	lon peptidase 1, mitochondrial
+23411	SIRT1	sirtuin 1
+
+#	Mitochondrial respiratory chain complex assembly factors
+##	Complex-I assembly factors
+51103	NDUFAF1	NADH:ubiquinone oxidoreductase complex assembly factor 1
+91942	NDUFAF2	NADH:ubiquinone oxidoreductase complex assembly factor 2
+25915	NDUFAF3	NADH:ubiquinone oxidoreductase complex assembly factor 3
+29078	NDUFAF4	NADH:ubiquinone oxidoreductase complex assembly factor 4
+79133	NDUFAF5	NADH:ubiquinone oxidoreductase complex assembly factor 5
+137682	NDUFAF6	NADH:ubiquinone oxidoreductase complex assembly factor 6
+55471	NDUFAF7	NADH:ubiquinone oxidoreductase complex assembly factor 7
+55863	TMEM126B	transmembrane protein 126B
+51295	ECSIT	ECSIT signalling integrator
+28976	ACAD9	acyl-CoA dehydrogenase family member 9
+80224	NUBPL	nucleotide binding protein like
+55572	FOXRED1	FAD dependent oxidoreductase domain containing 1
+##	Complex-II assembly factors
+644096	SDHAF1	succinate dehydrogenase complex assembly factor 1
+54949	SDHAF2	succinate dehydrogenase complex assembly factor 2
+##	Complex-III assembly factors
+617	BCS1L	BCS1 homolog, ubiquinol-cytochrome c reductase complex chaperone
+54902	TTC19	tetratricopeptide repeat domain 19
+90624	LYRM7	LYR motif containing 7
+55245	UQCC1	ubiquinol-cytochrome c reductase complex assembly factor 1
+84300	UQCC2	ubiquinol-cytochrome c reductase complex assembly factor 2
+##	Complex-IV assembly factors
+152100	CMC1	C-X9-C motif containing 1
+56942	CMC2	C-X9-C motif containing 2
+55744	COA1	cytochrome c oxidase assembly factor 1 homolog
+28958	COA3	cytochrome c oxidase assembly factor 3
+51287	COA4	cytochrome c oxidase assembly factor 4 homolog
+493753	COA5	cytochrome c oxidase assembly factor 5
+388753	COA6	cytochrome c oxidase assembly factor 6
+65260	COA7	cytochrome c oxidase assembly factor 7 (putative)
+1352	COX10	COX10, heme A:farnesyltransferase cytochrome c oxidase assembly factor
+1353	COX11	COX11, cytochrome c oxidase copper chaperone
+84987	COX14	COX14, cytochrome c oxidase assembly factor
+1355	COX15	COX15, cytochrome c oxidase assembly homolog
+51241	COX16	COX16, cytochrome c oxidase assembly homolog
+10063	COX17	COX17, cytochrome c oxidase copper chaperone
+285521	COX18	COX18, cytochrome c oxidase assembly factor
+90639	COX19	COX19, cytochrome c oxidase assembly factor
+116228	COX20	COX20, cytochrome c oxidase assembly factor
+118490	MSS51	MSS51 mitochondrial translational activator
+100131801	PET100	PET100 homolog
+100303755	PET117	PET117 homolog
+5018	OXA1L	OXA1L, mitochondrial inner membrane protein
+6834	SURF1	SURF1, cytochrome c oxidase assembly factor
+6341	SCO1	SCO1, cytochrome c oxidase assembly protein
+9997	SCO2	SCO2, cytochrome c oxidase assembly protein
+51204	TACO1	translational activator of cytochrome c oxidase I
+10128	LRPPRC	leucine rich pentatricopeptide repeat containing
+22868	FASTKD2	FAST kinase domains 2
+##	Complex-V assembly factors
+64756	ATPAF1	ATP synthase mitochondrial F1 complex assembly factor 1
+91647	ATPAF2	ATP synthase mitochondrial F1 complex assembly factor 2
+54968	TMEM70	transmembrane protein 70
+9556	C14orf2	chromosome 14 open reading frame 2
+84833	USMG5	up-regulated during skeletal muscle growth 5 homolog (mouse)
+#	Mitochondrial dynamics
+##	Fission and Fusion factors
+55669	MFN1	mitofusin 1
+9927	MFN2	mitofusin 2
+4976	OPA1	OPA1, mitochondrial dynamin like GTPase
+51499	TRIAP1	TP53 regulated inhibitor of apoptosis 1
+55486	PARL	presenilin associated rhomboid like
+578	BAK1	BCL2 antagonist/killer 1
+581	BAX	BCL2 associated X, apoptosis regulator
+10059	DNM1L	dynamin 1 like
+51024	FIS1	fission, mitochondrial 1
+6612	SUMO3	small ubiquitin-like modifier 3
+6613	SUMO2	small ubiquitin-like modifier 2
+7341	SUMO1	small ubiquitin-like modifier 1
+387082	SUMO4	small ubiquitin-like modifier 4
+51100	SH3GLB1	SH3 domain containing GRB2 like endophilin B1
+23787	MTCH1	mitochondrial carrier 1
+23788	MTCH2	mitochondrial carrier 2
+##	Actin cytoskeleton organization
+60	ACTB	actin beta
+71	ACTG1	actin gamma 1
+51126	NAA20	N(alpha)-acetyltransferase 20, NatB catalytic subunit
+80018	NAA25	N(alpha)-acetyltransferase 25, NatB auxiliary subunit
+##	Mitochondrial movement
+5245	PHB	prohibitin
+11331	PHB2	prohibitin 2
+3895	KTN1	kinectin 1
+##	Retention of mitochondria
+10059	DNM1L	dynamin 1 like
+4644	MYO5A	myosin VA
+4645	MYO5B	myosin VB
+55930	MYO5C	myosin VC
+331	XIAP	X-linked inhibitor of apoptosis
+56616	DIABLO	diablo IAP-binding mitochondrial protein
+##	Morphogenesis factors
+83891	SNX25	sorting nexin 25
+55288	RHOT1	ras homolog family member T1
+10989	IMMT	inner membrane mitochondrial protein
+51537	MTFP1	mitochondrial fission process 1
+7818	DAP3	death associated protein 3
+4734	NEDD4	neural precursor cell expressed, developmentally down-regulated 4, E3 ubiquitin protein ligase
+Mitophagy	factors
+##	Autophagy-related proteins
+23130	ATG2A	autophagy related 2A
+55102	ATG2B	autophagy related 2B
+64422	ATG3	autophagy related 3
+115201	ATG4A	autophagy related 4A cysteine peptidase
+23192	ATG4B	autophagy related 4B cysteine peptidase
+84938	ATG4C	autophagy related 4C cysteine peptidase
+84971	ATG4D	autophagy related 4D cysteine peptidase
+9474	ATG5	autophagy related 5
+8678	BECN1	beclin 1
+441925	BECN2	beclin 2
+10533	ATG7	autophagy related 7
+11337	GABARAP	GABA type A receptor-associated protein
+23710	GABARAPL1	GABA type A receptor associated protein like 1
+11345	GABARAPL2	GABA type A receptor associated protein like 2
+285973	ATG9B	autophagy related 9B
+79065	ATG9A	autophagy related 9A
+83734	ATG10	autophagy related 10
+9140	ATG12	autophagy related 12
+22863	ATG14	autophagy related 14
+55054	ATG16L1	autophagy related 16 like 1
+89849	ATG16L2	autophagy related 16 like 2
+26100	WIPI2	WD repeat domain, phosphoinositide interacting 2
+55062	WIPI1	WD repeat domain, phosphoinositide interacting 1
+##	Parkin-dependent mechanism factors
+5071	PARK2	parkin RBR E3 ubiquitin protein ligase
+10193	RNF41	ring finger protein 41
+23274	CLEC16A	C-type lectin domain family 16 member A
+65018	PINK1	PTEN induced putative kinase 1
+55486	PARL	presenilin associated rhomboid like
+8878	SQSTM1	sequestosome 1
+8887	TAX1BP1	Tax1 binding protein 1
+10241	CALCOCO2	calcium binding and coiled-coil domain 2
+55626	AMBRA1	autophagy and beclin 1 regulator 1
+##	Parkin-independent mechanism factors
+9776	ATG13	autophagy related 13
+8408	ULK1	unc-51 like autophagy activating kinase 1
+9706	ULK2	unc-51 like autophagy activating kinase 2
+9821	RB1CC1	RB1 inducible coiled-coil 1
+3320	HSP90AA1	heat shock protein 90 alpha family class A member 1
+3326	HSP90AB1	heat shock protein 90 alpha family class B member 1
+11140	CDC37	cell division cycle 37
+57154	SMURF1	SMAD specific E3 ubiquitin protein ligase 1
+64750	SMURF2	SMAD specific E3 ubiquitin protein ligase 2
+665	BNIP3L	BCL2 interacting protein 3 like
+139341	FUNDC1	FUN14 domain containing 1
+##	Other mitophagy factors
+5562	PRKAA1	protein kinase AMP-activated catalytic subunit alpha 1
+5563	PRKAA2	protein kinase AMP-activated catalytic subunit alpha 2
+440738	MAP1LC3C	microtubule associated protein 1 light chain 3 gamma
+81631	MAP1LC3B	microtubule associated protein 1 light chain 3 beta
+84557	MAP1LC3A	microtubule associated protein 1 light chain 3 alpha
+4077	NBR1	NBR1, autophagy cargo receptor
+25851	TECPR1	tectonin beta-propeller repeat containing 1
+53349	ZFYVE1	zinc finger FYVE-type containing 1

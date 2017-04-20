@@ -1,0 +1,100 @@
+gene_id	symbol	description
+#Endoplasmic	reticulum membrane and cytosol
+##Other	ER-memrane and cytosol factors
+10294	DNAJA2	DnaJ heat shock protein family (Hsp40) member A2
+10953	TOMM34	translocase of outer mitochondrial membrane 34
+55288	RHOT1	ras homolog family member T1
+3312	HSPA8	heat shock protein family A (Hsp70) member 8
+3303	HSPA1A	heat shock protein family A (Hsp70) member 1A
+3306	HSPA2	heat shock protein family A (Hsp70) member 2
+3305	HSPA1L	heat shock protein family A (Hsp70) member 1 like
+3304	HSPA1B	heat shock protein family A (Hsp70) member 1B
+3310	HSPA6	heat shock protein family A (Hsp70) member 6
+23746	AIPL1	aryl hydrocarbon receptor interacting protein like 1
+9049	AIP	aryl hydrocarbon receptor interacting protein
+#Outer	membrane
+##Transporter	outer membrane (TOM) complex
+10452	TOMM40	translocase of outer mitochondrial membrane 40
+84134	TOMM40L	translocase of outer mitochondrial membrane 40 like
+9868	TOMM70	translocase of outer mitochondrial membrane 70
+56993	TOMM22	translocase of outer mitochondrial membrane 22
+387990	TOMM20L	translocase of outer mitochondrial membrane 20 like
+9804	TOMM20	translocase of outer mitochondrial membrane 20
+54543	TOMM7	translocase of outer mitochondrial membrane 7
+100188893	TOMM6	translocase of outer mitochondrial membrane 6
+401505	TOMM5	translocase of outer mitochondrial membrane 5
+##TOB/SAM	complex
+25813	SAMM50	SAMM50 sorting and assembly machinery component
+##Porin
+7416	VDAC1	voltage dependent anion channel 1
+7417	VDAC2	voltage dependent anion channel 2
+7419	VDAC3	voltage dependent anion channel 3
+##Other	outer membrane factor
+345778	MTX3	metaxin 3
+4580	MTX1	metaxin 1
+10651	MTX2	metaxin 2
+
+#Inter	membrane space
+##Transporter	inner membrane (TIM) 9/10 complex
+26520	TIMM9	translocase of inner mitochondrial membrane 9
+26519	TIMM10	translocase of inner mitochondrial membrane 10
+26515	TIMM10B	translocase of inner mitochondrial membrane 10B
+
+##TIM8/13	complex
+1678	TIMM8A	translocase of inner mitochondrial membrane 8 homolog A (yeast)
+26521	TIMM8B	translocase of inner mitochondrial membrane 8 homolog B
+26517	TIMM13	translocase of inner mitochondrial membrane 13
+
+##Mitochondrial	intermembrane space assembly (MIA) complex
+131474	CHCHD4	coiled-coil-helix-coiled-coil-helix domain containing 4
+2671	GFER	growth factor, augmenter of liver regeneration
+
+#Inner	mambrane
+##MINOS/MitOS	complex
+440574	MINOS1	mitochondrial inner membrane organizing system 1
+10989	IMMT	inner membrane mitochondrial protein
+54927	CHCHD3	coiled-coil-helix-coiled-coil-helix domain containing 3
+3313	HSPA9	heat shock protein family A (Hsp70) member 9
+
+##MINOS/MitOS	complex (yeast)
+440574	MINOS1	mitochondrial inner membrane organizing system 1
+10989	IMMT	inner membrane mitochondrial protein
+
+##TIM22	complex
+29928	TIMM22	translocase of inner mitochondrial membrane 22
+
+##TIM23	complex
+100287932	TIMM23	translocase of inner mitochondrial membrane 23
+100652748	TIMM23B	translocase of inner mitochondrial membrane 23 homolog B
+10245	TIMM17B	translocase of inner mitochondrial membrane 17 homolog B (yeast)
+10440	TIMM17A	translocase of inner mitochondrial membrane 17 homolog A (yeast)
+29090	TIMM21	translocase of inner mitochondrial membrane 21
+92609	TIMM50	translocase of inner mitochondrial membrane 50
+
+##Other	inner membrane factors
+3954	LETM1	leucine zipper and EF-hand containing transmembrane protein 1
+196294	IMMP1L	inner mitochondrial membrane peptidase subunit 1
+83943	IMMP2L	inner mitochondrial membrane peptidase subunit 2
+84233	TMEM126A	transmembrane protein 126A
+
+#Matrix
+##MMC/PAM	proteins
+10469	TIMM44	translocase of inner mitochondrial membrane 44
+3313	HSPA9	heat shock protein family A (Hsp70) member 9
+134266	GRPEL2	GrpE like 2, mitochondrial
+80273	GRPEL1	GrpE like 1, mitochondrial
+131118	DNAJC19	DnaJ heat shock protein family (Hsp40) member C19
+51025	PAM16	presequence translocase associated motor 16 homolog
+
+##Other	matrix factors
+23203	PMPCA	peptidase, mitochondrial processing alpha subunit
+9512	PMPCB	peptidase, mitochondrial processing beta subunit
+4285	MIPEP	mitochondrial intermediate peptidase
+3329	HSPD1	heat shock protein family D (Hsp60) member 1
+3336	HSPE1	heat shock protein family E (Hsp10) member 1
+9093	DNAJA3	DnaJ heat shock protein family (Hsp40) member A3
+132001	TAMM41	TAM41 mitochondrial translocator assembly and maintenance homolog
+728489	DNLZ	DNL-type zinc finger
+23474	ETHE1	ETHE1, persulfide dioxygenase
+26073	POLDIP2	DNA polymerase delta interacting protein 2
+

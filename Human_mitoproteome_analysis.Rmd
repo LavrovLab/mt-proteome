@@ -69,9 +69,7 @@ hs_cds_by_gn
 
 See `help(transcriptsBy)` for more information.
 
-## Getting the CDS and UTR sequences of mitochondrial genes
-
-### 1 Building gene lists
+## 1 Building gene lists
 
 * lists for complete mitoproteome (mitocarta, mito)
 * lists based on KEGG pathways
@@ -113,7 +111,19 @@ tail(hs_mtproteome_df, 300)
 absent <- hs_mtproteome_df[!hs_mtproteome_df$Entrez_Gene_ID %in% hs_mitocarta_df$HumanGeneID, ]
 nrow(absent)
 head(absent)
+test1 <- hs_mitocarta_gn[!hs_mitocarta_gn$HumanGeneID %in% hs_mtproteome_df$Entrez_Gene_ID, ] #135
 ```
+
+**Mitominer4.0** [http://mitominer.mrc-mbu.cam.ac.uk/release-4.0/begin.do](http://mitominer.mrc-mbu.cam.ac.uk/release-4.0/begin.do)
+
+```{r}
+hs_mitominer_df  <- read.delim(file = "hs_mitominer4.0.tsv", header = TRUE, sep = "\t")
+hs_mitominer_df
+hs_mitocarta_gn
+test2 <- hs_mitocarta_gn[!hs_mitocarta_gn$HumanGeneID %in% hs_mitominer_df$Gene.name, ] #179
+test1[test1$HumanGeneID %in% test2$HumanGeneID, c(-1,-3, -5)]
+```
+
 
 #### KEGG lists
 
@@ -179,6 +189,26 @@ hs_00020_df
 hs_00020_df[!hs_00020_df$gene_id %in% hs_mitocarta_df$HumanGeneID,] # 1 (5105) not in MitoCarta
 ```
 
+**Pyruvate metabolism**
+
+```{r}
+hs_00620_gn <- gn_names_from_Kegg("hsa00620")
+hs_00620_df <- gn_df_from_Kegg("hsa00620") #37
+hs_00620_mc_df <- hs_00620_df[hs_00620_df$gene_id %in% hs_mitocarta_df$HumanGeneID,] #29
+hs_00620_mc_df[!hs_00620_mc_df$gene_id %in% hs_00020_df$gene_id,] #10 in TCA cycle
+```
+
+**Mitochondrial biogenesis: protein import, information processing, and quality control (http://www.genome.jp/kegg-bin/get_htext?ko03029.keg) **
+
+```{r}
+hs_mt_import_df <- read.delim(file = "hs_protein_import.txt", header = TRUE, sep = "\t", blank.lines.skip = TRUE, comment.char = "#") 
+hs_mt_import_df[!hs_mt_import_df$gene_id %in% hs_mitocarta_df$HumanGeneID, ] #12 not in mitocarta
+hs_mt_dna_rna_df <-  read.delim(file = "hs_dna_rna.txt", header = TRUE, sep = "\t", blank.lines.skip = TRUE, comment.char = "#") 
+hs_mt_dna_rna_df[!hs_mt_dna_rna_df$gene_id %in% hs_mitocarta_df$HumanGeneID, ] #13 not in mitocarta
+hs_mt_quality_df <- read.delim(file = "hs_quality_control.txt", header = TRUE, sep = "\t", blank.lines.skip = TRUE, comment.char = "#") #183 in the list
+hs_mt_quality_df[hs_mt_quality_df$gene_id %in% hs_mitocarta_df$HumanGeneID, ] #only 83 in mitocarta
+```
+
 **Apoptosis (hsa04210) genes in mitocarta**
 
 ```{r}
@@ -196,7 +226,223 @@ save(kegg_mt_ls, file="kegg_df.rda")
 load(file = "kegg_df.rda") #if we want to reload them
 ```
 
-### 2. Identify genomic coordinates
+**Mitochondrial ribosomal proteins (47)**
+Was not quite sure how to load them from KEGG, used lists at http://www.genome.jp/kegg-bin/get_htext#C4
+
+```{r}
+hs_ssrp_gn <- read.csv(file="hs_ssrp.txt", header = FALSE)
+colnames(hs_ssrp_gn) <- c("GeneID","ProtID","Description")
+hs_lsrp_gn <- read.csv(file="hs_lsrp.txt", header = FALSE)
+colnames(hs_lsrp_gn) <- c("GeneID","ProtID","Description")
+head(hs_lsrp_gn)
+hs_mitocarta_df[hs_mitocarta_df$HumanGeneID %in% hs_lsrp_gn$GeneID, ]
+```
+
+**Mitochondrial carriers**
+A superfamily of transporters named SLC25 in mammals, having a particular tripartite structure.
+Humans have 53 of them: Palmieri F. (2013). 
+
+```{r}
+hs_mito_carrier_id <- read.csv(file="hs_mito_carriers.cds", header = FALSE)
+hs_mito_carrier_id <- as.vector(t(hs_mito_carrier_id))
+hs_mito_carrier_gn <- sort(unique(names_parsed_df[names_parsed_df$gene_name %in% hs_mito_carrier_id, 3]))
+hs_mito_carrier_gn
+```
+
+
+
+
+## 2 Collecting CDS and Protein sequences for a set of genes
+
+### 2A Genome annotation approach
+
+Note that sections 2 and 3 below explain individual steps in this procedure
+
+```{r}
+get_hs_cds <- function(x, warn=TRUE) {
+  library(TxDb.Hsapiens.UCSC.hg38.knownGene)
+  library(BSgenome.Hsapiens.UCSC.hg38)
+  txdb <- TxDb.Hsapiens.UCSC.hg38.knownGene
+  hs_gm <- BSgenome.Hsapiens.UCSC.hg38
+  x <- as.character(x[x %in% hs_all_gn_gr$gene_id]) #only use genes for which we have info in txdb
+  
+  #### Granges for CDSs and UTRs
+  txbygene <- transcriptsBy(txdb, "gene")[x] ## genetic ranges for genes of interest
+  map <- relist(unlist(txbygene, use.names=FALSE)$tx_id, txbygene) 
+  # Converts a GrangesList object with ranges, chr, strands, tx_name into a list of tx_ids for each gene
+  # relist(flesh, skeleton), where flesh is a vector-like object and skeleton is a list-like object. 
+  # Only the "shape" (i.e. the lengths of the individual list elements) of skeleton matters. Its exact content is ignored.
+  
+  #### Extract the UTR and coding regions for all(!) genes.
+  cds <- cdsBy(txdb, "tx")
+  #threeUTR <- threeUTRsByTranscript(txdb) #don't use it for now
+  #fiveUTR <- fiveUTRsByTranscript(txdb)   #don't use it for now
+  
+  #### Get the UTR and coding regions for selected genes (listed in map).
+  txid <- unlist(map, use.names=FALSE)
+  cds <- cds[names(cds) %in% txid]
+  
+  #### Using `extractTranscriptSeqs` to extract the UTR and coding regions from the BSgenome. 
+  cds_seqs <- extractTranscriptSeqs(hs_gm, cds)
+  #threeUTR_seqs <- extractTranscriptSeqs(hs_gm, threeUTR) #don't use it for now
+  #fiveUTR_seqs <- extractTranscriptSeqs(hs_gm, fiveUTR)   #don't use if for now
+  
+  #### Collecting the coding and UTR regions into groups by gene id. 
+  lstc <- relist(cds_seqs, PartitioningByWidth(sum(map %in% names(cds)))) # sum(map %in% names(cds)) how many seq in each category
+  #lst3 <- relist(threeUTR_seqs, PartitioningByWidth(sum(map %in% names(threeUTR)))) #don't use it for now
+  #lst5 <- relist(fiveUTR_seqs, PartitioningByWidth(sum(map %in% names(fiveUTR))))   #don't use it for now
+  return(lstc)
+}
+```
+
+Try it:
+
+```{r}
+hs_dna_rna_seq <- get_hs_cds(hs_mt_dna_rna_df$gene_id)
+prots <- lapply(hs_dna_rna_seq, translate)
+tryme <- unlist(prots, use.names=TRUE)
+tryme
+writeXStringSet(tryme, file="hs_mt_dna_rna_cds.seq", format="fasta")
+```
+
+### 2B BIOMARTR approach
+
+Notice that there is a more mature BIOMART package, but it is not the one we are using here (although it is one of the dependencies)
+
+#### Loading first
+
+```{r}
+library(biomartr)
+listMarts()
+ensembl <- useMart("ensembl")
+listDatasets(ensembl)
+ensembl <-  useMart("ensembl", dataset="hsapiens_gene_ensembl")
+snpmart  <-  useMart(biomart = "ENSEMBL_MART_SNP", dataset="hsapiens_snp")
+```
+
+#### Downloading CDS
+The getCDS() function is an interface function to the NCBI RefSeq, NCBI Genbank, ENSEMBL and ENSEMBLGENOMES databases from which corresponding CDS files can be retrieved. It works analogous to getGenome() and getProteome().
+
+Options are:
+
+* db = "refseq" for retrieval from NCBI RefSeq
+* db = "genbank" for retrieval from NCBI Genbank
+* db = "ensembl" for retrieval from ENSEMBL
+* db = "ensemblgenomes" for retrieval from ENSEMBLGENOMES
+
+Furthermore, again users need to specify the scientific name of the organism of interest for which a proteomes shall be downloaded, e.g. organism = "Homo sapiens". Finally, the path argument specifies the folder path in which the corresponding CDS file shall be locally stored. 
+
+#### Downloading RefSeq CDS:
+- download the genome of Homo sapiens from refseq
+- and store the corresponding genome CDS file in '_ncbi_downloads/CDS'
+
+```{r}
+HS.cds.refseq <- getCDS( db       = "refseq", 
+                         organism = "Homo sapiens",
+                         path     = file.path("data","_ncbi_downloads","CDS"))
+human_cds_bs <- read_cds(file     = HS.cds.refseq, 
+                      obj.type = "Biostrings")
+
+### Parsing the names
+
+hs_cds_names <- names(human_cds_bs)
+names_parsed <- sub(".*(NC_[^ ]+) .*gene=(\\w+).*GeneID:(\\w+).*protein=([^\\]]+).*protein_id=([^\\]]+).*location=([^\\]]+).*", "\\1,,\\2,,\\3,,\\4,,\\5,,\\6", hs_cds_names, perl=TRUE) ## had to add to ,, to avoid splitting location
+names_parsed_df <- as.data.frame(do.call(rbind, strsplit(names_parsed, ',,')),stringsAsFactors=FALSE)
+names(names_parsed_df) <- c("cds_id","gene_name","gene_id","protein_name","protein_id","location")
+```
+
+
+#### Downloading RefSeq Proteome
+
+
+```{r}
+hs_pep_refseq <- getProteome( db       = "refseq", 
+                         organism = "Homo sapiens",
+                         path     = file.path("data","_ncbi_downloads","Proteome"))
+hs_proteins <- read_proteome(file = hs_pep_refseq, obj.type = "Biostrings")
+
+```
+
+#### Extracting specific set of proteins
+
+```{r}
+### Defining a function to get ref protein sequences for a set of genes
+get_hs_ref_pep <- function(x, warn=TRUE) {
+  prot_names <- names(hs_proteins)
+  prot_id <- sub(" .*", "", prot_names) #delete everything after the first space
+  ## need parsed names of cds sequences (they have gene_id and protein_id info)
+  to_extract <- sort(names_parsed_df$protein_id[names_parsed_df$gene_id %in% x])
+  prot_set <- hs_proteins[prot_id %in% to_extract, ]
+  ## Removing duplicates
+  prot_set <- prot_set[!duplicated(prot_set)]
+  return(prot_set)
+}
+```
+
+Checking it:
+
+```{r}
+hs_mit_dna_rna_pep <- get_hs_ref_pep(hs_mt_dna_rna_df$gene_id)
+writeXStringSet(hs_mit_dna_rna_pep, file="hs_mt_dna_rna_pep.seq", format="fasta")
+hs_00020_pep <- get_hs_ref_pep(hs_00020_gn)
+writeXStringSet(hs_00020_pep, file="hs_00020_pep.seq", format="fasta")
+hs_mito_carrier_pep <- get_hs_ref_pep(hs_mito_carrier_gn)
+hs_mito_carrier_pep
+writeXStringSet(hs_mito_carrier_pep, file="hs_mito_carrier_pep.seq", format="fasta")
+```
+
+
+
+### Handling Many Sequences with XStringSet
+
+The XStringSet class allows to represent many sequences in a single container. The subclasses for the different types of biosequences are: BStringSet, RNAStringSet, DNAStringSet and AAStringSet. 
+
+```{r}
+dset <- DNAStringSet(Human_CDS) ## This actually worked!  Looks much better now.
+dset_names <- names(dset)
+```
+
+Pooling out every sequence that has "mitochondrial" in its name:
+
+```{r}
+mset <- dset[grep("mitochondrial", names(dset))] ## Returned a DNAStringSet instance of length 2906 (but only 622 genes)
+head(names(mset))
+```
+
+Pooling out sequences corresponding to geneIDs in Mitocarta. Checking for obsolete sequences in mitocarta **Found 13**
+
+```{r}
+dset_names <- names(dset)
+dset_names
+dset_gID <- sub(".*GeneID:", "", dset_names)
+dset_gID <- sub("].*", "", dset_gID)
+head(dset_gID)
+## pooling out all dset CDS sequences that have corresponding GeneID in mitocarta
+mt_ref_set <- dset[dset_gID %in% Human.MitoCarta2.0$HumanGeneID]
+## pooling out all MitoCarta2.0 sequences without corresponding Human refseq
+check_mitocarta <- Human.MitoCarta2.0[!Human.MitoCarta2.0$HumanGeneID %in% dset_gID,]
+sort(check_mitocarta$HumanGeneID)
+# 13 mitocarta genes are not in Human refseq anymore: 4508 4509 4512 4513 4514 4519 4535 4536 4537 4538 4539 4540 4541
+```
+
+Getting proteins:
+
+
+
+```{r}
+my_ids <- hs_mt_dna_rna_df$gene_id
+sort(my_ids) #74 ids
+ensembl = useMart("ensembl",dataset="hsapiens_gene_ensembl")
+protein = getSequence(id=my_ids,
+                      type="entrezgene",
+                      seqType="peptide", 
+                      mart=ensembl)
+
+```
+
+
+
+### 3. Identify genomic coordinates
 
 The list of gene ids is used to extract genomic positions of the regions of interest. 
 
@@ -235,118 +481,10 @@ length(hs_nuc_gr)
 ### OX-PHOS ###
 hs_op_gr <- hs_granges4gn(hs_00190_gn)
 length(hs_op_gr)
-```
 
-#### Granges for CDSs and UTRs
-
-Transcripts corresponding to each gene are identified with `transcriptsBy`:
-
-```{r}
-### MITOCARTA ### so we can easily create a database
-# Not all mitocarta genes are present in txdb, hence the hassle with %in%
-hc_mc_tx_by_gene <- transcriptsBy(txdb, "gene")[as.character(hs_mitocarta_gn[hs_mitocarta_gn %in% hs_all_gn_gr$gene_id])] ## all mitocarta genes that are present in TxDb.Hsapiens.UCSC.hg38.knownGenex
-map <- relist(unlist(hc_mc_tx_by_gene, use.names=FALSE)$tx_id, hc_mc_tx_by_gene)
-#Converts a GrangesList object with ranges, chr, strands, tx_name into a list of tx_ids for each gene
-map #map for mitocarta
-#relist(flesh, skeleton), where flesh is a vector-like object and skeleton is a list-like object. Only the "shape" (i.e. the lengths of the individual list elements) of skeleton matters. Its exact content is ignored.
-```
-
-#### Extract the UTR and coding regions for all(!) genes.
-
-```{r}
-cds <- cdsBy(txdb, "tx")
-threeUTR <- threeUTRsByTranscript(txdb)
-fiveUTR <- fiveUTRsByTranscript(txdb)
-```
-
-#### Get the UTR and coding regions for selected genes (listed in map).
-
-Note that coding and UTR regions may not be present for all transcripts specified in map. Consequently, the subset results will not be the same length. This length discrepancy must be taken into account when re-listing the final results by gene.
-
-```{r}
-#Note that we rewrite the variables we created above with subsets based on txid in map
-txid <- unlist(map, use.names=FALSE)
-cds <- cds[names(cds) %in% txid] #take only cds whose names are in txid
-threeUTR <- threeUTR[names(threeUTR) %in% txid]
-fiveUTR <- fiveUTR[names(fiveUTR) %in% txid]
-```
-
-Note the different lengths of the subset regions.
-
-```{r}
-#These objects are GRangesLists with the transcript id as the outer list element.
-length(txid) ## all possible transcripts corresponding to map
-length(cds)
-length(threeUTR)
-length(fiveUTR)
-cds
-```
-
-
-### 3. Extract sequences from BSgenome
-
-The BSgenome packages contain complete genome sequences for a given organism.
-Load the BSgenome package for _Homo sapiens_.
-
-#### Loading the library
-
-```{r}
-library("BSgenome.Hsapiens.UCSC.hg38")
-hs_gm <- BSgenome.Hsapiens.UCSC.hg38 ## done previously
-```
-
-#### Using `extractTranscriptSeqs` to extract the UTR and coding regions from the BSgenome. 
-
-Not sure what the difference between extractTranscriptSeqs and getSeqs
-
-This function retrieves the sequences for an any GRanges or GRangesList (i.e., not just 
-transcripts like the name implies).
-
-```{r}
-threeUTR_seqs <- extractTranscriptSeqs(hs_gm, threeUTR)
-fiveUTR_seqs <- extractTranscriptSeqs(hs_gm, fiveUTR)
-cds_seqs <- extractTranscriptSeqs(hs_gm, cds) # returns a DNAStringSet instance of length 5999
-# Not sure what's the advantage of using this vs. 
-test_seq <- getSeq(hs_gm, cds) #returns DNAStringSetList of length 5999
-test_seq
-test_seq[[1]] ##hmmmm, this gives me a bunch of short sequences
-#The return values are DNAStringSet objects.
-```
-
-#### Collecting the coding and UTR regions into groups by gene id. 
-
-We use the relist function to group the sequences of a DNAStringSet object into a DNAStringSetList object, based on the specified skeleton argument. A simple form of skeleton is to use a partitioning object that we make by specifying the size of each partition. The partitioning objects are different for each type of region because not all transcripts had a coding or 3’ or 5’ UTR region defined.
-
-```{r}
-lst3 <- relist(threeUTR_seqs, PartitioningByWidth(sum(map %in% names(threeUTR))))
-# sum(map %in% names(threeUTR)) how many sequences in this category
-lst5 <- relist(fiveUTR_seqs, PartitioningByWidth(sum(map %in% names(fiveUTR))))
-lstc <- relist(cds_seqs, PartitioningByWidth(sum(map %in% names(cds))))
-tryme <- unlist(lstc, use.names=TRUE)
-writeXStringSet(tryme, file="mitocarda_cds.seq", format="fasta")
-```
-
-The table of element lengths shows how many genes have each number of transcripts.
-
-```{r}
-length(map)
-table((elementNROWS(map)))
-```
-
-
-The lists of DNA sequences all have the same length as map but one or more of the 
-element lengths may be zero. This would indicate that data were not available for 
-that gene. The tables below show that there was at least 1 coding region available 
-for all genes (i.e., none of the element lengths are 0). However, both the 3’ and 5’ 
-UTR results have element lengths of 0 which indicates no UTR data were available for 
-that gene.
-
-```{r}
-table(elementNROWS(lstc))
-table(elementNROWS(lst3))
-names(lst3)[elementNROWS(lst3) == 0L] ## genes with no 3✬ UTR data
-table(elementNROWS(lst5))
-names(lst5)[elementNROWS(lst5) == 0L] ## genes with no 5✬ UTR data
+### TCA ###
+hs_tca_gr <- hs_granges4gn(hs_00020_gn)
+length(hs_tca_gr)
 ```
 
 ### 4. Finding chromosomal affiliation
@@ -401,6 +539,7 @@ library("chromPlot")
 data(hg_gap)
 head(hg_gap)
 chromPlot(gaps=hg_gap, annot1=hs_op_gr)
+chromPlot(gaps=hg_gap, annot1=hs_tca_gr)
 chromPlot(gaps=hg_gap, bands=hg_cytoBandIdeo, annot1=hs_mitocarta_gr, figCols=6)
 ```
 
@@ -444,4 +583,58 @@ Wow, that was easy!
 write.csv(hs_mtproteome_df, file="hs_mitoproteome.csv")
 
 ```
+
+## Trying BLAST
+
+```{r}
+library("devtools", lib.loc="/Users/dlavrov/Library/R/3.3/library")
+install_github("mhahsler/rBLAST")
+library(rBLAST)
+
+library(annotate)
+# search using a fragment of TLR4 mRNA.
+x <- blastSequences("acttcttggg cttagaacaa ctagaacatc tggatttcca gcattccaat ttgaaacaaa")
+x
+
+### Here is the alternative:
+myPipe <- pipe( "blastall -p blastp -i text.fasta -d data.fasta" )
+results <- read.table( myPipe )
+colnames( blastResults ) <- c( "QueryID",  "SubjectID", "Perc.Ident",
+"Alignment.Length", "Mismatches", "Gap.Openings", "Q.start", "Q.end",
+"S.start", "S.end", "E", "Bits" )
+
+### ONE MORE
+seqs <-
+  ## The sequences to be blasted and their fasta 'deflines' as an character vector.  
+  c('>s1','CTTTGTCTTCCCCTATGTCATCCTCAATCTCTATGAAAGCAACAC'
+    ,'>s2','CTATGTCATCCTCAATCTCTATGAAAGCAACACCGCTACCATAGA')
+
+blast.f6 <-
+  ## The fields you want back from blast.  c.f. `blastn -help` for a full list of available fields.
+  c('qseqid', 'sseqid', 'pident', 'qcovs')
+
+blast.out <-
+  ## Run the job, converting output to an R data.frame
+  system2('blastn',c('-db',"'nt'"
+                    ,'-outfmt',sprintf('"6 %s"',paste(collapse=' ',blast.f6))
+                    ,'-perc_identity',"'.90'"
+                    ,'-entrez_query','"Aichi virus 1[ORGANISM]"'
+                    ,'-remote'
+                     )
+         ,input=seqs
+         ,stdout=TRUE                   # capture the output in a character vector
+          )
+
+blast.out.df <-
+  ## parse blast.out as a table and assign names to it
+  `names<-`(read.table(quote=""
+                      ,sep='\t'
+                      ,textConnection(blast.out)
+                       )
+           ,blast.f6)
+
+
+```
+
+
 
