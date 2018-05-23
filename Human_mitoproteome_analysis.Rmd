@@ -111,14 +111,14 @@ tail(hs_mtproteome_df, 300)
 absent <- hs_mtproteome_df[!hs_mtproteome_df$Entrez_Gene_ID %in% hs_mitocarta_df$HumanGeneID, ]
 nrow(absent)
 head(absent)
-test1 <- hs_mitocarta_gn[!hs_mitocarta_gn$HumanGeneID %in% hs_mtproteome_df$Entrez_Gene_ID, ] #135
+test1 <- hs_mtproteome_df[!hs_mtproteome_df$Entrez_Gene_ID %in% hs_mitocarta_gn$HumanGeneID, ] #135
 ```
 
 **Mitominer4.0** [http://mitominer.mrc-mbu.cam.ac.uk/release-4.0/begin.do](http://mitominer.mrc-mbu.cam.ac.uk/release-4.0/begin.do)
 
 ```{r}
 hs_mitominer_df  <- read.delim(file = "hs_mitominer4.0.tsv", header = TRUE, sep = "\t")
-hs_mitominer_df
+hs_mitominer_df ##1408
 hs_mitocarta_gn
 test2 <- hs_mitocarta_gn[!hs_mitocarta_gn$HumanGeneID %in% hs_mitominer_df$Gene.name, ] #179
 test1[test1$HumanGeneID %in% test2$HumanGeneID, c(-1,-3, -5)]
@@ -177,6 +177,33 @@ hs_00190_gn[!hs_00190_gn %in% hs_mitocarta_df$HumanGeneID] # 32 not in MitoCarta
 hs_oxph_mc_gn <- hs_00190_gn[hs_00190_gn %in% hs_mitocarta_df$HumanGeneID] # 101 in MitoCarta
 hs_00190_df[!hs_00190_df$gene_id %in% hs_mitocarta_df$HumanGeneID,] 
 ```
+
+**aaRS** Notice, this set includes both mitochondrial and cytosolic aaRS as well as tRNAs
+Transfer RNA biogenesis [BR:hsa03016]
+
+
+```{r}
+hs_00970_gn <- gn_names_from_Kegg("hsa00970")
+hs_00970_df <- gn_df_from_Kegg("hsa00970")
+length(hs_00970_gn)
+hs_00970_gn
+hs_00970_df
+hs_00970_gn[!hs_00970_gn %in% hs_mitocarta_df$HumanGeneID] # 40 not in MitoCarta
+hs_mt_aaRC_gn <- hs_00970_gn[hs_00970_gn %in% hs_mitocarta_df$HumanGeneID] # 26 in MitoCarta
+hs_mt_aaRC_gn
+hs_00970_df[hs_00970_df$gene_id %in% hs_mt_aaRC_gn,] # subsampling dataframe by genes in MitoCarta
+```
+
+Hmmmm, we can get the same set from Amphimedon!
+
+```{r}
+aq_00970_gn <- gn_names_from_Kegg("aqu00970")
+aq_00970_df <- gn_df_from_Kegg("aqu00970")
+length(aq_00970_gn)
+aq_00970_gn
+aq_00970_df
+```
+
 
 **TCA (Citrate cycle) genes**
 

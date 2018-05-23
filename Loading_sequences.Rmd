@@ -11,6 +11,9 @@ The `biomartr` package allows users to retrieve biological sequences in a very s
 Using biomartr, users can retrieve either genomes, proteomes, or CDS data using the specialized functions:
 `getGenome()`,`getProteome()`,`getCDS()`,`getGFF()`
 
+Here is a recent tutorial on using biomartr with various databases:
+[https://cran.r-project.org/web/packages/biomartr/vignettes/Sequence_Retrieval.html](https://cran.r-project.org/web/packages/biomartr/vignettes/Sequence_Retrieval.html)
+
 ### Setting the project directory
 ```{r}
 setwd("/Users/dlavrov/Documents/GitHub/MtProteome")
